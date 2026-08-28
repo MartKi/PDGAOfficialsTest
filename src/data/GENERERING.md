@@ -12,10 +12,10 @@ batch. Session A laver 114 spørgsmål, session B laver de sidste 86.
 | OB og hazard | 30 | 30 | færdig | batches/ob-og-hazard-01.json |
 | obstakler og lempelse | 24 | 24 | færdig | batches/obstakler-og-lempelse-01.json |
 | straf og misplay | 24 | 24 | færdig | batches/straf-og-misplay-01.json |
-| putting og Circle 1 | 20 | 0 | mangler | batches/putting-og-circle-1-01.json |
+| putting og Circle 1 | 20 | 20 | færdig | batches/putting-og-circle-1-01.json |
 | etikette 810 | 20 | 0 | mangler | batches/etikette-810-01.json |
 | Competition Manual | 22 | 0 | mangler | batches/competition-manual-01.json |
-| **I alt** | **200** | **138** | | |
+| **I alt** | **200** | **158** | | |
 
 De 15 seed-spørgsmål i `src/data/questions.json` tælles ikke med her. De
 bliver erstattet af den flettede bank i session B.
