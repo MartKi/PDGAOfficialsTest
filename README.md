@@ -160,6 +160,14 @@ deployer ved hvert push til default-branchen. Første gang skal Pages slås til:
 
 Appen ligger derefter på `https://<bruger>.github.io/<repo>/`.
 
+Fejler deploy-jobbet med "not allowed to deploy to github-pages due to
+environment protection rules", er det miljøets branch-regel der spærrer. Når
+Pages slås til, opretter GitHub miljøet `github-pages` med en regel der ofte
+peger på `main`. Findes den branch ikke, må ingen deploye. Ret det under
+**Settings**, **Environments**, **github-pages**, **Deployment branches and
+tags**, hvor du enten vælger **All branches** eller tilføjer et mønster der
+passer til din branch.
+
 Pages serverer projektet fra en understi og ikke fra roden, så workflowet
 bygger med `BASE_PATH=/<repo>/`. Den variabel styrer både Vites base, ikonerne
 i `index.html` og manifestets `start_url` og `scope`. Bygger du uden den, som
