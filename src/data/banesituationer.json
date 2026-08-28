@@ -1,0 +1,63 @@
+[
+  {
+    "id": "b-01",
+    "titel": "OB og hvor lien placeres",
+    "afgoerelse": "Ét straffekast. Nyt lie hvor discen sidst var in bounds, op til én meter vinkelret ind på banen.",
+    "straffekast": "1",
+    "regel": "806.02",
+    "uddybning": "Discen er kun OB hvis den er kommet til hvile helt og tydeligt uden for banen. Er gruppen i tvivl, regnes discen for in bounds. Du kan i stedet vælge at spille fra dit forrige lie, og har turneringslederen sat en drop zone på hullet, kan du bruge den. Meteren måles vinkelret ind fra OB-linjen og må aldrig bringe dig tættere på kurven.",
+    "soegeord": [
+      "OB",
+      "out of bounds",
+      "ude",
+      "vand",
+      "sø",
+      "linje",
+      "hegn",
+      "sti",
+      "drop zone"
+    ],
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80602",
+    "verificeret": false
+  },
+  {
+    "id": "b-02",
+    "titel": "Tabt disc og 3 minutter",
+    "afgoerelse": "Ét straffekast når discen ikke er fundet inden for tre minutter. Du spiller videre fra dit forrige lie.",
+    "straffekast": "1",
+    "regel": "805.03",
+    "uddybning": "De tre minutter tæller fra det øjeblik gruppen er nået frem til det sted hvor discen menes at ligge, og er begyndt at lede. Bliver discen fundet inden tiden er gået, spiller du den hvor den ligger uden straf. Har turneringslederen sat en drop zone til det område, kan den bruges i stedet for det forrige lie.",
+    "soegeord": [
+      "tabt",
+      "lost disc",
+      "mistet",
+      "leder",
+      "3 minutter",
+      "tre minutter",
+      "søgetid",
+      "ikke fundet"
+    ],
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80503",
+    "verificeret": false
+  },
+  {
+    "id": "b-03",
+    "titel": "Disc i træ over jorden",
+    "afgoerelse": "Markér lige under discen og spil videre. Straf kun hvis to meter reglen er slået til for banen.",
+    "straffekast": "afhænger",
+    "regel": "805.02",
+    "uddybning": "Uden for særlige regler er en disc i et træ ikke i sig selv en straf. Liet markeres på spillefladen lige under det sted hvor discen sidder. Turneringslederen kan slå to meter reglen til, enten for hele banen eller for bestemte objekter, og så koster en disc der sidder mere end to meter over spillefladen ét straffekast. Kan discen ikke hentes ned, behandles den som tabt.",
+    "soegeord": [
+      "træ",
+      "tree",
+      "over jorden",
+      "to meter",
+      "two meter",
+      "hængende",
+      "højt",
+      "gren"
+    ],
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80502",
+    "verificeret": false
+  }
+]

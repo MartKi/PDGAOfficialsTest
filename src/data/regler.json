@@ -1,0 +1,261 @@
+[
+  {
+    "regel": "801",
+    "titel": "Reglernes anvendelse",
+    "resume": "Rammen om hele regelsættet. Hvem reglerne gælder for, og hvordan de håndhæves i en runde.",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/801",
+    "verificeret": false
+  },
+  {
+    "regel": "801.01",
+    "titel": "Fairness",
+    "resume": "Opstår en situation reglerne ikke dækker, afgør gruppen den ud fra hvad der er mest fair og tættest på de nærmeste regler.",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80101",
+    "verificeret": false
+  },
+  {
+    "regel": "801.02",
+    "titel": "Håndhævelse",
+    "resume": "Spillerne håndhæver selv reglerne i gruppen. En overtrædelse kræver som hovedregel at den ses og bekræftes, og en official kan tilkaldes ved uenighed.",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80102",
+    "verificeret": false
+  },
+  {
+    "regel": "802",
+    "titel": "Kastning",
+    "resume": "Samler alt om selve kastet: rækkefølge, tid, teested, lie, markering og stance.",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/802",
+    "verificeret": false
+  },
+  {
+    "regel": "802.01",
+    "titel": "Kastet",
+    "resume": "Definerer hvad der tæller som et kast, og hvornår en disc er i spil.",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80201",
+    "verificeret": false
+  },
+  {
+    "regel": "802.02",
+    "titel": "Spillerækkefølge",
+    "resume": "På teestedet kastes efter scoren på forrige hul. Derefter kaster den spiller først, hvis disc ligger længst fra kurven.",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80202",
+    "verificeret": false
+  },
+  {
+    "regel": "802.03",
+    "titel": "For lang tid",
+    "resume": "Du har tredive sekunder til at kaste, når det er din tur, og du er nået frem til dit lie. For lang tid koster et straffekast.",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80203",
+    "verificeret": false
+  },
+  {
+    "regel": "802.04",
+    "titel": "Udkast fra teested",
+    "resume": "Ved første kast på hullet skal støttepunkterne være inde i teestedet i frigivelsesøjeblikket. Efter frigivelsen må du gerne træde frem.",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80204",
+    "verificeret": false
+  },
+  {
+    "regel": "802.05",
+    "titel": "Liet",
+    "resume": "Liet er stedet du står på når du kaster. Efter markering er det et rektangel på tyve gange tredive centimeter bag markeren. Teestedet og en drop zone er også lies.",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80205",
+    "verificeret": false
+  },
+  {
+    "regel": "802.06",
+    "titel": "Markering af liet",
+    "resume": "Den kastede disc markerer selv liet, eller du lægger en mini der rører discens forkant på linjen mod kurven. Ligger discen ikke in bounds, markeres efter den regel der gælder for situationen.",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80206",
+    "verificeret": false
+  },
+  {
+    "regel": "802.07",
+    "titel": "Stance",
+    "resume": "Ved frigivelsen skal mindst ét støttepunkt røre liet, og intet støttepunkt må være tættere på kurven end markeren. Første overtrædelse i runden giver advarsel, derefter et straffekast.",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80207",
+    "verificeret": false
+  },
+  {
+    "regel": "803",
+    "titel": "Forhindringer og lempelse",
+    "resume": "Hvornår du må flytte noget, og hvornår du kan flytte dit lie på grund af forhold på banen.",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/803",
+    "verificeret": false
+  },
+  {
+    "regel": "803.01",
+    "titel": "Flytning af forhindringer",
+    "resume": "Du må ikke flytte, bøje eller holde en forhindring væk for at få en bedre linje eller stance. Ting der ikke hører til banen, må gerne fjernes.",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80301",
+    "verificeret": false
+  },
+  {
+    "regel": "804",
+    "titel": "Regulerede ruter",
+    "resume": "Regler for ruter som banen tvinger dig igennem, typisk mandoer.",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/804",
+    "verificeret": false
+  },
+  {
+    "regel": "804.01",
+    "titel": "Mandoer",
+    "resume": "Discen skal passere den obligatoriske rute på den rigtige side. Sker det ikke, koster det et straffekast, og du fortsætter fra drop zonen eller det forrige lie.",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80401",
+    "verificeret": false
+  },
+  {
+    "regel": "805",
+    "titel": "Regulerede positioner",
+    "resume": "Situationer hvor discens placering i sig selv udløser en regel, for eksempel højt oppe eller ikke fundet.",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/805",
+    "verificeret": false
+  },
+  {
+    "regel": "805.01",
+    "titel": "Fastlæggelse af position",
+    "resume": "Discen har en position når den er kommet til hvile. Er der tvivl om placeringen, afgør gruppen den.",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80501",
+    "verificeret": false
+  },
+  {
+    "regel": "805.02",
+    "titel": "Disc over to meter",
+    "resume": "Kun hvis to meter reglen er slået til for banen eller et objekt, koster en disc mere end to meter over spillefladen et straffekast. Ellers markeres der bare lige under discen.",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80502",
+    "verificeret": false
+  },
+  {
+    "regel": "805.03",
+    "titel": "Tabt disc",
+    "resume": "Er discen ikke fundet inden for tre minutter fra gruppen begynder at lede, koster det et straffekast, og du spiller fra dit forrige lie eller en drop zone.",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80503",
+    "verificeret": false
+  },
+  {
+    "regel": "806",
+    "titel": "Regulerede områder",
+    "resume": "Områder på banen med særlige regler: putteområdet, OB, casual område, lempelsesområde og hazard.",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/806",
+    "verificeret": false
+  },
+  {
+    "regel": "806.01",
+    "titel": "Putteområdet",
+    "resume": "Inden for ti meter fra kurven skal du vise fuld balancekontrol før du bevæger dig frem forbi markeren. Ellers er det en stanceovertrædelse.",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80601",
+    "verificeret": false
+  },
+  {
+    "regel": "806.02",
+    "titel": "Out of bounds",
+    "resume": "En disc er OB når den er kommet til hvile helt og tydeligt uden for banen. Ét straffekast, og nyt lie op til én meter vinkelret ind fra hvor discen sidst var in bounds.",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80602",
+    "verificeret": false
+  },
+  {
+    "regel": "806.03",
+    "titel": "Casual område",
+    "resume": "Vand, løv og lignende der ikke er en fast del af banen. Du må flytte liet op til fem meter tilbage langs spillelinjen uden straf.",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80603",
+    "verificeret": false
+  },
+  {
+    "regel": "806.04",
+    "titel": "Påkrævet lempelse",
+    "resume": "Områder hvor du skal flytte dig væk, for eksempel af hensyn til sikkerhed eller beskyttet natur. Lempelsen er uden straf.",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80604",
+    "verificeret": false
+  },
+  {
+    "regel": "806.05",
+    "titel": "Hazard",
+    "resume": "Et område turneringslederen har erklæret hazard. Ét straffekast, men liet flyttes ikke, medmindre der er en drop zone.",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80605",
+    "verificeret": false
+  },
+  {
+    "regel": "807",
+    "titel": "Færdiggørelse af hullet",
+    "resume": "Hullet er færdigt når discen er kommet til hvile i kurven eller hænger i kæderne under kædeophænget. En disc oven på kurven tæller ikke.",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/807",
+    "verificeret": false
+  },
+  {
+    "regel": "808",
+    "titel": "Scoring",
+    "resume": "Scoren er alle kast plus straffekast. Gruppen noterer scoren efter hvert hul, så alle kan se den.",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/808",
+    "verificeret": false
+  },
+  {
+    "regel": "809",
+    "titel": "Andre kast",
+    "resume": "Kast der ikke er almindelige spillekast: opgivne kast, provisoriske kast og øvekast.",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/809",
+    "verificeret": false
+  },
+  {
+    "regel": "809.01",
+    "titel": "Opgivet kast",
+    "resume": "Du kan opgive dit seneste kast. Kastet og et straffekast tælles med, og du spiller igen fra det lie du kastede fra.",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80901",
+    "verificeret": false
+  },
+  {
+    "regel": "809.02",
+    "titel": "Provisorisk kast",
+    "resume": "En ekstra kastrække fra et andet lie, når der er tvivl om for eksempel OB eller mando. Kun den ene række tæller til sidst.",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80902",
+    "verificeret": false
+  },
+  {
+    "regel": "809.03",
+    "titel": "Øvekast",
+    "resume": "Et kast der ikke er et reelt forsøg på at ændre dit lie, koster et straffekast og tæller ikke. Korte kast under fem meter der lægger en disc til side eller giver den tilbage, er undtaget.",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80903",
+    "verificeret": false
+  },
+  {
+    "regel": "810",
+    "titel": "Interferens",
+    "resume": "Udstyr og personer må ikke stå hvor de kan påvirke en disc. En disc der har ligget stille in bounds og siden er flyttet, lægges tilbage.",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/810",
+    "verificeret": false
+  },
+  {
+    "regel": "811",
+    "titel": "Misplay",
+    "resume": "Kast fra forkert lie eller huller spillet i forkert rækkefølge. Et straffekast hvis fejlen rettes med det samme, to hvis der allerede er kastet videre.",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/811",
+    "verificeret": false
+  },
+  {
+    "regel": "812",
+    "titel": "Høflighed",
+    "resume": "Du må ikke forstyrre, larme eller kaste når det kan ramme nogen. Første overtrædelse i runden giver advarsel, derefter et straffekast pr. gang.",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/812",
+    "verificeret": false
+  },
+  {
+    "regel": "813",
+    "titel": "Udstyr",
+    "resume": "Krav til discs og andet udstyr der bruges i konkurrence.",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/813",
+    "verificeret": false
+  },
+  {
+    "regel": "813.01",
+    "titel": "Ulovlig disc",
+    "resume": "Discs skal være godkendt af PDGA og opfylde de tekniske krav. Et kast med en ulovlig disc koster to straffekast.",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/81301",
+    "verificeret": false
+  },
+  {
+    "regel": "Competition Manual",
+    "titel": "Competition Manual",
+    "resume": "Turneringsreglerne ved siden af spillereglerne. Dækker blandt andet turneringslederens ansvar, banens opsætning, tidsplan, adfærd og diskvalifikation.",
+    "kilde": "https://www.pdga.com/rules/competition-manual-disc-golf-events",
+    "verificeret": false
+  }
+]
