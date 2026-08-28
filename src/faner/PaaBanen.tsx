@@ -111,9 +111,11 @@ export function PaaBanen() {
             <p className="mt-6 text-center text-daempet">Ingen situationer matcher søgningen.</p>
           )}
 
-          <p className="mt-4 text-center text-sm text-daempet">
-            {situationer.length} af 15 situationer er lagt ind indtil videre.
-          </p>
+          {situationer.length < 15 && (
+            <p className="mt-4 text-center text-sm text-daempet">
+              {situationer.length} af 15 situationer er lagt ind indtil videre.
+            </p>
+          )}
         </div>
       </div>
     </div>

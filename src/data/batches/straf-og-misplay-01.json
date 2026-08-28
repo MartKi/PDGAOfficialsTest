@@ -202,7 +202,7 @@
       "Scoren står som 3, når kortet først er afleveret"
     ],
     "korrekt": 2,
-    "forklaring": "En afleveret score der er lavere end den faktiske, koster to straffekast oven i rettelsen. Er scoren derimod skrevet højere end den faktiske, står den som skrevet. Derfor er det vigtigt at tjekke kortet, inden det afleveres.",
+    "forklaring": "En forkert, mangelfuld eller manglende score på et afleveret kort koster to straffekast oven i rettelsen. Er hele gruppen enige om fejlen, kan den rettes uden straf, så længe kortet ikke er afleveret. Derfor skal kortet tjekkes, inden det går ind.",
     "regel": "808",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/808",
     "verificeret": false
