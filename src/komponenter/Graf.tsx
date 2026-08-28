@@ -33,7 +33,7 @@ export function Graf({ punkter }: { punkter: Punkt[] }) {
       {koordinater.map((k, i) => (
         <circle key={i} cx={k.x} cy={k.y} r="4" fill="#7cc4ff" />
       ))}
-      <text x={pad} y={y(80) - 4} fill="#34d399" fontSize="10">
+      <text x={pad} y={y(80) - 4} fill="#34d399" fontSize="12">
         80 %
       </text>
     </svg>

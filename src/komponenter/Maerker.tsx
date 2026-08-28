@@ -4,7 +4,7 @@ export function Uverificeret({ verificeret }: { verificeret: boolean }) {
   return (
     <span
       title="Regelnummeret er ikke verificeret på pdga.com endnu"
-      className="rounded-full border border-gul/50 bg-gul/10 px-2 py-0.5 text-xs font-medium text-gul"
+      className="inline-flex min-h-11 items-center rounded-full border border-gul/50 bg-gul/10 px-3 py-1 text-sm font-medium text-gul"
     >
       ikke verificeret
     </span>
@@ -18,7 +18,7 @@ export function Regellink({ regel, kilde }: { regel: string; kilde: string }) {
       href={kilde}
       target="_blank"
       rel="noreferrer"
-      className="rounded-lg border border-kant bg-bund px-2 py-1 text-sm font-semibold text-blaa"
+      className="inline-flex min-h-11 items-center rounded-lg border border-kant bg-bund px-3 py-2 text-base font-semibold text-blaa"
     >
       Regel {regel}
     </a>

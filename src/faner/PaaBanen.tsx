@@ -35,7 +35,7 @@ function Detalje({ situation, luk }: { situation: Banesituation; luk: () => void
     <div className="flex h-full flex-col p-4">
       <button
         onClick={luk}
-        className="mb-3 self-start rounded-lg border border-kant px-3 py-2 text-sm font-semibold text-daempet"
+        className="mb-3 min-h-11 self-start rounded-lg border border-kant px-4 py-2 text-sm font-semibold text-daempet"
       >
         Tilbage
       </button>

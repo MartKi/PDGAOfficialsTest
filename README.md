@@ -6,6 +6,57 @@ offline når den først er hentet.
 
 Stack: Vite, React, TypeScript, Tailwind og Dexie.
 
+## Brugsvejledning
+
+### Tilføj flere spørgsmål
+
+Hurtigt, kun på denne telefon: gå til **Statistik**, rul ned til "Importér
+flere spørgsmål", indsæt en JSON-liste og tryk på knappen. Skemaet valideres,
+og afviste spørgsmål vises med en begrundelse. Et spørgsmål med et id der
+allerede findes, bliver opdateret.
+
+Permanent, så det følger med appen på alle enheder:
+
+1. Læg spørgsmålene i den rigtige fil under `src/data/batches/`, for eksempel
+   `ob-og-hazard-01.json`, eller lav en ny fil som `ob-og-hazard-02.json`.
+   Formatet står i `src/data/GENERERING.md`.
+2. Kør fletningen:
+
+   ```bash
+   node scripts/merge-questions.js
+   ```
+
+   Scriptet skriver `src/data/questions.json`, giver alle spørgsmål nye
+   fortløbende id'er, og stopper hvis to spørgsmål på samme regel ligner
+   hinanden for meget. Det printer også optælling pr. kategori og listen over
+   spørgsmål der endnu ikke er verificeret.
+3. Byg og deploy. Appen opdager selv at banken er ændret, og opdaterer den
+   næste gang den åbnes. Fremdrift, bokse og historik bliver stående.
+
+### Markér spørgsmål som verificeret
+
+Når du har slået regelnummeret efter på pdga.com og er sikker:
+
+1. Find spørgsmålet i den relevante fil under `src/data/batches/` og sæt
+   `"verificeret": true`.
+2. Kør `node scripts/merge-questions.js` igen. Listen til sidst i outputtet
+   viser hvad der stadig mangler.
+3. Byg og deploy. Den gule markering "ikke verificeret" forsvinder fra
+   spørgsmålet i appen.
+
+Det samme gælder banesituationerne i `src/data/banesituationer.json` og
+regelopslaget i `src/data/regler.json`. De to filer bruges direkte af appen,
+så her skal du bare rette `verificeret` og bygge igen.
+
+### Backup af din fremdrift
+
+Under **Statistik** ligger "Backup af fremdrift". Tryk **Eksportér fremdrift**
+og gem teksten, enten med **Kopiér** eller med **Hent som fil**. På iPhone i
+standalone tilstand er kopiering mest pålidelig. For at gendanne indsætter du
+teksten i feltet nedenunder og trykker **Gendan fremdrift** to gange, fordi
+den nuværende fremdrift bliver overskrevet. Backuppen indeholder bokse,
+besvarelser og eksamenshistorik, ikke selve spørgsmålene.
+
 ## Kom i gang
 
 ```bash

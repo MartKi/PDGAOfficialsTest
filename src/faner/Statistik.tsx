@@ -7,6 +7,7 @@ import { ANTAL_BOKSE } from '../lib/leitner'
 import { kategoristatistik, oftestForkerte, procentBaggrund, procentFarve } from '../lib/statistik'
 import { Graf } from '../komponenter/Graf'
 import { Knap } from '../komponenter/Knap'
+import { Backup } from '../komponenter/Backup'
 import { Uverificeret } from '../komponenter/Maerker'
 import type { Besvarelse, Fremdrift, Spoergsmaal } from '../types'
 
@@ -101,7 +102,7 @@ export function Statistik() {
                 style={{ width: `${t.antal === 0 ? 0 : t.procent}%` }}
               />
             </div>
-            <p className="mt-1 text-xs text-daempet">
+            <p className="mt-1 text-sm text-daempet">
               {t.rigtige} rigtige af {t.antal}
             </p>
           </div>
@@ -117,7 +118,7 @@ export function Statistik() {
       <div className="flex gap-2">
         {bokse.map((b) => (
           <div key={b.boks} className="flex-1 rounded-xl border border-kant bg-flade p-2 text-center">
-            <p className="text-xs text-daempet">Boks {b.boks}</p>
+            <p className="text-sm text-daempet">Boks {b.boks}</p>
             <p className="text-lg font-bold">{b.antal}</p>
           </div>
         ))}
@@ -131,14 +132,14 @@ export function Statistik() {
           {fejl.map((f) => (
             <div key={f.spoergsmaal.id} className="rounded-xl border border-kant bg-flade p-3">
               <div className="flex items-center justify-between gap-2">
-                <span className="text-xs text-daempet">{KORT_NAVN[f.spoergsmaal.kategori]}</span>
-                <span className="text-xs font-bold text-roed">
+                <span className="text-sm text-daempet">{KORT_NAVN[f.spoergsmaal.kategori]}</span>
+                <span className="text-sm font-bold text-roed">
                   {f.forkerte} forkerte af {f.antal}
                 </span>
               </div>
               <p className="mt-1 text-sm leading-snug">{f.spoergsmaal.spoergsmaal}</p>
               <div className="mt-2 flex flex-wrap items-center gap-2">
-                <span className="text-xs text-blaa">Regel {f.spoergsmaal.regel}</span>
+                <span className="text-sm text-blaa">Regel {f.spoergsmaal.regel}</span>
                 <Uverificeret verificeret={f.spoergsmaal.verificeret} />
               </div>
             </div>
@@ -148,6 +149,9 @@ export function Statistik() {
 
       <h2 className="mt-6 mb-2 text-lg font-semibold">Importér flere spørgsmål</h2>
       <Import />
+
+      <h2 className="mt-6 mb-2 text-lg font-semibold">Backup af fremdrift</h2>
+      <Backup />
     </div>
   )
 }

@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { seedFoersteGang } from './db/indlaes'
+import { synkroniserSpoergsmaal } from './db/indlaes'
 import { PaaBanen } from './faner/PaaBanen'
 import { Eksamen } from './faner/Eksamen'
 import { Traening } from './faner/Traening'
@@ -21,7 +21,7 @@ export default function App() {
   const [fane, setFane] = useState<FaneId>('bane')
 
   useEffect(() => {
-    void seedFoersteGang()
+    void synkroniserSpoergsmaal()
   }, [])
 
   return (
@@ -45,7 +45,7 @@ export default function App() {
             }`}
           >
             <span className="text-xl leading-none">{f.ikon}</span>
-            <span className="text-[11px] leading-none font-semibold">{f.navn}</span>
+            <span className="text-xs leading-none font-semibold">{f.navn}</span>
           </button>
         ))}
       </nav>
