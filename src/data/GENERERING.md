@@ -8,14 +8,14 @@ batch. Session A laver 114 spørgsmål, session B laver de sidste 86.
 | Kategori | Målantal | Genereret | Status | Filnavne |
 | --- | --- | --- | --- | --- |
 | kastning og stance | 30 | 30 | færdig | batches/kastning-og-stance-01.json |
-| lie og marker | 30 | 0 | mangler | batches/lie-og-marker-01.json |
+| lie og marker | 30 | 30 | færdig | batches/lie-og-marker-01.json |
 | OB og hazard | 30 | 0 | mangler | batches/ob-og-hazard-01.json |
 | obstakler og lempelse | 24 | 0 | mangler | batches/obstakler-og-lempelse-01.json |
 | straf og misplay | 24 | 0 | session B |  |
 | putting og Circle 1 | 20 | 0 | session B |  |
 | etikette 810 | 20 | 0 | session B |  |
 | Competition Manual | 22 | 0 | session B |  |
-| **I alt** | **200** | **30** | | |
+| **I alt** | **200** | **60** | | |
 
 De 15 seed-spørgsmål i `src/data/questions.json` tælles ikke med her. De
 bliver erstattet af den flettede bank i session B.
