@@ -13,7 +13,7 @@
     "forklaring": "Du må ikke flytte, bøje eller holde en forhindring til side for at få bedre plads eller en bedre linje. Det gælder også selv om du slipper den igen, og selv om den falder tilbage på plads. Grene på træer er en del af banen på lige fod med stammer og sten.",
     "regel": "803.01",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80301",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "ol-02",
@@ -29,7 +29,7 @@
     "forklaring": "Når en forhindring er en fast eller integreret del af banen, skal du vælge den stance, der bevæger den mindst muligt. Det er ikke frit valg, selv om begge stancer i sig selv opfylder stancereglerne. Reglen findes for at banen ikke bliver slidt ned af spillerne.",
     "regel": "803.01",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80301",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "ol-03",
@@ -45,7 +45,7 @@
     "forklaring": "Det er lovligt, at kastebevægelsen kommer til at flytte en forhindring undervejs. Reglen rammer det bevidste, altså at rydde plads før kastet eller holde noget væk. Har du valgt den stance der flytter mindst, er du på den rigtige side af reglen.",
     "regel": "803.01",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80301",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "ol-04",
@@ -61,7 +61,7 @@
     "forklaring": "Løse forhindringer på spillefladen må flyttes, når de ligger længere væk fra kurven end lien forkant. Det er netop dem der ligger i vejen for tilløb og stance, uden at være en del af banen. Ligger den derimod foran lien, skal den blive liggende.",
     "regel": "803.01",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80301",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "ol-05",
@@ -77,7 +77,7 @@
     "forklaring": "Reglen giver kun lov til at flytte løse forhindringer, der ligger længere væk fra kurven end lien forkant. Alt foran lien skal blive liggende, også selv om det er en løs gren. Ellers ville man kunne rydde hele kastelinjen fri.",
     "regel": "803.01",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80301",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "ol-06",
@@ -93,7 +93,7 @@
     "forklaring": "Når stancen først er taget, må du ikke flytte noget for at få plads til kastebevægelsen. Det gælder også små ting som en sten under foden. Havde stenen ligget løst bag lien, kunne du have flyttet den, inden du tog stance.",
     "regel": "803.01",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80301",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "ol-07",
@@ -109,7 +109,7 @@
     "forklaring": "At binde eller holde en gren væk er en bevidst flytning af en forhindring og er ikke tilladt. De tre andre er alle lovlige, fordi de enten er tilfældige eller sker bag lien. Bredt sagt må du flytte dig selv, ikke banen.",
     "regel": "803.01",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80301",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "ol-08",
@@ -125,7 +125,7 @@
     "forklaring": "Vand der er in bounds og ikke udtrykkeligt er erklæret i spil, er casual område. Det giver ret til at flytte lien uden straf. Du kan naturligvis også vælge at spille discen som den ligger, hvis det er nemmest.",
     "regel": "806.03",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80603",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "ol-09",
@@ -141,7 +141,7 @@
     "forklaring": "Du markerer på spillelinjen længere væk fra kurven, og du må højst gå til det nærmeste sted, hvor både markeringen og lien er uden for området. Du kan altså ikke tage mere end du har brug for. Reglen om fem meter er en gammel regel, der ikke gælder længere.",
     "regel": "806.03",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80603",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "ol-10",
@@ -157,7 +157,7 @@
     "forklaring": "Lempelse fra et casual område er gratis. Det er netop forskellen på et casual område og en hazard, hvor der gives ét straffekast. Vil du længere tilbage end lempelsen rækker, skal du bruge valgfri lempelse, og den koster ét straffekast.",
     "regel": "806.03",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80603",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "ol-11",
@@ -173,7 +173,7 @@
     "forklaring": "Et casual område giver ret til lempelse, det er ikke et krav om at flytte sig. Ligger discen godt, spiller du bare videre derfra. Det er kun områder med påkrævet lempelse, du skal væk fra.",
     "regel": "806.03",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80603",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "ol-12",
@@ -189,7 +189,7 @@
     "forklaring": "Et casual område er enten vand in bounds der ikke er i spil, eller noget turneringslederen har udpeget. En gruppe kan ikke selv beslutte at et område giver lempelse. Er I i tvivl, kan I spille videre og få afklaret det med en official bagefter.",
     "regel": "806.03",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80603",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "ol-13",
@@ -205,7 +205,7 @@
     "forklaring": "Lempelsen tager hensyn til både markeringen og selve lien, altså det sted du står. Er lien i området, kan du flytte til nærmeste punkt på spillelinjen, hvor både markering og lie er fri. Derfor kan en våd stance godt udløse lempelse, selv om discen ligger tørt.",
     "regel": "806.03",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80603",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "ol-14",
@@ -221,7 +221,7 @@
     "forklaring": "Reglen giver lempelse fra farlige insekter og dyr, og det koster ingen straf. Du markerer et nyt lie på spillelinjen længere væk fra kurven, ved det nærmeste sted der giver fri fra faren. Turneringslederen kan på forhånd have givet ret til at gå længere væk.",
     "regel": "803.02",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80302",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "ol-15",
@@ -237,7 +237,7 @@
     "forklaring": "Lempelsen dækker farlige insekter og dyr plus det turneringslederen udtrykkeligt har udpeget, for eksempel byggematerialer eller strømførende hegn. Den dækker ikke alt hvad der er ubehageligt at stå i. Almindelige naturlige forhindringer skal spilles som de er.",
     "regel": "803.02",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80302",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "ol-16",
@@ -253,7 +253,7 @@
     "forklaring": "Reglen nævner farlige insekter og dyr, ikke planter der bare er ubehagelige. En tornebusk giver derfor ikke automatisk lempelse, medmindre turneringslederen har udpeget området. Vil du væk alligevel, koster valgfri lempelse på spillelinjen ét straffekast.",
     "regel": "803.02",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80302",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "ol-17",
@@ -269,7 +269,7 @@
     "forklaring": "Standarden er det nærmeste punkt på spillelinjen der giver fri, men turneringslederen kan melde ud, at der gives mere lempelse. Så er det den udmelding der gælder for stævnet. Den ekstra lempelse koster stadig ingen straf.",
     "regel": "803.02",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80302",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "ol-18",
@@ -285,7 +285,7 @@
     "forklaring": "Du skal melde til gruppen, at du tager valgfri lempelse, inden du flytter markeringen. Så ved alle hvorfor lien flytter sig, og at der lægges ét straffekast til. Der skal ikke godkendelse fra en official til.",
     "regel": "803.03",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80303",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "ol-19",
@@ -301,7 +301,7 @@
     "forklaring": "Valgfri lempelse på spillelinjen kan tages når som helst, uanset hvorfor du vil flytte dig. Prisen er altid ét straffekast, og det nye lie skal være længere væk fra kurven på spillelinjen. Derfor bruges den næsten kun, når man er helt spærret inde.",
     "regel": "803.03",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80303",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "ol-20",
@@ -317,7 +317,7 @@
     "forklaring": "Lempelsen fra det casual område er gratis, så den koster ingenting at prøve først. Er du stadig spærret bagefter, kan du stadig vælge den valgfri lempelse mod ét straffekast. At tage den dyre først giver sjældent mening.",
     "regel": "803.03",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80303",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "ol-21",
@@ -333,7 +333,7 @@
     "forklaring": "Lempelsen hedder netop lempelse på spillelinjen, og det nye lie skal ligge på den linje, længere væk fra kurven. Du kan altså ikke købe dig til en bedre vinkel ved at gå ud til siden. Vil du til siden, skal du kaste dig ud af situationen.",
     "regel": "803.03",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80303",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "ol-22",
@@ -349,7 +349,7 @@
     "forklaring": "To meter reglen gælder kun, hvis turneringslederen har slået den til. Er den ikke slået til, koster en disc i et træ ingenting, uanset højden. Du markerer på spillefladen lige under discen og spiller videre derfra.",
     "regel": "805.02",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80502",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "ol-23",
@@ -365,7 +365,7 @@
     "forklaring": "Højden måles fra discens laveste punkt ned til spillefladen lige under den. Er der mindst to meter, og reglen er slået til, koster det ét straffekast. Lien markeres stadig lige under discen.",
     "regel": "805.02",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80502",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "ol-24",
@@ -381,6 +381,6 @@
     "forklaring": "Turneringslederen kan slå reglen til for hele banen, for bestemte huller eller for enkelte objekter. Det bruges typisk på et stort signaturtræ eller på en bygning ved siden af et hul. Det skal være meldt ud til spillerne, før runden går i gang.",
     "regel": "805.02",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80502",
-    "verificeret": false
+    "verificeret": true
   }
 ]

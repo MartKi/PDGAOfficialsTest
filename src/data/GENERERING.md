@@ -20,30 +20,48 @@ batch. Session A laver 114 spørgsmål, session B laver de sidste 86.
 De 15 seed-spørgsmål i `src/data/questions.json` tælles ikke med her. De
 bliver erstattet af den flettede bank i session B.
 
-## Vigtigt om verifikation
+## Verifikation
 
+Hele banken er gennemgået mod PDGA Official Rules of Disc Golf og Competition
+Manual for Disc Golf Events, udgaven fra 1. januar 2026 med rettelser
+offentliggjort frem til august 2026. Teksten blev leveret som fil, fordi
 pdga.com er blokeret af netværkspolitikken i det miljø sessionerne kører i.
-Et direkte opslag svarer 403 gennem proxyen. Regelnumre og officielle
-overskrifter er derfor bekræftet gennem sidetitler og uddrag i søgeresultater
-fra pdga.com, ikke ved at åbne reglen selv.
 
-Derfor står **alle spørgsmål med `"verificeret": false`**. Det er ikke en
-formalitet, det er den faktiske tilstand. Før banken bruges til alvor, skal
-hvert regelnummer slås efter på pdga.com fra en maskine med adgang.
+Alle 200 spørgsmål, alle 15 banesituationer og alle 55 regelafsnit står nu med
+`"verificeret": true`. Hvert regelnummer, hvert korrekt svar og hver forklaring
+er holdt op mod reglens ordlyd.
 
-Punkter der især skal tjekkes, fordi kilderne var uklare eller ændrede sig:
+### Fejl der blev fundet og rettet
 
-- **802.07 Stance**: giver en stanceovertrædelse ét straffekast med det samme,
-  eller en advarsel første gang? Reglens egen ordlyd peger på ét straffekast.
-  Alle stancespørgsmål er skrevet efter ét straffekast.
-- **802.03 For lang tid**: 30 sekunder fra teested, drop zone og inden for 20
-  meter fra kurven, 45 sekunder fra andre lies. Tallene ser ud til at være
-  ændret i en nyere udgave af reglerne.
-- **806.02 OB**: muligheden for at gå direkte til en drop zone mod to
-  straffekast er beskrevet som noget turneringslederen kan tillade. Den er
-  aldrig brugt som korrekt svar.
-- **806.03 Casual område**: lempelse gives til nærmeste punkt på spillelinjen
-  uden for området, ikke op til fem meter. Fem meter var den gamle regel.
+- **801.02.K**: flere forklaringer påstod, at der aldrig stemmes om afgørelser.
+  Gruppen stemmer netop om en discs flugt, position eller status, hvor alle
+  undtagen kasteren stemmer først, og kasteren bryder stemmelighed.
+- **802.02.C**: ved lige lang afstand kaster den først, hvis lie blev
+  etableret først. Spørgsmålet sagde tidligere, at den der var klar, kastede.
+- **806.02.D.2**: meteren måles fra det punkt hvor discen sidst var in bounds.
+  Ordet vinkelret var en tilføjelse, der ikke står i reglen, og som hører til
+  806.02.E om en disc der ligger in bounds tæt på linjen.
+- **809.02.D.1**: et provisorisk kast kan ikke bruges ved tvivl om en mando.
+  Tre steder påstod det modsatte.
+- **810.E**: en disc hvis bane bevidst ændres af en anden, får position i
+  berøringspunktet, og kasteren kan opgive kastet uden straf. Spørgsmålet
+  henviste tidligere til fairness.
+- **811.F.3**: forkert rækkefølge af huller giver to straffekast i alt, og
+  scoren for hullet står. Spørgsmålet var tidligere upræcist.
+- **813.01.B og E**: slid fra spil er tilladt, mens en revnet disc er ulovlig.
+- **813.01.F**: en disc der betvivles, er ulovlig indtil turneringslederen
+  godkender den. Spørgsmålet sagde, at man kunne spille videre imens.
+- **808.G.2**: to straffekast gælder også en score der er noteret for højt.
+- **802.05.A**: er det uklart om en flade er spilleflade, afgør en official
+  det, ikke gruppen.
+- **806.05**: hazardreglen nævner ingen drop zone, og teksten er rettet.
+- **Competition Manual**: alle 22 spørgsmål har nu rigtige afsnitsnumre, fordi
+  manualen fulgte med filen. Fordelingen er 1.03, 1.04, 1.05, 1.06, 1.07,
+  1.08, 1.09, 1.12, 3.03, 3.05 og 5.03, plus to spørgsmål der hører under 808
+  i de officielle regler, og ét om forholdet mellem de to dokumenter.
+- **Regelopslaget** manglede 800, 801.03, 803.02, 803.03, 803.04 og 813.02.
+  Det er nu på 55 afsnit, inklusive de Competition Manual-afsnit som
+  spørgsmålene henviser til.
 
 ## Relevante regelnumre pr. kategori
 

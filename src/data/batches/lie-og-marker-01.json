@@ -13,7 +13,7 @@
     "forklaring": "Minien skal ligge på spillefladen og røre den kastede discs forkant på linjen mod kurven. Discens retning betyder ingenting, det er forkanten set fra kurven der tæller. Først når minien ligger rigtigt, må du samle den kastede disc op.",
     "regel": "802.06",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80206",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "lm-02",
@@ -29,7 +29,7 @@
     "forklaring": "Minien skal lægges, mens den kastede disc stadig ligger, så positionen ikke bliver et skøn. Samler du discen op først, er det en markeringsovertrædelse. Første markeringsovertrædelse i runden koster en advarsel, og hver følgende koster ét straffekast.",
     "regel": "802.06",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80206",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "lm-03",
@@ -45,7 +45,7 @@
     "forklaring": "En markerdisc er en lille disc, der ikke bruges i spil, og som lever op til PDGA's tekniske krav til minier. En spilledisc kan derfor ikke bruges som markering. Har du ingen mini, kan du lade den kastede disc blive liggende og kaste med den som markering.",
     "regel": "802.06",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80206",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "lm-04",
@@ -61,7 +61,7 @@
     "forklaring": "Når minien først er lagt korrekt, ligger liet fast. Flytter du markeringen for at få en bedre stance, er det en markeringsovertrædelse, ikke en tilladt justering. Har du brug for at komme væk fra forhindringen, skal du bruge en af lempelsesreglerne i stedet.",
     "regel": "802.06",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80206",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "lm-05",
@@ -77,7 +77,7 @@
     "forklaring": "En markering der bliver flyttet ved et uheld, lægges bare tilbage hvor den lå. Det koster ingen straf, hverken for dig eller for den der kom til at flytte den. Kan gruppen ikke blive enige om stedet, afgør gruppen det bedst muligt på stedet.",
     "regel": "802.06",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80206",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "lm-06",
@@ -93,7 +93,7 @@
     "forklaring": "Den kastede discs placering på spillefladen markerer i sig selv lien. Minien er et tilbud, ikke et krav, når discen ligger in bounds på spillefladen. Kaster du med discen liggende, gælder stancereglerne i forhold til dens bagkant.",
     "regel": "802.06",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80206",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "lm-07",
@@ -109,7 +109,7 @@
     "forklaring": "Første markeringsovertrædelse i en runde koster en advarsel. Hver følgende markeringsovertrædelse i samme runde koster ét straffekast. Advarslen følger ikke med til næste runde.",
     "regel": "802.06",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80206",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "lm-08",
@@ -125,7 +125,7 @@
     "forklaring": "Ligger discen ikke på spillefladen in bounds, kan den ikke selv markere lien. Så skal der lægges en mini efter den regel der gælder for situationen, her OB-reglen. Det er også sådan du markerer, når lien flyttes af en anden regel.",
     "regel": "802.06",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80206",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "lm-09",
@@ -141,7 +141,7 @@
     "forklaring": "Den eneste rigtige markering er en mini der rører den kastede discs forkant på linjen mod kurven, lagt mens discen stadig ligger. De tre andre flytter enten lien eller gør positionen til et skøn. Alle tre er markeringsovertrædelser.",
     "regel": "802.06",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80206",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "lm-10",
@@ -157,7 +157,7 @@
     "forklaring": "Lien er et rektangel på tyve centimeter i bredden og tredive centimeter i dybden bag markerens bagkant. Det er de tredive centimeter der er dybden, altså afstanden væk fra kurven. Mindst ét støttepunkt skal røre det rektangel ved frigivelsen.",
     "regel": "802.05",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80205",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "lm-11",
@@ -173,7 +173,7 @@
     "forklaring": "På hullets første kast er teestedet i sig selv lien. Der skal ikke lægges nogen markering, og du skal ikke finde et rektangel. Kravet er blot, at alle støttepunkter er inden for teestedet, når discen slippes.",
     "regel": "802.05",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80205",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "lm-12",
@@ -186,10 +186,10 @@
       "Du skal markere ved kanten af drop zonen nærmest kurven"
     ],
     "korrekt": 1,
-    "forklaring": "En drop zone er et lie på linje med teestedet. Du kaster fra selve zonen og skal ikke lægge en markering først. Tidsgrænsen fra en drop zone er den samme som fra teestedet.",
+    "forklaring": "En drop zone er et lie ligesom teestedet. Den spilles enten som et teested eller som et markeret lie, alt efter hvordan turneringslederen har markeret den. Tidsgrænsen fra en drop zone er tredive sekunder, som fra teestedet.",
     "regel": "802.05",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80205",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "lm-13",
@@ -205,7 +205,7 @@
     "forklaring": "Spillelinjen er den rette linje mellem kurven og midten af din markering, forlænget bagud. Den har intet at gøre med den bane discen skal flyve. Det er også den linje du rykker tilbage ad, når du tager lempelse.",
     "regel": "802.05",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80205",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "lm-14",
@@ -221,7 +221,7 @@
     "forklaring": "Kun ét støttepunkt skal røre selve lien, når discen slippes. De øvrige støttepunkter må være hvor som helst, så længe intet af dem er tættere på kurven end markerens bagkant. Derfor er både straddle og bred benstilling helt lovligt.",
     "regel": "802.05",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80205",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "lm-15",
@@ -237,7 +237,7 @@
     "forklaring": "Hver disc giver spilleren sin egen lie, uanset hvor tæt de ligger. Ligger den ene i vejen for den andens stance, kan den midlertidigt flyttes efter aftale og lægges tilbage bagefter. Der findes ikke noget fælles lie.",
     "regel": "802.05",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80205",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "lm-16",
@@ -253,7 +253,7 @@
     "forklaring": "Når lien flyttes af en regel, gælder helt de samme mål som ellers. Det er et rektangel på tyve gange tredive centimeter bag den nye markerings bagkant. Stancereglerne er også de samme, altså intet støttepunkt tættere på kurven end markeren.",
     "regel": "802.05",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80205",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "lm-17",
@@ -266,10 +266,10 @@
       "Du skal kaste fra jorden med en fod på stenen"
     ],
     "korrekt": 2,
-    "forklaring": "En overflade der er nogenlunde flad og til at spille fra, kan være spilleflade, og en stor sten kan derfor tælle med. Er gruppen enige om det, markeres og spilles der fra stenen. Er den ikke til at stå på, gælder positionen på spillefladen lige under discen i stedet.",
+    "forklaring": "En spilleflade er en flade der kan bære spilleren, og som der med rimelighed kan tages en stance fra. En spilleflade kan ligge over eller under en anden spilleflade, så en stor sten kan tælle med. Er det uklart, om fladen er en spilleflade, afgøres det af en official, ikke af gruppen.",
     "regel": "802.05",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80205",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "lm-18",
@@ -285,7 +285,7 @@
     "forklaring": "En disc der er kommet til hvile over spillefladen, har sin position på spillefladen lige under discen. Der markeres altså lodret ned, ikke ved buskens fod. Uden to meter reglen koster det ingen straf, uanset hvor højt discen sidder.",
     "regel": "805.01",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80501",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "lm-19",
@@ -301,7 +301,7 @@
     "forklaring": "En disc i vand eller i løv regnes for at ligge stille, når den kun bevæger sig på grund af vandet, løvet eller vinden. Positionen er altså der hvor den holdt op med at bevæge sig af sig selv. Bagefter må du gerne hente discen op, uden at det ændrer positionen.",
     "regel": "805.01",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80501",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "lm-20",
@@ -317,7 +317,7 @@
     "forklaring": "Positionen er der hvor discen første gang kommer til hvile, altså først når den holder helt op med at bevæge sig. Glider eller triller den videre, følger positionen med hele vejen ned. Det er derfor et rul kan koste dyrt, uden at der er tale om en fejl.",
     "regel": "805.01",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80501",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "lm-21",
@@ -333,7 +333,7 @@
     "forklaring": "En disc har sin position der hvor den første gang kommer til hvile. Blæser den videre bagefter, lægges den tilbage til det sted, og den er ikke OB. Havde den derimod aldrig ligget stille in bounds, ville landingen ude have talt.",
     "regel": "805.01",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80501",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "lm-22",
@@ -349,7 +349,7 @@
     "forklaring": "En disc der er kommet til hvile over spillefladen, har sin position lige under sig. Det gælder også oven på et skur eller en mur, når området ikke er erklæret OB. Kan du ikke hente discen ned, må du bruge en anden disc og spille videre fra det markerede lie.",
     "regel": "805.01",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80501",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "lm-23",
@@ -365,7 +365,7 @@
     "forklaring": "En disc har sin position der hvor den kommer til hvile, uanset om den er let at få øje på. Findes den inden for de tre minutter, spiller du fra det sted uden straf. Det er kun når tiden løber ud, at discen erklæres tabt.",
     "regel": "805.01",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80501",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "lm-24",
@@ -381,7 +381,7 @@
     "forklaring": "Valgfri lempelse på spillelinjen kan tages når som helst, hvis du melder det til gruppen. Du rykker lien længere væk fra kurven på spillelinjen og lægger ét straffekast til. Prisen er den samme, uanset hvor langt tilbage du går.",
     "regel": "803.03",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80303",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "lm-25",
@@ -397,7 +397,7 @@
     "forklaring": "Det nye lie skal ligge på spillelinjen og længere væk fra kurven end det oprindelige lie. Du må ikke gå ud til siden for at få en bedre vinkel. Til gengæld er der ingen øvre grænse for hvor langt tilbage du går.",
     "regel": "803.03",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80303",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "lm-26",
@@ -413,7 +413,7 @@
     "forklaring": "Valgfri lempelse koster altid ét straffekast, og det er den samme pris som at bruge et kast på at komme fri. Er der overhovedet en udvej til siden, er den næsten altid billigere. Lempelsen kræver ingen godkendelse, du skal blot melde den til gruppen.",
     "regel": "803.03",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80303",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "lm-27",
@@ -429,7 +429,7 @@
     "forklaring": "Du kan opgive dit seneste kast ved at melde det til gruppen. Kastet tæller stadig med, og der lægges ét straffekast til, hvorefter du spiller igen fra det lie du kastede fra. Det er altså to kast på scoren, før du er tilbage hvor du startede.",
     "regel": "809.01",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80901",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "lm-28",
@@ -445,7 +445,7 @@
     "forklaring": "Reglen dækker kun det seneste kast, og opgivelsen skal meldes til gruppen inden du kaster videre. Har du allerede kastet igen, er muligheden væk. Så må du spille videre fra det lie du står med.",
     "regel": "809.01",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80901",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "lm-29",
@@ -461,22 +461,22 @@
     "forklaring": "Et provisorisk kast er en alternativ række kast, og kun den ene af de to rækker tæller til sidst. Ligger den oprindelige disc in bounds, spiller du videre derfra, og det provisoriske kast bortfalder helt. Det koster ikke straf at kaste provisorisk.",
     "regel": "809.02",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80902",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "lm-30",
     "kategori": "lie og marker",
-    "spoergsmaal": "Hvornår giver det mening at kaste et provisorisk kast efter reglerne?",
+    "spoergsmaal": "I hvilken af disse situationer må du kaste et provisorisk kast?",
     "svar": [
-      "Når du gerne vil prøve en anden disc af på hullet",
-      "Når du er utilfreds med dit kast og vil have et nyt forsøg",
-      "Når gruppen er bagud på tid og gerne vil videre",
-      "Når der er tvivl om discen er OB, tabt eller har misset en mando"
+      "Når du er i tvivl om din disc er tabt eller OB, og det sparer dig for at gå frem og tilbage",
+      "Når du er i tvivl om du missede en mando",
+      "Når du overvejer at opgive dit kast",
+      "Når det eneste spørgsmål er, om der skal gives et straffekast"
     ],
-    "korrekt": 3,
-    "forklaring": "Det provisoriske kast findes for at spare tid, når der er reel tvivl om en afgørelse, typisk OB, en tabt disc eller en misset mando. Er tvivlen afklaret bagefter, bruges kun den række der viser sig at gælde. Det er ikke en mulighed for at få et ekstra forsøg.",
+    "korrekt": 0,
+    "forklaring": "Provisoriske kast bruges, når det er uklart hvordan der skal spilles videre, når du vil anke en afgørelse, eller når discens status er ukendt og den kan være tabt, OB eller i et område med påkrævet lempelse. Reglen udelukker udtrykkeligt tvivl om en mando, overvejelser om at opgive kastet, og sager hvor det eneste spørgsmål er et straffekast. Du skal melde til gruppen, at rækken er provisorisk, hvorfor, og hvilken række der gælder i hvilket udfald.",
     "regel": "809.02",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80902",
-    "verificeret": false
+    "verificeret": true
   }
 ]

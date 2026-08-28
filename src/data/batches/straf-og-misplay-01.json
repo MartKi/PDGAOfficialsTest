@@ -13,7 +13,7 @@
     "forklaring": "Et kast fra et forkert lie er et misplay. Er der ikke kastet flere kast siden, ser man bort fra det forkerte kast, og du spiller fra det rigtige lie med ét straffekast lagt til. Det er altså ikke to kast på scoren, men ét straffekast plus det kast du nu skal lave.",
     "regel": "811",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/811",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "sm-02",
@@ -29,23 +29,23 @@
     "forklaring": "Er der kastet flere kast efter det misplayede kast, kan fejlen ikke rulles tilbage. Du spiller videre fra dit nuværende lie og lægger to straffekast til for misplayet. Hullet spilles aldrig om som følge af et misplay.",
     "regel": "811",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/811",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "sm-03",
     "kategori": "straf og misplay",
-    "spoergsmaal": "Din gruppe springer et helt hul over ved en fejl og opdager det først to huller senere. Hvad er afgørelsen?",
+    "spoergsmaal": "Jeres gruppe kommer til at spille hul 8 før hul 7, og I opdager det først, da hul 8 er færdigt. Hvad gælder?",
     "svar": [
-      "Der er tale om misplay, fordi hullerne ikke er spillet korrekt og i rækkefølge",
-      "Det er ikke misplay, når hele gruppen tog fejl",
-      "Turneringslederen kan give par på det oversprungne hul uden straf",
-      "Gruppen diskvalificeres automatisk"
+      "Hul 8 annulleres, og I spiller det om efter hul 7",
+      "I spiller videre i rigtig rækkefølge, scoren for hul 8 står, og der lægges to straffekast til i alt",
+      "Der gives to straffekast pr. hul spillet i forkert rækkefølge",
+      "Der sker ingenting, når hele gruppen tog fejl"
     ],
-    "korrekt": 0,
-    "forklaring": "Misplay dækker både kast fra forkert lie og huller der ikke er spillet korrekt og i den rigtige rækkefølge. At hele gruppen tog fejl, ændrer ikke på det. Turneringslederen afgør hvordan hullet skal håndteres, og der gives straffekast for misplayet.",
+    "korrekt": 1,
+    "forklaring": "At spille hullerne i forkert rækkefølge er et misplay. Scoren for det hul I nåede at spille, står ved magt, og I fortsætter banen i den rigtige rækkefølge. Uanset hvor mange huller der blev spillet i forkert rækkefølge, lægges der i alt to straffekast til totalen.",
     "regel": "811",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/811",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "sm-04",
@@ -58,10 +58,10 @@
       "Beder gruppen om at stemme om det var for langt fremme"
     ],
     "korrekt": 0,
-    "forklaring": "Du er selv med til at håndhæve reglerne, også når det går ud over din egen score. Et kast fra et forkert lie er et misplay, og da du ikke har kastet igen, retter du det ved at spille fra det rigtige lie og lægge ét straffekast til. Der stemmes ikke om afgørelser.",
+    "forklaring": "Du er selv med til at håndhæve reglerne, også når det går ud over din egen score. Et kast fra et forkert lie er et misplay, og da du ikke har kastet igen, ser man bort fra kastet, og du spiller fra det rigtige lie med ét straffekast lagt til. Et kald du laver på dig selv, skal ikke bekræftes af andre.",
     "regel": "811",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/811",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "sm-05",
@@ -77,7 +77,7 @@
     "forklaring": "Kaldet skal falde med det samme, for straffen afhænger af om der er kastet videre. Siger du det først bagefter, koster fejlen to straffekast i stedet for ét. Kaldet skal bekræftes af en anden spiller eller en official for at give straf.",
     "regel": "811",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/811",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "sm-06",
@@ -93,7 +93,7 @@
     "forklaring": "Er der kastet et kast mere efter det misplayede kast, koster misplayet to straffekast. Rettes fejlen med det samme, koster det kun ét. Antallet af efterfølgende kast ændrer ikke på de to straffekast, det er stadig to i alt.",
     "regel": "811",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/811",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "sm-07",
@@ -109,7 +109,7 @@
     "forklaring": "Misplay er kast fra et forkert lie eller huller spillet forkert eller i forkert rækkefølge. At kaste fra sin egen markering på det rigtige hul er netop det man skal. De tre andre koster ét eller to straffekast alt efter hvornår fejlen rettes.",
     "regel": "811",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/811",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "sm-08",
@@ -125,7 +125,7 @@
     "forklaring": "Et kast der ikke er et reelt forsøg på at ændre dit lie, er et øvekast. Undtagelsen gælder kun korte kast under fem meter i luften, der lægger en ubrugt disc til side eller giver en disc tilbage til en spiller. Tyve meter er langt over grænsen, så det koster ét straffekast.",
     "regel": "809.03",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80903",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "sm-09",
@@ -141,7 +141,7 @@
     "forklaring": "Reglen har netop en undtagelse for kast under fem meter i luften, der lægger en ubrugt disc til side eller giver en disc tilbage til en spiller. Tre meter er derfor i orden. Bliver kastet længere, er det et øvekast med ét straffekast.",
     "regel": "809.03",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80903",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "sm-10",
@@ -157,7 +157,7 @@
     "forklaring": "Et ekstra kast der ikke skal ændre dit lie, er et øvekast, også når hullet er færdigt. Det koster ét straffekast, og selve kastet tælles ikke med i scoren. Vil du øve, skal det ske uden for runden.",
     "regel": "809.03",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80903",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "sm-11",
@@ -173,7 +173,7 @@
     "forklaring": "Selve øvekastet ses der bort fra, og discen har ingen betydning for dit lie. Det eneste der sker på scoren, er det ene straffekast. Du spiller videre fra det lie, du havde i forvejen.",
     "regel": "809.03",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80903",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "sm-12",
@@ -189,7 +189,7 @@
     "forklaring": "Opvarmningskast under runden er øvekast, uanset om de sker mellem to huller. Kaldet skal falde på stedet og bekræftes af en anden spiller eller en official. Straffen er ét straffekast pr. øvekast.",
     "regel": "809.03",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80903",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "sm-13",
@@ -205,7 +205,7 @@
     "forklaring": "En forkert, mangelfuld eller manglende score på et afleveret kort koster to straffekast oven i rettelsen. Er hele gruppen enige om fejlen, kan den rettes uden straf, så længe kortet ikke er afleveret. Derfor skal kortet tjekkes, inden det går ind.",
     "regel": "808",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/808",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "sm-14",
@@ -221,7 +221,7 @@
     "forklaring": "Scoren på et hul er summen af dine kast og dine straffekast. Straffekast noteres ikke separat, de indgår direkte i tallet. Derfor kan et hul med to kast og et straffekast give tre på kortet.",
     "regel": "808",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/808",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "sm-15",
@@ -234,10 +234,10 @@
       "Kun hvis en spiller beder om det"
     ],
     "korrekt": 2,
-    "forklaring": "Scoren noteres efter hvert hul, og den skal være tydelig for alle i gruppen. Det er hele gruppens ansvar, ikke kun kortholderens. På den måde kan uenighed opdages med det samme og ikke først efter runden.",
+    "forklaring": "Hver spiller fører sit eget scorekort for hele gruppen og noterer scoren efter hvert hul, så den er tydelig for alle. Advarsler og straffekast noteres sammen med scoren for hullet. Det er ikke kun kortholderens ansvar, for alle i gruppen fører kort.",
     "regel": "808",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/808",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "sm-16",
@@ -253,7 +253,7 @@
     "forklaring": "Uenighed om score skal løses med det samme, mens hullet er i frisk erindring. Gruppen taler kastene igennem, og kan I ikke blive enige, tilkaldes en official. Kortholderen har ikke det sidste ord alene.",
     "regel": "808",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/808",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "sm-17",
@@ -269,39 +269,39 @@
     "forklaring": "Et kast med en ulovlig disc koster to straffekast. Discs skal være godkendt af PDGA og opfylde de tekniske krav for at måtte bruges i konkurrence. Straffen gælder pr. kast med den ulovlige disc.",
     "regel": "813.01",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/81301",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "sm-18",
     "kategori": "straf og misplay",
-    "spoergsmaal": "Din yndlingsdriver er blevet så slidt, at kanten er flosset og profilen er ændret. Hvad gælder?",
+    "spoergsmaal": "Din yndlingsdriver har fået en revne i kanten efter mange runder i skoven. Må du spille med den?",
     "svar": [
-      "Slid er altid tilladt, discen var godkendt da den blev købt",
-      "Discen er lovlig, hvis stemplet stadig kan læses",
-      "En disc der er så beskadiget at den ikke længere lever op til kravene, er ulovlig",
-      "Discen er lovlig, hvis gruppen accepterer den"
+      "Ja, slid og skader fra spil er tilladt",
+      "Ja, hvis revnen ikke ændrer flyvningen mærkbart",
+      "Nej, en disc med en revne eller et hul er ulovlig",
+      "Ja, hvis gruppen godkender den inden runden"
     ],
     "korrekt": 2,
-    "forklaring": "Godkendelsen følger discens tilstand, ikke kun modellen. Er discen slidt eller beskadiget så meget, at den ikke længere opfylder de tekniske krav, må den ikke bruges. Almindeligt slid gør den ikke ulovlig, det er de større ændringer der tæller.",
+    "forklaring": "En disc med en revne eller et hul er ulovlig, uanset hvordan den flyver. Almindeligt slid fra spil er derimod tilladt, og det samme er moderat slibning og mærkning med tusch. Et kast med en ulovlig disc koster to straffekast.",
     "regel": "813.01",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/81301",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "sm-19",
     "kategori": "straf og misplay",
-    "spoergsmaal": "En medspiller er i tvivl om en af dine discs er godkendt. Hvad er den rigtige fremgangsmåde under runden?",
+    "spoergsmaal": "En medspiller betvivler under runden, om en af dine discs er lovlig. Hvad gælder for den disc?",
     "svar": [
-      "Discen må ikke bruges, før PDGA har svaret skriftligt",
-      "Spørgsmålet afgøres af gruppen ved afstemning",
-      "Du skal skifte disc med det samme uden diskussion",
-      "Du spiller videre, og en official kan afgøre spørgsmålet"
+      "Den er lovlig, indtil nogen kan bevise det modsatte",
+      "Den er ulovlig, indtil turneringslederen godkender den",
+      "Gruppen stemmer om den må bruges resten af runden",
+      "Den må bruges færdig på hullet og derefter lægges væk"
     ],
-    "korrekt": 3,
-    "forklaring": "Tvivl om udstyr afgøres af en official, ikke ved afstemning i gruppen. Du kan spille videre imens, og viser det sig at discen var ulovlig, gives der to straffekast pr. kast med den. Derfor er det klogest selv at tjekke sine discs inden runden.",
+    "korrekt": 1,
+    "forklaring": "En disc der betvivles af en anden spiller eller en official, er ulovlig, indtil turneringslederen efterfølgende godkender den. Du skal altså lægge den væk og spille med noget andet imens. Kaster du alligevel med den, koster det to straffekast pr. kast.",
     "regel": "813.01",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/81301",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "sm-20",
@@ -317,7 +317,7 @@
     "forklaring": "Reglen om ulovlige hjælpemidler rammer ting der giver en kunstig fordel under kastet, ikke almindeligt udstyr som håndklæder og handsker. At tørre discen af er en helt sædvanlig del af spillet. Det er brugen under selve kastet der kan gøre en genstand ulovlig.",
     "regel": "813.02",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/81302",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "sm-21",
@@ -330,10 +330,10 @@
       "Det er et ulovligt hjælpemiddel, og brugen giver straf"
     ],
     "korrekt": 3,
-    "forklaring": "Hjælpemidler der påvirker selve kastet eller giver en unaturlig fordel, er ikke tilladt i konkurrence. Turneringslederen kan ikke give lov til noget, reglerne forbyder. Almindeligt udstyr som handsker og håndklæder er derimod i orden.",
+    "forklaring": "Et hjælpemiddel der direkte hjælper med at lave kastet, er ikke tilladt. Handsker, tape og almindeligt udstyr er derimod i orden, og et håndklæde eller en måtte under støttepunktet må være op til en centimeter tyk i sammenpresset stand. Bliver et hjælpemiddel betvivlet, er det ulovligt, indtil turneringslederen godkender det, og brug af et ulovligt hjælpemiddel koster to straffekast.",
     "regel": "813.02",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/81302",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "sm-22",
@@ -349,7 +349,7 @@
     "forklaring": "Opgivelsen skal meldes til gruppen, så alle ved hvad der sker med scoren. Der skal ikke tilladelse til fra en official. Du kan kun opgive dit seneste kast, og kun før du har kastet igen.",
     "regel": "809.01",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80901",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "sm-23",
@@ -365,7 +365,7 @@
     "forklaring": "Det opgivne kast tæller med, og der lægges ét straffekast til, altså fire på scoren. Dit næste kast bliver derfor det femte. Du kaster det fra det lie, du kastede det opgivne kast fra.",
     "regel": "809.01",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80901",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "sm-24",
@@ -381,6 +381,6 @@
     "forklaring": "Opgivelsen koster kastet plus ét straffekast, så den skal spare dig for mere end det for at være værd at bruge. Det er typisk når discen ligger et sted, hvor du reelt ikke kan komme videre. Det er ikke en mulighed for bare at få et nyt forsøg.",
     "regel": "809.01",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80901",
-    "verificeret": false
+    "verificeret": true
   }
 ]

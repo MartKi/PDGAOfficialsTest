@@ -10,10 +10,10 @@
       "Fra discens position til kurvens øverste kant"
     ],
     "korrekt": 0,
-    "forklaring": "Afstanden måles fra forkanten af liet til kurvens fod. Er der ti meter eller mindre, er kastet en putt, og de særlige regler for putteområdet gælder. Putteområdet er cirklen med ti meters radius ud fra kurvens fod.",
+    "forklaring": "Afstanden måles fra forkanten af liet til kurvens fod. Er der ti meter eller mindre, er kastet en putt, og så gælder kravet om at vise fuld balancekontrol bag markeren. Det er afstanden alene der afgør det, ikke hvilken disc du bruger.",
     "regel": "806.01",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80601",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "pc-02",
@@ -29,7 +29,7 @@
     "forklaring": "Efter en putt skal du vise fuld kontrol over balancen bag markeren, før du bevæger dig frem mod kurven. Gør du ikke det, er det en stanceovertrædelse, og den koster ét straffekast. Kastet tæller stadig med, så en falding putt der går i kurven, giver et kast plus en straf.",
     "regel": "806.01",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80601",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "pc-03",
@@ -45,7 +45,7 @@
     "forklaring": "Kravet om at vise fuld balance gælder kun inden for ti meter fra kurven. Uden for putteområdet må du gerne falde eller lande fremad, når blot stancen var lovlig i frigivelsesøjeblikket. Derfor er hopkast helt almindelige på lange approaches.",
     "regel": "806.01",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80601",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "pc-04",
@@ -61,7 +61,7 @@
     "forklaring": "Kravet om at vise balance gælder for alle putts inden for ti meter, uanset om de går i eller ej. Går du frem mod kurven uden først at have kontrol bag markeren, er det en stanceovertrædelse. Det koster ét straffekast.",
     "regel": "806.01",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80601",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "pc-05",
@@ -77,7 +77,7 @@
     "forklaring": "Du skal have balancen under kontrol bag markeren, før du går frem mod kurven. Der er ingen fast tid, gruppen vurderer om du havde kontrol. Bagefter må du gerne gå frem, det er rækkefølgen der er det vigtige.",
     "regel": "806.01",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80601",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "pc-06",
@@ -93,7 +93,7 @@
     "forklaring": "Det er præcis den rigtige rækkefølge, altså balance først og bevægelse bagefter. Der er ingen regel om at vente på de andre i gruppen, ud over den almindelige rækkefølge. Markeren samler du selv op, når du er færdig.",
     "regel": "806.01",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80601",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "pc-07",
@@ -109,7 +109,7 @@
     "forklaring": "En drop zone inden for ti meter fra kurven ligger i putteområdet, og reglerne gælder som ellers. Du skal altså vise fuld kontrol over balancen, før du går frem mod kurven. Tidsgrænsen fra en drop zone er tredive sekunder.",
     "regel": "806.01",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80601",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "pc-08",
@@ -125,7 +125,7 @@
     "forklaring": "Kravet om at vise balance gælder alle putts inden for ti meter, uanset hvor svært underlaget er. Er det umuligt at stå der, kan du bruge valgfri lempelse på spillelinjen, men den koster ét straffekast. Gruppen kan ikke give dispensation fra en regel.",
     "regel": "806.01",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80601",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "pc-09",
@@ -141,7 +141,7 @@
     "forklaring": "Enhver spiller i gruppen kan kalde overtrædelsen, men da den giver et straffekast, skal kaldet bekræftes af en anden spiller eller en official. Kan ingen bekræfte det, står kastet uden straf. Tilskuere kan ikke kalde regelovertrædelser.",
     "regel": "806.01",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80601",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "pc-10",
@@ -157,7 +157,7 @@
     "forklaring": "Om et kast er en putt, afhænger kun af afstanden, ikke af hvilken disc du bruger eller hvordan du kaster. Elleve meter er uden for putteområdet, så du må gerne falde fremad efter kastet. Det er forkanten af liet der måles fra.",
     "regel": "806.01",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80601",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "pc-11",
@@ -173,7 +173,7 @@
     "forklaring": "Reglen handler om rækkefølgen, altså at balancen skal vises, før du bevæger dig frem mod kurven. Når det er sket, må du gerne gå frem og rydde op. Om discen bliver hængende i kæderne, afgøres af reglen om at færdiggøre hullet.",
     "regel": "806.01",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80601",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "pc-12",
@@ -189,7 +189,7 @@
     "forklaring": "Den eneste lovlige af de fire er at vise balancen bag markeren, før man går frem. De tre andre bevæger sig frem mod kurven, før balancen er vist, og det er en stanceovertrædelse. Hver af dem koster ét straffekast.",
     "regel": "806.01",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80601",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "pc-13",
@@ -205,7 +205,7 @@
     "forklaring": "Hullet er først færdigt, når discen er kommet til hvile i kurven eller hænger fanget i kæderne under kædeophænget. En disc oven på kurven tæller ikke. Du spiller videre uden straf fra et lie under discen.",
     "regel": "807",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/807",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "pc-14",
@@ -221,7 +221,7 @@
     "forklaring": "Kravet er, at discen holdes af kurven eller af kæderne under kædeophænget. En disc der sidder over ophænget, er ikke i mål. Du markerer under discen og spiller videre uden straf.",
     "regel": "807",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/807",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "pc-15",
@@ -237,7 +237,7 @@
     "forklaring": "Discen skal komme til hvile i kurven eller i kæderne under ophænget. En disc der ryger igennem og lander på jorden, er ikke i mål. Du spiller videre fra discens position uden straf.",
     "regel": "807",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/807",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "pc-16",
@@ -253,7 +253,7 @@
     "forklaring": "Hullet er færdigt, når discen holdes af kurven, altså ligger i selve kurven. Det gør ingen forskel, om den ramte kæderne på vejen ind. Det samme gælder en disc der hænger fanget i kæderne under ophænget.",
     "regel": "807",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/807",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "pc-17",
@@ -269,7 +269,7 @@
     "forklaring": "En disc der hænger fanget i kæderne under kædeophænget, har færdiggjort hullet. Den behøver ikke falde ned i kurven bagefter. Falder den ud, efter at have ligget stille i kæderne, var hullet allerede færdigt.",
     "regel": "807",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/807",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "pc-18",
@@ -285,7 +285,7 @@
     "forklaring": "Hullet er færdigt i det øjeblik, hvor din disc er kommet til hvile i kurven. Bliver den slået ud bagefter, ændrer det ikke på scoren. Derfor er det god skik at hente sin disc ud, før de andre putter.",
     "regel": "807",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/807",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "pc-19",
@@ -301,7 +301,7 @@
     "forklaring": "Ved et objektmål skal discen ramme det markerede målfelt på objektet. Det er anslaget der tæller, ikke hvor discen ender bagefter. Rammer den ved siden af feltet, spiller du videre fra discens position.",
     "regel": "807",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/807",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "pc-20",
@@ -317,6 +317,6 @@
     "forklaring": "At ramme kurven er ikke nok, discen skal komme til hvile i kurven eller i kæderne under ophænget. En disc der rammer foden og triller væk, er stadig i spil. Du spiller videre derfra uden straf.",
     "regel": "807",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/807",
-    "verificeret": false
+    "verificeret": true
   }
 ]

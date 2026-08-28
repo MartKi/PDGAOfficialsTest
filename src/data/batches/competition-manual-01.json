@@ -2,18 +2,18 @@
   {
     "id": "cm-01",
     "kategori": "Competition Manual",
-    "spoergsmaal": "Du når frem til dit starthul efter at runden er gået i gang, men inden din gruppe har forladt teestedet. Hvad koster det typisk?",
+    "spoergsmaal": "Til et A-Tier med tee times skal du starte klokken 10.12, men du når først frem til starterteltet klokken 10.09. Hvad koster det?",
     "svar": [
-      "To straffekast",
-      "Ingenting, når du når teestedet inden gruppen går videre",
-      "Ét straffekast",
-      "Du er ude af turneringen"
+      "Ingenting, når du er der før din starttid",
+      "To straffekast lagt til dit starthul",
+      "Ét straffekast lagt til dit starthul",
+      "Du regnes som fraværende og får par plus fire"
     ],
-    "korrekt": 0,
-    "forklaring": "Competition Manual kræver, at du er tjekket ind og til stede ved starthullet i minutterne op til starten. Møder du for sent, koster det to straffekast. Straffen gælder, selv om du når at kaste ud sammen med gruppen.",
-    "regel": "Competition Manual",
-    "kilde": "https://www.pdga.com/rules/competition-manual-disc-golf-events",
-    "verificeret": false
+    "korrekt": 1,
+    "forklaring": "Ved staggered start med tee times skal du tjekke ind hos starteren senest fem minutter før din starttid og være til stede ved startområdet i de fem minutter. Gør du ikke det, lægges to straffekast til dit starthul. Kommer du først efter din starttid, regnes du i stedet som fraværende på hullet og får par plus fire.",
+    "regel": "Competition Manual 1.04",
+    "kilde": "https://www.pdga.com/rules/competition-manual/104",
+    "verificeret": true
   },
   {
     "id": "cm-02",
@@ -27,9 +27,9 @@
     ],
     "korrekt": 0,
     "forklaring": "Kommer du så sent, at gruppen allerede har spillet hullet, regnes du som fraværende på det hul. Scoren bliver par plus fire, og du kan først spille med fra det hul gruppen står på. Hullet spilles ikke om bagefter.",
-    "regel": "Competition Manual",
-    "kilde": "https://www.pdga.com/rules/competition-manual-disc-golf-events",
-    "verificeret": false
+    "regel": "Competition Manual 1.05",
+    "kilde": "https://www.pdga.com/rules/competition-manual/105",
+    "verificeret": true
   },
   {
     "id": "cm-03",
@@ -43,9 +43,9 @@
     ],
     "korrekt": 0,
     "forklaring": "Fra to minutters signalet og frem til starten må der ikke kastes. Ses et kast af to eller flere spillere eller af en official, giver det en advarsel. Kaster du igen i den periode, koster det ét straffekast.",
-    "regel": "Competition Manual",
-    "kilde": "https://www.pdga.com/rules/competition-manual-disc-golf-events",
-    "verificeret": false
+    "regel": "Competition Manual 1.05",
+    "kilde": "https://www.pdga.com/rules/competition-manual/105",
+    "verificeret": true
   },
   {
     "id": "cm-04",
@@ -59,9 +59,9 @@
     ],
     "korrekt": 0,
     "forklaring": "Når spillet officielt afbrydes, skal du stoppe med det samme. Er der bevis for at du kendte til afbrydelsen og alligevel spillede videre, koster det to straffekast. Reglen findes fordi afbrydelser oftest handler om sikkerhed.",
-    "regel": "Competition Manual",
-    "kilde": "https://www.pdga.com/rules/competition-manual-disc-golf-events",
-    "verificeret": false
+    "regel": "Competition Manual 1.07",
+    "kilde": "https://www.pdga.com/rules/competition-manual/107",
+    "verificeret": true
   },
   {
     "id": "cm-05",
@@ -75,9 +75,9 @@
     ],
     "korrekt": 0,
     "forklaring": "Det er turneringslederen der afbryder spillet, ikke den enkelte spiller. Stopper du før signalet, og kan det påvises, koster det to straffekast. Er du reelt i fare, skal du søge i sikkerhed og tage det op med turneringslederen bagefter.",
-    "regel": "Competition Manual",
-    "kilde": "https://www.pdga.com/rules/competition-manual-disc-golf-events",
-    "verificeret": false
+    "regel": "Competition Manual 1.07",
+    "kilde": "https://www.pdga.com/rules/competition-manual/107",
+    "verificeret": true
   },
   {
     "id": "cm-06",
@@ -90,10 +90,10 @@
       "Fortsætter til næste teested og venter der"
     ],
     "korrekt": 0,
-    "forklaring": "Spillet stoppes med det samme, og positionerne markeres, så runden kan tages op igen præcis hvor den slap. Hullet spilles ikke færdigt og ikke om. Følg turneringslederens anvisninger om, hvor I skal opholde jer imens.",
-    "regel": "Competition Manual",
-    "kilde": "https://www.pdga.com/rules/competition-manual-disc-golf-events",
-    "verificeret": false
+    "forklaring": "Spillet stoppes med det samme, og hver spillers lie markeres, hvor et naturligt objekt er nok til at vise stedet. Derefter søger I i sikkerhed og følger turneringslederens anvisninger. Der er mindst tredive minutters afbrydelse, og runden genoptages fra de markerede lies.",
+    "regel": "Competition Manual 1.07",
+    "kilde": "https://www.pdga.com/rules/competition-manual/107",
+    "verificeret": true
   },
   {
     "id": "cm-07",
@@ -107,9 +107,9 @@
     ],
     "korrekt": 1,
     "forklaring": "Du er ansvarlig for din caddies opførsel fra to minutters signalet og indtil dit scorekort er afleveret. Straf for caddiens adfærd rammer både caddien og dig. Derfor bør du briefe caddien om reglerne inden runden.",
-    "regel": "Competition Manual",
-    "kilde": "https://www.pdga.com/rules/competition-manual-disc-golf-events",
-    "verificeret": false
+    "regel": "Competition Manual 3.05",
+    "kilde": "https://www.pdga.com/rules/competition-manual/305",
+    "verificeret": true
   },
   {
     "id": "cm-08",
@@ -123,9 +123,9 @@
     ],
     "korrekt": 1,
     "forklaring": "Caddien skal holde passende afstand og må ikke forstyrre andres kast. Sker det alligevel, gælder straffen både caddien og den spiller caddien arbejder for. Det er spillerens ansvar at instruere sin caddie.",
-    "regel": "Competition Manual",
-    "kilde": "https://www.pdga.com/rules/competition-manual-disc-golf-events",
-    "verificeret": false
+    "regel": "Competition Manual 3.05",
+    "kilde": "https://www.pdga.com/rules/competition-manual/305",
+    "verificeret": true
   },
   {
     "id": "cm-09",
@@ -139,9 +139,9 @@
     ],
     "korrekt": 1,
     "forklaring": "Manualen stiller krav om en professionel standard for sportsånd, høflighed og hæderlighed under hele stævnet. Kravet gælder også når du udtaler dig til medier om stævnet. Brud kan koste alt fra en advarsel til diskvalifikation.",
-    "regel": "Competition Manual",
-    "kilde": "https://www.pdga.com/rules/competition-manual-disc-golf-events",
-    "verificeret": false
+    "regel": "Competition Manual 3.03",
+    "kilde": "https://www.pdga.com/rules/competition-manual/303",
+    "verificeret": true
   },
   {
     "id": "cm-10",
@@ -155,9 +155,9 @@
     ],
     "korrekt": 1,
     "forklaring": "Snyd hører til den gruppe af forhold, der fører til diskvalifikation med det samme. Det samme gælder fysiske overgreb og offentlig brug af ulovlige stoffer. De øvrige eksempler koster straffekast eller advarsler efter de almindelige regler.",
-    "regel": "Competition Manual",
-    "kilde": "https://www.pdga.com/rules/competition-manual-disc-golf-events",
-    "verificeret": false
+    "regel": "Competition Manual 3.03",
+    "kilde": "https://www.pdga.com/rules/competition-manual/303",
+    "verificeret": true
   },
   {
     "id": "cm-11",
@@ -171,9 +171,9 @@
     ],
     "korrekt": 1,
     "forklaring": "En turneringsadvarsel adskiller sig fra en almindelig advarsel ved at følge med gennem hele stævnet. Den bortfalder altså ikke mellem runderne, som en advarsel for eksempel for lang tid gør. Næste overtrædelse kan derfor føre direkte til diskvalifikation.",
-    "regel": "Competition Manual",
-    "kilde": "https://www.pdga.com/rules/competition-manual-disc-golf-events",
-    "verificeret": false
+    "regel": "Competition Manual 3.03",
+    "kilde": "https://www.pdga.com/rules/competition-manual/303",
+    "verificeret": true
   },
   {
     "id": "cm-12",
@@ -187,9 +187,9 @@
     ],
     "korrekt": 1,
     "forklaring": "Turneringslederen udpeger et sted, hvor papirkort skal afleveres efter runden. Fristen og stedet meldes ud, og det er spillerens ansvar at nå det. Bruges digital scoring, gælder de regler turneringslederen har meldt ud for indtastning.",
-    "regel": "Competition Manual",
-    "kilde": "https://www.pdga.com/rules/competition-manual-disc-golf-events",
-    "verificeret": false
+    "regel": "Competition Manual 1.05",
+    "kilde": "https://www.pdga.com/rules/competition-manual/105",
+    "verificeret": true
   },
   {
     "id": "cm-13",
@@ -202,10 +202,10 @@
       "Scoren kan ikke rettes efter indsendelse"
     ],
     "korrekt": 2,
-    "forklaring": "En indsendt score der er lavere end den faktiske, koster to straffekast, når den rettes. Det følger reglen om scoring i de officielle regler og gælder også digitale kort. Er scoren tastet for højt, står den som indsendt.",
-    "regel": "Competition Manual",
-    "kilde": "https://www.pdga.com/rules/competition-manual-disc-golf-events",
-    "verificeret": false
+    "forklaring": "En score på et afleveret kort der er forkert, mangelfuld eller mangler helt, koster to straffekast oven i den rigtige total. Det gælder uanset om der var tastet for lavt eller for højt. Er hele gruppen enige om fejlen, kan den rettes uden straf, så længe kortet ikke er afleveret.",
+    "regel": "808",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/808",
+    "verificeret": true
   },
   {
     "id": "cm-14",
@@ -218,10 +218,10 @@
       "Gruppen i fællesskab, uden personligt ansvar"
     ],
     "korrekt": 2,
-    "forklaring": "Du er selv ansvarlig for din score, også når en anden fører kortet. Derfor skal du følge med undervejs og tjekke kortet, inden det afleveres. Er du uenig med kortholderen, skal det afklares inden afleveringen.",
-    "regel": "Competition Manual",
-    "kilde": "https://www.pdga.com/rules/competition-manual-disc-golf-events",
-    "verificeret": false
+    "forklaring": "Du er selv ansvarlig for din score, og hver spiller i gruppen fører sit eget kort for hele gruppen. Derfor skal du følge med undervejs og tjekke kortet, inden det afleveres. Du straffes ikke, fordi en anden i gruppen afleverer sit kort forkert.",
+    "regel": "808",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/808",
+    "verificeret": true
   },
   {
     "id": "cm-15",
@@ -235,9 +235,9 @@
     ],
     "korrekt": 2,
     "forklaring": "Turneringslederen fastlægger banens opsætning til stævnet og melder den ud til spillerne før runden. Det gælder OB, hazards, drop zoner, mandoer og eventuelle midlertidige regler. Gruppen kan ikke ændre opsætningen undervejs.",
-    "regel": "Competition Manual",
-    "kilde": "https://www.pdga.com/rules/competition-manual-disc-golf-events",
-    "verificeret": false
+    "regel": "Competition Manual 5.03",
+    "kilde": "https://www.pdga.com/rules/competition-manual/503",
+    "verificeret": true
   },
   {
     "id": "cm-16",
@@ -251,9 +251,9 @@
     ],
     "korrekt": 2,
     "forklaring": "En officials afgørelse går forud for gruppens, men den kan ankes til turneringslederen. Turneringslederen har det sidste ord under stævnet. Sager om alvorlig adfærd kan derefter gå videre i PDGA's disciplinære system.",
-    "regel": "Competition Manual",
-    "kilde": "https://www.pdga.com/rules/competition-manual-disc-golf-events",
-    "verificeret": false
+    "regel": "Competition Manual 1.12",
+    "kilde": "https://www.pdga.com/rules/competition-manual/112",
+    "verificeret": true
   },
   {
     "id": "cm-17",
@@ -267,25 +267,25 @@
     ],
     "korrekt": 2,
     "forklaring": "Turneringslederen fastlægger grupper og startrækkefølge efter manualens rammer. Spillerne kan ikke bytte grupper på egen hånd. Har du en særlig grund til at ønske en ændring, skal den godkendes af turneringslederen.",
-    "regel": "Competition Manual",
-    "kilde": "https://www.pdga.com/rules/competition-manual-disc-golf-events",
-    "verificeret": false
+    "regel": "Competition Manual 1.06",
+    "kilde": "https://www.pdga.com/rules/competition-manual/106",
+    "verificeret": true
   },
   {
     "id": "cm-18",
     "kategori": "Competition Manual",
-    "spoergsmaal": "Hvordan afgøres det, hvad der sker ved pointlighed om en placering, der giver præmie?",
+    "spoergsmaal": "To spillere ender lige i point om førstepladsen i din division, og to andre ender lige om fjerdepladsen. Hvad sker der?",
     "svar": [
-      "Den højest ratede spiller vinder placeringen",
-      "Der deles altid, og præmierne lægges sammen",
-      "Der spilles altid sudden death om alle placeringer",
-      "Efter det turneringslederen har meldt ud før stævnet"
+      "Begge lighedssituationer afgøres ved omspil",
+      "Førstepladsen afgøres ved omspil, fjerdepladsen noteres som delt",
+      "Begge noteres som delte, og præmierne lægges sammen og deles",
+      "Turneringslederen vælger frit, hvordan de brydes"
     ],
-    "korrekt": 3,
-    "forklaring": "Hvordan lighed brydes, skal være meldt ud før stævnet, og det er turneringslederen der fastlægger det inden for manualens rammer. Nogle steder spilles der omspil om førstepladsen, mens andre placeringer deles. Derfor er det værd at læse spillerinformationen inden runden.",
-    "regel": "Competition Manual",
-    "kilde": "https://www.pdga.com/rules/competition-manual-disc-golf-events",
-    "verificeret": false
+    "korrekt": 1,
+    "forklaring": "Lighed om førstepladsen skal brydes ved omspil, enten sudden death eller aggregat, og må aldrig afgøres på hot round eller indbyrdes score. Lighed om alle andre placeringer noteres officielt som delt, og præmiepengene for de berørte placeringer lægges sammen og deles ligeligt. Reglen gælder også, når feltet skæres ned.",
+    "regel": "Competition Manual 1.09",
+    "kilde": "https://www.pdga.com/rules/competition-manual/109",
+    "verificeret": true
   },
   {
     "id": "cm-19",
@@ -298,10 +298,10 @@
       "At den er meldt ud på forhånd"
     ],
     "korrekt": 3,
-    "forklaring": "En beskæring af feltet skal være meldt ud på forhånd, så spillerne kender vilkårene inden de tilmelder sig og spiller. Turneringslederen kan ikke indføre den midt i stævnet uden varsel. Detaljerne fastlægges inden for manualens rammer.",
-    "regel": "Competition Manual",
-    "kilde": "https://www.pdga.com/rules/competition-manual-disc-golf-events",
-    "verificeret": false
+    "forklaring": "En beskæring af feltet kræver, at grænsen, enten som procent eller som antal pladser, er meldt ud inden tilmeldingen åbner. Turneringslederen kan altså ikke indføre den undervejs. Lighed omkring grænsen brydes efter reglerne om lighed, medmindre andet er meldt ud på forhånd.",
+    "regel": "Competition Manual 1.08",
+    "kilde": "https://www.pdga.com/rules/competition-manual/108",
+    "verificeret": true
   },
   {
     "id": "cm-20",
@@ -314,10 +314,10 @@
       "De frister og vilkår for tilbagetrækning der gælder for stævnet"
     ],
     "korrekt": 3,
-    "forklaring": "Tilbagebetaling følger de frister og vilkår, der gælder for stævnet efter manualen. Melder du fra tidligt, får du typisk mere tilbage end hvis du melder fra kort før start. Kontakt turneringslederen så tidligt som muligt.",
-    "regel": "Competition Manual",
-    "kilde": "https://www.pdga.com/rules/competition-manual-disc-golf-events",
-    "verificeret": false
+    "forklaring": "Tilbagebetalingen følger manualens frister, og du skal melde afbud direkte til turneringslederen. Melder du fra senest tredive dage før stævnet, får du hele indskuddet tilbage minus et mindre gebyr. Tættere på afhænger det af, om din plads bliver fyldt af en fra ventelisten, og inden for otteogfyrre timer er der som udgangspunkt ingen refusion.",
+    "regel": "Competition Manual 1.03",
+    "kilde": "https://www.pdga.com/rules/competition-manual/103",
+    "verificeret": true
   },
   {
     "id": "cm-21",
@@ -330,10 +330,10 @@
       "Når den er meldt ud til spillerne før runden"
     ],
     "korrekt": 3,
-    "forklaring": "Midlertidige regler og særlige forhold på banen skal meldes ud til spillerne, før runden går i gang. Ellers kan spillerne ikke forventes at kende dem. Turneringslederen kan ikke indføre nye vilkår midt i en runde uden at melde det ud.",
-    "regel": "Competition Manual",
-    "kilde": "https://www.pdga.com/rules/competition-manual-disc-golf-events",
-    "verificeret": false
+    "forklaring": "Stævnet skal give hver spiller et regelark med de særlige baneregler, så banen kan spilles rigtigt, og en turneringsleder der lægger banereglerne ind i det digitale scorekort, har opfyldt kravet. Særlige regler skal altså være meldt ud, før runden går i gang. Ikke-standardregler kræver desuden dispensation fra PDGA.",
+    "regel": "Competition Manual 5.03",
+    "kilde": "https://www.pdga.com/rules/competition-manual/503",
+    "verificeret": true
   },
   {
     "id": "cm-22",
@@ -349,6 +349,6 @@
     "forklaring": "De officielle regler dækker selve spillet, altså kast, lies, straffekast og afgørelser på banen. Competition Manual dækker afviklingen af stævnet, blandt andet tilmelding, start, afbrydelser, adfærd, scorekort og præmier. Begge dele gælder ved sanktionerede stævner.",
     "regel": "Competition Manual",
     "kilde": "https://www.pdga.com/rules/competition-manual-disc-golf-events",
-    "verificeret": false
+    "verificeret": true
   }
 ]

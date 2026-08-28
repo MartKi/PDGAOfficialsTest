@@ -22,7 +22,7 @@ for sti in sorted(glob.glob("src/data/batches/*.json")):
         if len(set(p["svar"])) != 4: fejl.append(f"{hvor}: to ens svarmuligheder")
         if not isinstance(p["korrekt"], int) or not 0 <= p["korrekt"] <= 3:
             fejl.append(f"{hvor}: korrekt uden for 0 til 3")
-        if p["verificeret"] is not False: fejl.append(f"{hvor}: verificeret skal være false her")
+        if not isinstance(p["verificeret"], bool): fejl.append(f"{hvor}: verificeret skal være true eller false")
         if not re.fullmatch(r"\d{3}(\.\d{2})?|Competition Manual( \d+\.\d+)?", p["regel"]):
             fejl.append(f"{hvor}: regelnummer har mærkelig form: {p['regel']}")
         if p["regel"][0].isdigit():

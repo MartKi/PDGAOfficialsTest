@@ -13,7 +13,7 @@
     "forklaring": "At tale eller larme mens en anden kaster, er en høflighedsovertrædelse. Den første overtrædelse af en høflighedsregel i runden koster en advarsel. Hver følgende overtrædelse af en høflighedsregel i samme runde koster ét straffekast.",
     "regel": "812",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/812",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "et-02",
@@ -29,7 +29,7 @@
     "forklaring": "Advarslen gælder høflighedsreglerne som helhed, ikke den enkelte type overtrædelse. Er der allerede givet en advarsel i runden, koster hver følgende høflighedsovertrædelse ét straffekast. Det gælder uanset om den forstyrrede spiller ramte eller ej.",
     "regel": "812",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/812",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "et-03",
@@ -45,7 +45,7 @@
     "forklaring": "Du må ikke kaste, når kastet kan ramme eller skade nogen. Det gælder både medspillere, tilskuere og folk der tilfældigt går forbi. Første gang koster det en advarsel, derefter ét straffekast, og du kan blive diskvalificeret ved gentagelser.",
     "regel": "812",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/812",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "et-04",
@@ -61,7 +61,7 @@
     "forklaring": "Råb er netop undtaget, når de advarer nogen der er i fare for at blive ramt af en disc. Det er den ene situation, hvor det høje råb er det rigtige at gøre. Råber du derimod af frustration over dit eget kast, er det en høflighedsovertrædelse.",
     "regel": "812",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/812",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "et-05",
@@ -77,7 +77,7 @@
     "forklaring": "At bevæge sig frem forbi den spiller der er længst fra kurven, er en høflighedsovertrædelse. Det gør både spillet usikkert og forstyrrer den der skal kaste. Første gang giver en advarsel, derefter koster det ét straffekast pr. gang.",
     "regel": "812",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/812",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "et-06",
@@ -93,7 +93,7 @@
     "forklaring": "En høflighedsovertrædelse kan kaldes eller bekræftes af enhver berørt spiller eller af en official. Det kræver ikke en afstemning i gruppen. Gentagne høflighedsovertrædelser kan føre til diskvalifikation ved turneringslederen.",
     "regel": "812",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/812",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "et-07",
@@ -109,7 +109,7 @@
     "forklaring": "At bande, sparke eller kaste med udstyr er i sig selv en høflighedsovertrædelse. Der skal ikke være en forstyrret spiller, for at det tæller. Første gang koster en advarsel, derefter ét straffekast pr. gang.",
     "regel": "812",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/812",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "et-08",
@@ -125,7 +125,7 @@
     "forklaring": "Alle i gruppen skal hjælpe med at lede efter en disc, og lader man være, er det en høflighedsovertrædelse. Det hænger sammen med at søgetiden kun er tre minutter. Første gang giver en advarsel, derefter ét straffekast.",
     "regel": "812",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/812",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "et-09",
@@ -141,7 +141,7 @@
     "forklaring": "Du kan kræve, at andre spillere flytter sig eller flytter deres udstyr, hvis de kan komme til at påvirke dit kast. Nægter en spiller det, er afslaget en høflighedsovertrædelse. Tiden løber i øvrigt ikke, mens du venter på at der bliver ryddet.",
     "regel": "812",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/812",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "et-10",
@@ -157,23 +157,23 @@
     "forklaring": "Efter den første advarsel koster hver høflighedsovertrædelse ét straffekast, og satsen stiger ikke. Gentagne overtrædelser kan derimod føre til diskvalifikation ved turneringslederen. Advarslen nulstilles ikke undervejs i runden.",
     "regel": "812",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/812",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "et-11",
     "kategori": "etikette 810",
     "spoergsmaal": "Du kaster ud af tur, uden at spørge, mens en medspiller er ved at stille sig op. Hvad gælder?",
     "svar": [
-      "Kastet annulleres, og du kaster om i rigtig rækkefølge",
+      "Kastet annulleres og skal kastes om",
+      "Kastet tæller, og det er en høflighedsovertrædelse",
       "Ét straffekast for at spille uden for tur",
-      "Kastet tæller, og det kan kaldes som en høflighedsovertrædelse",
       "Ingenting, rækkefølgen er kun en anbefaling"
     ],
-    "korrekt": 2,
-    "forklaring": "Selve rækkefølgen udløser ikke straf, og kastet tæller. Men at kaste uden samtykke, når det påvirker en anden spiller, er en høflighedsovertrædelse. Er alle enige, og påvirkes ingen, er det derimod helt i orden at kaste når man er klar.",
+    "korrekt": 1,
+    "forklaring": "Selve rækkefølgen udløser ikke et straffekast, og kastet tæller. Men at kaste uden for tur uden samtykke, eller når det påvirker en anden spiller, er en høflighedsovertrædelse. Er alle enige, og påvirkes ingen, er det derimod helt i orden at kaste når man er klar.",
     "regel": "812",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/812",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "et-12",
@@ -189,7 +189,7 @@
     "forklaring": "Advarselsråb til nogen der kan blive ramt, er udtrykkeligt undtaget, fordi sikkerheden kommer først. De tre andre er alle høflighedsovertrædelser. Første gang koster en advarsel, derefter ét straffekast pr. gang.",
     "regel": "812",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/812",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "et-13",
@@ -205,7 +205,7 @@
     "forklaring": "Hverken spillere eller udstyr må stå, hvor de kan komme til at påvirke en disc i spil. En medspiller kan bede dig flytte tasken, og siger du nej, er det en høflighedsovertrædelse. Reglen gælder alt udstyr, også tasker og stole.",
     "regel": "810",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/810",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "et-14",
@@ -221,7 +221,7 @@
     "forklaring": "Discen spilles derfra hvor den kommer til hvile efter sammenstødet. Der er ingen omkastning, og gruppen gætter ikke på hvor discen ellers ville være endt. Selve det at lade tasken stå i vejen kan derimod kaldes som en høflighedsovertrædelse.",
     "regel": "810",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/810",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "et-15",
@@ -237,7 +237,7 @@
     "forklaring": "En kastet disc der har ligget stille in bounds og bagefter er blevet flyttet, lægges tilbage til det sted hvor den først kom til hvile. Det gælder uanset om det er et dyr, en tilskuer eller vinden der flyttede den. Det koster ingen straf.",
     "regel": "810",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/810",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "et-16",
@@ -253,7 +253,7 @@
     "forklaring": "Kravet om at lægge en disc tilbage gælder discs, der er kommet til hvile in bounds på spillefladen. En disc der ligger OB, behøver ikke lægges tilbage, for lien findes alligevel ud fra hvor discen sidst var in bounds. Straffen for OB gælder som normalt.",
     "regel": "810",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/810",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "et-17",
@@ -269,23 +269,23 @@
     "forklaring": "Du kan kræve, at både personer og deres udstyr flytter sig, hvis de kan komme til at påvirke dit kast. Der skal ikke stemmes om det. Nægter spilleren, er afslaget en høflighedsovertrædelse.",
     "regel": "810",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/810",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "et-18",
     "kategori": "etikette 810",
-    "spoergsmaal": "En tilskuer standser bevidst din disc i luften, så den falder kort. Hvad er den rigtige fremgangsmåde?",
+    "spoergsmaal": "En tilskuer standser bevidst din disc i luften, så den falder kort. Hvad gælder?",
     "svar": [
-      "Kastet tæller som det er, og du spiller derfra uden videre",
-      "Kastet annulleres altid, og du kaster om",
-      "Du får ét straffekast for tilskuerens handling",
-      "Gruppen tager stilling til situationen, og en official kan tilkaldes"
+      "Discen får sin position der hvor den blev ramt, og du kan i stedet opgive kastet uden straf",
+      "Kastet annulleres altid, og du kaster om fra samme lie",
+      "Discen spilles der hvor den lander, og der er ingen anden mulighed",
+      "Du får ét straffekast, og gruppen finder et rimeligt lie"
     ],
-    "korrekt": 3,
-    "forklaring": "Det er ikke en situation reglerne dækker med et enkelt svar, og derfor er det gruppen der tager stilling, med mulighed for at tilkalde en official. Udgangspunktet er, at afgørelsen skal være så fair som mulig og så tæt på de nærmeste regler som muligt. Du får under ingen omstændigheder straf for en tilskuers handling.",
+    "korrekt": 0,
+    "forklaring": "En disc hvis bane bevidst bliver ændret af en anden end kasteren, får sin position der hvor den blev berørt, som gruppen bliver enige om. Du kan vælge at spille videre fra det lie. Alternativt kan du opgive kastet uden straf, og så tæller det oprindelige kast slet ikke med.",
     "regel": "810",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/810",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "et-19",
@@ -301,7 +301,7 @@
     "forklaring": "Spillerne i gruppen håndhæver selv reglerne, og det er en del af ansvaret ved at spille turnering. Kan gruppen ikke blive enige, kan en official tilkaldes. Kortholderen har ikke en særlig rolle i regelspørgsmål.",
     "regel": "801.02",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80102",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "et-20",
@@ -317,6 +317,6 @@
     "forklaring": "Reglerne kan ikke dække alt, og derfor er princippet om fairness skrevet ind. Gruppen finder den løsning, der er mest fair og ligger tættest på de regler, der minder mest om situationen. Er I i tvivl bagefter, kan afgørelsen tages op med turneringslederen.",
     "regel": "801.01",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80101",
-    "verificeret": false
+    "verificeret": true
   }
 ]

@@ -121,7 +121,12 @@ start. Skemaet valideres ved hver indlæsning, og ugyldige poster afvises:
 `korrekt` er indekset 0 til 3 i `svar`.
 
 Spørgsmål med `"verificeret": false` får en gul markering i appen. Markeringen
-betyder at regelnummeret endnu ikke er slået efter på pdga.com.
+betyder at regelnummeret endnu ikke er slået efter i regelteksten.
+
+Hele banken er gennemgået mod PDGA Official Rules of Disc Golf og Competition
+Manual, udgaven fra 1. januar 2026, så alle 200 spørgsmål, alle 15
+banesituationer og alle 55 regelafsnit står som verificerede. De fejl der blev
+fundet undervejs, er listet i `src/data/GENERERING.md`.
 
 Banesituationerne ligger i `src/data/banesituationer.json` og regelopslaget i
 `src/data/regler.json`.

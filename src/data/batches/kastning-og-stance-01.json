@@ -13,7 +13,7 @@
     "forklaring": "Ved frigivelsen må intet støttepunkt være tættere på kurven end markerens bagkant. Bryder du det, er det en stanceovertrædelse, og kastet tæller stadig med. Overtrædelsen koster ét straffekast oven i kastet.",
     "regel": "802.07",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80207",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "ks-02",
@@ -29,7 +29,7 @@
     "forklaring": "Når liet er markeret, skal alle dine støttepunkter være in bounds i det øjeblik discen slippes. Et støttepunkt på et OB-område er derfor en stanceovertrædelse. Det koster ét straffekast, og kastet tæller med.",
     "regel": "802.07",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80207",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "ks-03",
@@ -45,7 +45,7 @@
     "forklaring": "Kravet er, at mindst ét støttepunkt rører liet i selve frigivelsesøjeblikket. Er begge fødder i luften når discen slippes, er stancen ulovlig, uanset hvor langt du er fra kurven. Et hopkast er kun lovligt, hvis foden stadig er på liet når discen forlader hånden.",
     "regel": "802.07",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80207",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "ks-04",
@@ -61,7 +61,7 @@
     "forklaring": "Den kastede disc kan selv markere liet, og så gælder reglerne i forhold til dens bagkant. Et støttepunkt ude til siden er lovligt, så længe det ikke er tættere på kurven end bagkanten. Kun ét støttepunkt skal røre selve liet.",
     "regel": "802.07",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80207",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "ks-05",
@@ -77,7 +77,7 @@
     "forklaring": "Et støttepunkt er enhver del af kroppen, der ved frigivelsen har kontakt med underlaget eller med noget andet, der giver støtte. Hånden på stammen tæller derfor med, og den er tættere på kurven end markeren. Det er en stanceovertrædelse til ét straffekast.",
     "regel": "802.07",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80207",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "ks-06",
@@ -93,7 +93,7 @@
     "forklaring": "Liet er det rektangel du skal have mindst ét støttepunkt i, ikke et felt alle dine fødder skal være i. Så længe det andet ben ikke er tættere på kurven end markerens bagkant, er stancen lovlig. En straddle-stance er en helt almindelig måde at komme uden om en forhindring på.",
     "regel": "802.07",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80207",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "ks-07",
@@ -106,10 +106,10 @@
       "Kastet skal gentages, indtil gruppen er enige"
     ],
     "korrekt": 0,
-    "forklaring": "Et kald der fører til straffekast, skal bekræftes af en anden spiller i gruppen eller af en official. Kan ingen bekræfte det, står dit kast uden straf. Der stemmes ikke om regelafgørelser, og et kast kastes ikke om, fordi gruppen er uenig.",
+    "forklaring": "Et kald der fører til straffekast, skal bekræftes af en anden spiller i gruppen eller af en official. Kan ingen bekræfte det, står dit kast uden straf. Gruppen stemmer kun om en discs flugt, position eller status, ikke om hvorvidt en regel er overtrådt.",
     "regel": "802.07",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80207",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "ks-08",
@@ -125,7 +125,7 @@
     "forklaring": "At knæle er lovligt, for knæet er et støttepunkt i kontakt med liet, og der er ikke noget støttepunkt tættere på kurven. De tre andre bryder enten kravet om kontakt med liet eller kravet om intet støttepunkt foran markeren. Alle tre koster ét straffekast.",
     "regel": "802.07",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80207",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "ks-09",
@@ -141,7 +141,7 @@
     "forklaring": "På teestedet skal mindst ét støttepunkt være inde i teestedet, og alle støttepunkter skal være inden for det ved frigivelsen. En fod på græsset bag betonen er derfor en overtrædelse. Kastet tæller, og der lægges ét straffekast til.",
     "regel": "802.04",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80204",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "ks-10",
@@ -157,7 +157,7 @@
     "forklaring": "Stancen bedømmes udelukkende i det øjeblik discen frigives. Hvor du kommer fra før kastet, betyder ingenting, så et langt tilløb udefra er lovligt. Det samme gælder efter kastet, hvor du gerne må træde frem ud af teestedet.",
     "regel": "802.04",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80204",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "ks-11",
@@ -173,7 +173,7 @@
     "forklaring": "Kravene til stancen gælder kun i frigivelsesøjeblikket. Var discen sluppet, før foden ramte jorden uden for teestedet, er kastet lovligt. Reglen om at vise fuld balancekontrol gælder kun inden for ti meter fra kurven, ikke på teestedet.",
     "regel": "802.04",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80204",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "ks-12",
@@ -189,7 +189,7 @@
     "forklaring": "En stanceovertrædelse annullerer aldrig kastet. Discen ligger hvor den ligger, og du spiller videre derfra med ét straffekast lagt til. Der findes ikke en omkastning som straf i reglerne.",
     "regel": "802.04",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80204",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "ks-13",
@@ -202,10 +202,10 @@
       "Du beder gruppen stemme om det skal koste straf"
     ],
     "korrekt": 1,
-    "forklaring": "Du er selv med til at håndhæve reglerne i din gruppe, og det gælder også dine egne overtrædelser. Du fortæller gruppen om det og noterer ét straffekast. Der kastes ikke om, og der stemmes ikke om afgørelsen.",
+    "forklaring": "Du er selv med til at håndhæve reglerne i din gruppe, og det gælder også dine egne overtrædelser. Et kald du laver på dig selv, skal ikke bekræftes af andre for at gælde. Du fortæller gruppen om det og noterer ét straffekast, og der kastes ikke om.",
     "regel": "802.04",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80204",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "ks-14",
@@ -221,7 +221,7 @@
     "forklaring": "Så længe alle støttepunkter er inde i teestedet i frigivelsesøjeblikket, må du gerne lande uden for bagefter. De tre andre har enten et støttepunkt uden for teestedet eller slet ingen kontakt med det, da discen slippes.",
     "regel": "802.04",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80204",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "ks-15",
@@ -237,7 +237,7 @@
     "forklaring": "Fra et lie der ikke er teested eller drop zone, og som ligger uden for tyve meter fra kurven, har du 45 sekunder. Tættere på kurven, fra teestedet og fra en drop zone er grænsen 30 sekunder. Tiden løber først, når det er din tur, og du har haft rimelig tid til at komme frem til liet.",
     "regel": "802.03",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80203",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "ks-16",
@@ -253,7 +253,7 @@
     "forklaring": "En drop zone tæller på linje med teestedet og med lies inden for tyve meter fra kurven, og der er grænsen 30 sekunder. De 45 sekunder gælder kun de øvrige lies længere ude på hullet. Tvivl om discvalg forlænger ikke tiden.",
     "regel": "802.03",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80203",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "ks-17",
@@ -269,7 +269,7 @@
     "forklaring": "Første gang du bruger for lang tid i en runde, giver det en advarsel. Hver gang derefter i samme runde koster ét straffekast. Advarsler følger ikke med over i næste runde eller i et omspil.",
     "regel": "802.03",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80203",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "ks-18",
@@ -285,7 +285,7 @@
     "forklaring": "Tiden begynder at løbe, når det er din tur, du er nået frem til liet og har haft rimelig tid til at gøre klar. Skal I vente af sikkerhedsmæssige grunde, tæller ventetiden ikke med. Reglen rammer den der spilder tiden, ikke den der venter på at det er sikkert at kaste.",
     "regel": "802.03",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80203",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "ks-19",
@@ -301,7 +301,7 @@
     "forklaring": "Enhver spiller i gruppen kan tage tid og kalde for lang tid, og spilleren skal have besked. Første gang er en advarsel, derefter koster det ét straffekast pr. gang. Du skriver aldrig straf på en andens kort uden at sige det til spilleren.",
     "regel": "802.03",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80203",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "ks-20",
@@ -317,7 +317,7 @@
     "forklaring": "Når alle har et lie uden for teestedet, kaster den der ligger længst fra kurven. Rækkefølgen efter score gælder kun på teestedet. Afstanden måles til kurven, ikke til hvor gruppen står.",
     "regel": "802.02",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80202",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "ks-21",
@@ -333,7 +333,7 @@
     "forklaring": "På teestedet bestemmes rækkefølgen af scoren på det forrige hul, og den bedste score kaster først. Ved samme score beholdes den indbyrdes rækkefølge fra det forrige teested. På første hul følges rækkefølgen på scorekortet.",
     "regel": "802.02",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80202",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "ks-22",
@@ -342,14 +342,14 @@
     "svar": [
       "Kastet annulleres og skal kastes om i rigtig rækkefølge",
       "Ét straffekast for at spille uden for tur",
-      "Kastet tæller, og det kan være en høflighedsovertrædelse",
+      "Kastet tæller, og det er en høflighedsovertrædelse",
       "Kastet tæller kun, hvis medspilleren accepterer det"
     ],
     "korrekt": 2,
-    "forklaring": "Der findes ingen straf for at spille uden for tur i sig selv, og kastet tæller. Men at kaste når det påvirker en anden spiller, kan kaldes som en høflighedsovertrædelse. Første gang giver det en advarsel, derefter ét straffekast pr. gang.",
+    "forklaring": "Kastet tæller, for der findes ingen omkastning som straf. At kaste uden for tur uden samtykke, eller når det påvirker en anden spiller, er en høflighedsovertrædelse. Første gang giver en advarsel, derefter koster hver høflighedsovertrædelse ét straffekast.",
     "regel": "802.02",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80202",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "ks-23",
@@ -365,23 +365,23 @@
     "forklaring": "Rækkefølgen kan fraviges, når gruppen er enige om det, og ingen bliver påvirket af det. Er bare én uenig, gælder den almindelige rækkefølge igen. Kaster du uden for tur uden accept, kan det kaldes som en høflighedsovertrædelse.",
     "regel": "802.02",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80202",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "ks-24",
     "kategori": "kastning og stance",
-    "spoergsmaal": "To spillere har lies der ser lige lange ud, og I kan ikke blive enige om hvem der er længst fra kurven. Hvad er den rigtige fremgangsmåde?",
+    "spoergsmaal": "To spillere har lies der er lige langt fra kurven. Hvem kaster først?",
     "svar": [
-      "Turneringslederen skal tilkaldes til hvert tvivlstilfælde",
-      "Den med den bedste score på forrige hul kaster først",
-      "I måler op med et målebånd, ellers tæller kastene ikke",
-      "Gruppen afgør det på stedet, og er I fortsat i tvivl, kaster den der er klar først"
+      "Den hvis lie blev etableret først",
+      "Den med den bedste score på det forrige hul",
+      "Den der er klar først",
+      "Den med det laveste PDGA-nummer"
     ],
-    "korrekt": 3,
-    "forklaring": "Rækkefølgen er ikke noget der udløser straf, så gruppen kan afgøre det på stedet uden opmåling. Kan I ikke blive enige, kaster den der er klar, og spillet går videre. En official tilkaldes kun, hvis en afgørelse har betydning for scoren.",
+    "korrekt": 0,
+    "forklaring": "Er to lies lige langt fra kurven, kaster den først, hvis lie blev etableret først, altså den der landede først. Scoren på det forrige hul bestemmer kun rækkefølgen på teestedet. Rækkefølgen kan fraviges, hvis alle er enige, og ingen påvirkes.",
     "regel": "802.02",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80202",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "ks-25",
@@ -397,7 +397,7 @@
     "forklaring": "Et kast er en fremdrift og frigivelse af discen med det formål at ændre dens position. Slipper discen under selve kastebevægelsen, er den kastet, uanset hvor kort den flyver. Du spiller videre fra det nye lie uden ekstra straf.",
     "regel": "802.01",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80201",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "ks-26",
@@ -413,7 +413,7 @@
     "forklaring": "Et kast kræver at discen sættes i bevægelse og slippes for at ændre dens position i spillet. En disc der falder ud af tasken, er ikke kastet, og den er heller ikke et forsøg på at øve. Du samler den op og spiller videre som om intet var hændt.",
     "regel": "802.01",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80201",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "ks-27",
@@ -429,7 +429,7 @@
     "forklaring": "Definitionen handler kun om selve handlingen, altså at discen får fart og slippes for at ændre dens position. Afstand, stance og rækkefølge har intet med definitionen at gøre. De ting kan udløse straf hver for sig, men kastet er stadig et kast.",
     "regel": "802.01",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80201",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "ks-28",
@@ -445,7 +445,7 @@
     "forklaring": "Advarsler gælder kun inden for den runde de gives i. De følger ikke med til næste runde og heller ikke til et omspil. Du får derfor en ny advarsel, og først den næste gang i den runde koster ét straffekast.",
     "regel": "801.02",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80102",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "ks-29",
@@ -458,10 +458,10 @@
       "Advarslen står, et kald der kun giver advarsel behøver ikke bekræftes"
     ],
     "korrekt": 3,
-    "forklaring": "Et kald der ender i en advarsel, kræver ikke bekræftelse fra andre for at gælde. Det er kun kald der giver straffekast, der skal bekræftes af en anden spiller eller en official. Der stemmes aldrig om regelafgørelser.",
+    "forklaring": "Et kald der ender i en advarsel, kræver ikke bekræftelse fra andre for at gælde. Det er kun kald der giver straffekast, der skal bekræftes af en anden spiller eller en official. Gruppen stemmer derimod om en discs flugt, position eller status.",
     "regel": "801.02",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80102",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "ks-30",
@@ -477,6 +477,6 @@
     "forklaring": "Er du uenig i gruppens afgørelse, kan du anke den til en official. Officialens afgørelse gælder frem for gruppens, og den kan i sidste ende ankes til turneringslederen. At spille videre under protest uden at få en official ind løser ikke noget.",
     "regel": "801.03",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80103",
-    "verificeret": false
+    "verificeret": true
   }
 ]

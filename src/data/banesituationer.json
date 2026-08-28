@@ -5,7 +5,7 @@
     "afgoerelse": "Ét straffekast. Nyt lie op til én meter ind på banen fra det sted, hvor discen sidst var in bounds.",
     "straffekast": "1",
     "regel": "806.02",
-    "uddybning": "Discen er kun OB, hvis den er kommet til hvile helt og tydeligt uden for banen. Er gruppen i tvivl, regnes den for in bounds. Meteren måles vinkelret ind fra linjen og må aldrig bringe dig tættere på kurven. Bagefter må du rykke lien længere tilbage på spillelinjen uden ekstra straf. Du kan i stedet vælge dit forrige lie, eller en drop zone hvis turneringslederen har sat en.",
+    "uddybning": "Discen er kun OB, hvis den er kommet til hvile helt og tydeligt omgivet af OB-området, og linjen tæller selv som OB. Er gruppen uenig om status, afgøres det ved afstemning, hvor alle undtagen kasteren stemmer først. Meteren måles fra det punkt hvor discen sidst var in bounds, og markeringen skal ligge in bounds. Bagefter må du frit rykke lien længere tilbage på spillelinjen uden ekstra straf, og du kan i stedet vælge det forrige lie eller en drop zone.",
     "soegeord": [
       "OB",
       "out of bounds",
@@ -21,7 +21,7 @@
       "en meter"
     ],
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80602",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "b-02",
@@ -42,7 +42,7 @@
       "ikke fundet"
     ],
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80503",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "b-03",
@@ -50,7 +50,7 @@
     "afgoerelse": "Markér lige under discen og spil videre. Straf kun hvis to meter reglen er slået til.",
     "straffekast": "afhænger",
     "regel": "805.02",
-    "uddybning": "To meter reglen gælder ikke automatisk. Turneringslederen kan slå den til for hele banen, for enkelte huller eller for bestemte objekter, og det skal meldes ud før runden. Er den slået til, koster det ét straffekast, når discens laveste punkt er mindst to meter over spillefladen under den. Uden reglen koster højden ingenting. Kan discen slet ikke hentes ned, behandles den efter reglen om tabt disc.",
+    "uddybning": "To meter reglen gælder ikke automatisk. Turneringslederen kan slå den til for hele banen, for enkelte huller eller for bestemte objekter, og så koster det ét straffekast, når discens laveste punkt er mindst to meter over spillefladen. En disc der holdes af selve kurven, er aldrig omfattet. Kan du ikke hente discen ned, markerer du stadig lige under den og spiller videre med en anden disc.",
     "soegeord": [
       "træ",
       "tree",
@@ -63,7 +63,7 @@
       "højt"
     ],
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80502",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "b-04",
@@ -71,7 +71,7 @@
     "afgoerelse": "Ét straffekast. Spil fra drop zonen, og er der ingen, fra det lie du kastede fra.",
     "straffekast": "1",
     "regel": "804.01",
-    "uddybning": "Mandoen er misset i det øjeblik, en del af discen kommer ind i det forbudte rum under flugten. Hvor discen ender, betyder ingenting. Passerer den korrekt og triller bagefter om på den forkerte side, er mandoen klaret, og du spiller videre uden straf. Er der tvivl om flugten, kan du kaste et provisorisk kast og få det afklaret, når I kommer frem.",
+    "uddybning": "Mandoen er misset i det øjeblik, en del af discen kommer ind i det forbudte rum, og det er flugten der tæller, ikke hvor discen ender. Passerer den korrekt og triller bagefter om bag mandoen, er den klaret. Er gruppen uenig, afgøres det ved afstemning, og du kan ikke bruge et provisorisk kast til at afklare selve tvivlen. Vil du anke afgørelsen, må du derimod gerne spille en provisorisk række.",
     "soegeord": [
       "mando",
       "mandatory",
@@ -82,7 +82,7 @@
       "pil"
     ],
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80401",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "b-05",
@@ -103,7 +103,7 @@
       "putting area"
     ],
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80601",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "b-06",
@@ -124,7 +124,7 @@
       "hop"
     ],
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80207",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "b-07",
@@ -144,7 +144,7 @@
       "flytte marker"
     ],
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80206",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "b-08",
@@ -165,7 +165,7 @@
       "fast"
     ],
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80303",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "b-09",
@@ -189,7 +189,7 @@
       "803.02"
     ],
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80603",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "b-10",
@@ -197,7 +197,7 @@
     "afgoerelse": "Ingen straf i sig selv. Meld det til gruppen først, og kun den ene kastrække tæller til sidst.",
     "straffekast": "0",
     "regel": "809.02",
-    "uddybning": "Det provisoriske kast bruges, når der er reel tvivl om OB, en tabt disc eller en misset mando, og gruppen ellers skulle gå langt for at få det afklaret. Melder du det ikke til gruppen inden kastet, står du med to kast der begge tæller. Viser det sig, at den første disc er fin, bortfalder den provisoriske række helt. Er den derimod OB, spilles der videre på den provisoriske række, og straffekastet for OB lægges til.",
+    "uddybning": "Du skal melde tre ting til gruppen, inden du kaster: at rækken er provisorisk, hvorfor, og hvilken række der gælder i hvilket udfald. Reglen dækker uklarhed om hvordan der spilles videre, ønsket om at anke, og tvivl om discen er tabt, OB eller i et område med påkrævet lempelse. Den dækker ikke tvivl om en mando eller overvejelser om at opgive kastet. Et kast der ikke lever op til kravene, er et øvekast med ét straffekast.",
     "soegeord": [
       "provisorisk",
       "provisional",
@@ -209,7 +209,7 @@
       "mando"
     ],
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80902",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "b-11",
@@ -229,7 +229,7 @@
       "20 meter"
     ],
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80203",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "b-12",
@@ -251,7 +251,7 @@
       "dyr"
     ],
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/810",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "b-13",
@@ -259,7 +259,7 @@
     "afgoerelse": "Ét straffekast, og kastet tæller ikke. Alt der ikke skal ændre din lie, er et øvekast.",
     "straffekast": "1",
     "regel": "809.03",
-    "uddybning": "Reglen rammer også opvarmning mellem to huller og en ekstra putt efter at hullet er færdigt. Undtagelsen er korte kast under fem meter i luften, der lægger en ubrugt disc til side eller giver en disc tilbage til en spiller. Selve øvekastet ses der bort fra, så discens landingssted betyder ingenting, og du spiller videre fra det lie du havde i forvejen.",
+    "uddybning": "Reglen rammer også opvarmning mellem to huller og en ekstra putt efter at hullet er færdigt. Undtagelsen er korte kast under fem meter i luften, der lægger en ubrugt disc til side eller giver en disc tilbage til en spiller, og en disc man taber, er ikke et øvekast. Selve øvekastet ses der bort fra, så discens landingssted betyder ingenting, og du spiller videre fra det lie du havde i forvejen.",
     "soegeord": [
       "øvekast",
       "practice throw",
@@ -270,7 +270,7 @@
       "5 meter"
     ],
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80903",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "b-14",
@@ -291,7 +291,7 @@
       "away"
     ],
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/812",
-    "verificeret": false
+    "verificeret": true
   },
   {
     "id": "b-15",
@@ -299,7 +299,7 @@
     "afgoerelse": "To straffekast for forkert eller manglende score på et afleveret kort. Ret fejlen inden aflevering.",
     "straffekast": "afhænger",
     "regel": "808",
-    "uddybning": "Scoren er alle kast plus straffekast, og gruppen noterer den efter hvert hul, så alle kan se den. Er alle i gruppen enige om, at en score er forkert, kan den rettes uden straf, så længe kortet ikke er afleveret. Du er selv ansvarlig for din egen score, også når en anden fører kortet, men du straffes ikke for at en anden spiller afleverer sit kort forkert. Turneringslederen melder ud, hvor og hvornår kortene skal afleveres, og det gælder også ved digital scoring.",
+    "uddybning": "Scoren er alle kast plus straffekast, og hver spiller fører sit eget kort for hele gruppen og noterer efter hvert hul. Er alle i gruppen enige om, at en score er forkert, kan den rettes uden straf, indtil kortet er afleveret. Kortet skal afleveres senest tredive minutter efter at gruppen er færdig, og for sent aflevering koster også to straffekast. Du straffes ikke, fordi en anden i gruppen afleverer sit kort forkert.",
     "soegeord": [
       "scorekort",
       "scorecard",
@@ -311,6 +311,6 @@
       "to straffekast"
     ],
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/808",
-    "verificeret": false
+    "verificeret": true
   }
 ]
