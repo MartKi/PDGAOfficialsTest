@@ -25,8 +25,13 @@ for sti in sorted(glob.glob("src/data/batches/*.json")):
         if p["verificeret"] is not False: fejl.append(f"{hvor}: verificeret skal være false her")
         if not re.fullmatch(r"\d{3}(\.\d{2})?|Competition Manual( \d+\.\d+)?", p["regel"]):
             fejl.append(f"{hvor}: regelnummer har mærkelig form: {p['regel']}")
-        ventet = "https://www.pdga.com/rules/official-rules-disc-golf/" + p["regel"].replace(".","")
-        if p["regel"][0].isdigit() and p["kilde"] != ventet:
+        if p["regel"][0].isdigit():
+            ventet = "https://www.pdga.com/rules/official-rules-disc-golf/" + p["regel"].replace(".","")
+        elif p["regel"] == "Competition Manual":
+            ventet = "https://www.pdga.com/rules/competition-manual-disc-golf-events"
+        else:
+            ventet = "https://www.pdga.com/rules/competition-manual/" + p["regel"].split()[-1].replace(".","")
+        if p["kilde"] != ventet:
             fejl.append(f"{hvor}: kilde passer ikke til regelnummer")
         for forbudt in ["alle ovenstående","ingen af ovenstående","både a og b","alle af ovenstående"]:
             if any(forbudt in s.lower() for s in p["svar"]): fejl.append(f"{hvor}: forbudt svarmulighed")

@@ -14,8 +14,8 @@ batch. Session A laver 114 spørgsmål, session B laver de sidste 86.
 | straf og misplay | 24 | 24 | færdig | batches/straf-og-misplay-01.json |
 | putting og Circle 1 | 20 | 20 | færdig | batches/putting-og-circle-1-01.json |
 | etikette 810 | 20 | 20 | færdig | batches/etikette-810-01.json |
-| Competition Manual | 22 | 0 | mangler | batches/competition-manual-01.json |
-| **I alt** | **200** | **178** | | |
+| Competition Manual | 22 | 22 | færdig | batches/competition-manual-01.json |
+| **I alt** | **200** | **200** | | |
 
 De 15 seed-spørgsmål i `src/data/questions.json` tælles ikke med her. De
 bliver erstattet af den flettede bank i session B.
@@ -100,6 +100,60 @@ og om hvad det koster når den ikke er der.
 803.03 optræder i to kategorier. I "lie og marker" handler spørgsmålene om
 hvor det nye lie havner, i "obstakler og lempelse" om hvornår det kan betale
 sig at tage lempelsen. Teksterne er holdt tydeligt forskellige.
+
+### straf og misplay
+
+| Regel | Officiel overskrift | Spørgsmål |
+| --- | --- | --- |
+| 808 | Scoring | 4 |
+| 809.01 | Abandoned Throw | 3 |
+| 809.03 | Practice Throw | 5 |
+| 811 | Misplay | 7 |
+| 813.01 | Illegal Disc | 3 |
+| 813.02 | Illegal Device | 2 |
+
+### putting og Circle 1
+
+| Regel | Officiel overskrift | Spørgsmål |
+| --- | --- | --- |
+| 806.01 | Putting Area | 12 |
+| 807 | Completing the Hole | 8 |
+
+### etikette 810
+
+| Regel | Officiel overskrift | Spørgsmål |
+| --- | --- | --- |
+| 801.01 | Fairness | 1 |
+| 801.02 | Enforcement | 1 |
+| 810 | Interference | 6 |
+| 812 | Courtesy | 12 |
+
+Kategorien hedder "etikette 810", men høflighedsreglerne står i 812, og 810
+er interferens. Kategorinavnet er beholdt som i planen, mens `regel`-feltet
+peger på det rigtige nummer.
+
+### Competition Manual
+
+Alle 22 spørgsmål har `"regel": "Competition Manual"` uden afsnitsnummer, og
+`kilde` peger på manualens forside. Det er et bevidst valg, ikke en
+forglemmelse.
+
+Nummereringen i manualen er blevet lagt om mellem udgaverne, og pdga.com har
+stadig sider fra flere generationer online. Søgningerne gav to indbyrdes
+modstridende strukturer, blandt andet "Section 1: Tournament Procedures" med
+1.05 Practice Rounds, Beginning Play, Late Arrivals over for en struktur hvor
+1.01 er Player Eligibility og afsnit 3 er Tournament Procedures. Uden adgang
+til pdga.com kan det ikke afgøres hvilken der er den aktuelle, og et
+afsnitsnummer ville derfor være et gæt.
+
+Emnerne i batchen er: for sent fremmøde, fravær på et hul, kast efter to
+minutters signalet, afbrydelse af spillet, caddiens rolle og ansvar,
+spillerens adfærd og diskvalifikation, turneringsadvarsel, aflevering og
+rettelse af scorekort, ansvar for egen score, turneringslederens fastlæggelse
+af banen, anke af en officials afgørelse, gruppeinddeling, lighed om
+placeringer, beskæring af feltet, tilbagetrækning og refusion, midlertidige
+regler, og forskellen på de officielle regler og manualen. Når manualen kan
+åbnes, skal hvert af de emner have sit afsnitsnummer skrevet ind.
 
 ## Konventioner
 
@@ -233,3 +287,34 @@ session 1, var forkert. Følgende er rettet med det samme:
 
 Alt indhold står stadig som ikke verificeret, indtil regelnumrene er slået
 efter på pdga.com fra en maskine med adgang.
+
+## Opsummering efter session B
+
+Session B er færdig. Alle otte kategorier har nået deres målantal, og banken
+er på 200 spørgsmål fordelt på otte batchfiler i `src/data/batches/`.
+
+`scripts/merge-questions.js` fletter batchfilerne til
+`src/data/questions.json` med fortløbende id'er fra q-0001. Scriptet fejler,
+hvis to spørgsmål har samme regelnummer og næsten identisk spørgsmålstekst,
+og det printer optælling pr. kategori mod målantallet samt listen over
+spørgsmål der ikke er verificeret. Kør det efter enhver ændring i batchene:
+
+```bash
+node scripts/merge-questions.js
+```
+
+De 15 oprindelige seed-spørgsmål er nu erstattet af den flettede bank.
+
+### Det mangler stadig
+
+Verifikationen. Alle 200 spørgsmål står med `"verificeret": false`, fordi
+pdga.com ikke kan åbnes fra det miljø sessionerne kører i. Rækkefølgen at gå
+frem i, når du sidder ved en maskine med adgang:
+
+1. Competition Manual, 22 spørgsmål. De mangler afsnitsnumre, og tallene i
+   manualen ændrer sig oftest. Start her.
+2. De punkter der står under "Vigtigt om verifikation" ovenfor, altså
+   stanceovertrædelser, tidsgrænserne i 802.03, drop zone ved OB og casual
+   lempelse.
+3. Resten af banen, kategori for kategori. Sæt `verificeret` til true i
+   batchfilen og kør flettescriptet igen, så slår det igennem i appen.
