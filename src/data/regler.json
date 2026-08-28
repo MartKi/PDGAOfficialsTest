@@ -44,7 +44,7 @@
   {
     "regel": "802.03",
     "titel": "For lang tid",
-    "resume": "Du har tredive sekunder til at kaste, når det er din tur, og du er nået frem til dit lie. For lang tid koster et straffekast.",
+    "resume": "Du har tredive sekunder til at kaste fra teested, drop zone og lies inden for tyve meter fra kurven, og femogfyrre sekunder fra andre lies. Første gang koster en advarsel, derefter et straffekast.",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80203",
     "verificeret": false
   },
@@ -72,7 +72,7 @@
   {
     "regel": "802.07",
     "titel": "Stance",
-    "resume": "Ved frigivelsen skal mindst ét støttepunkt røre liet, og intet støttepunkt må være tættere på kurven end markeren. Første overtrædelse i runden giver advarsel, derefter et straffekast.",
+    "resume": "Ved frigivelsen skal mindst ét støttepunkt røre liet, intet støttepunkt må være tættere på kurven end markeren, og alle støttepunkter skal være in bounds. En stanceovertrædelse koster et straffekast, og kastet tæller.",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80207",
     "verificeret": false
   },
@@ -86,7 +86,7 @@
   {
     "regel": "803.01",
     "titel": "Flytning af forhindringer",
-    "resume": "Du må ikke flytte, bøje eller holde en forhindring væk for at få en bedre linje eller stance. Ting der ikke hører til banen, må gerne fjernes.",
+    "resume": "Du må ikke flytte, bøje eller holde en forhindring væk for at få en bedre linje eller stance, og du skal vælge den stance der flytter mindst. Løse forhindringer bag lien må gerne flyttes.",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80301",
     "verificeret": false
   },
@@ -156,14 +156,14 @@
   {
     "regel": "806.03",
     "titel": "Casual område",
-    "resume": "Vand, løv og lignende der ikke er en fast del af banen. Du må flytte liet op til fem meter tilbage langs spillelinjen uden straf.",
+    "resume": "Vand in bounds der ikke er erklæret i spil, og områder turneringslederen har udpeget. Du kan flytte liet til nærmeste punkt på spillelinjen uden for området, uden straf.",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80603",
     "verificeret": false
   },
   {
     "regel": "806.04",
     "titel": "Påkrævet lempelse",
-    "resume": "Områder hvor du skal flytte dig væk, for eksempel af hensyn til sikkerhed eller beskyttet natur. Lempelsen er uden straf.",
+    "resume": "Områder turneringslederen har udpeget, hvor discen ikke må spilles fra. Lien findes som ved OB, men uden straffekast, og det forrige lie kan ikke bruges.",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80604",
     "verificeret": false
   },

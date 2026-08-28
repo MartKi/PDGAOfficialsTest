@@ -2,15 +2,15 @@
   {
     "id": "q-0001",
     "kategori": "kastning og stance",
-    "spoergsmaal": "Din disc ligger midt på fairwayen, og du har markeret den med en mini. Da du slipper discen, står den ene fod bag markeren, mens den anden fod rører jorden foran markeren. Det er din første stanceovertrædelse i runden. Hvad er afgørelsen?",
+    "spoergsmaal": "Din disc ligger midt på fairwayen, og du har markeret den med en mini. Da du slipper discen, står den ene fod bag markeren, mens den anden fod rører jorden foran markeren. Hvad er afgørelsen?",
     "svar": [
-      "Kastet tæller, og du får en advarsel",
-      "Kastet tæller ikke, og du kaster om fra samme lie",
       "Kastet tæller, og du får ét straffekast",
+      "Kastet tæller ikke, og du kaster om fra samme lie",
+      "Kastet tæller, og du får en advarsel første gang i runden",
       "Kastet tæller, og du får to straffekast"
     ],
     "korrekt": 0,
-    "forklaring": "Ved frigivelsen skal mindst ét støttepunkt være i kontakt med liet, og intet støttepunkt må være tættere på kurven end markerens bagkant. Første stanceovertrædelse i runden koster kun en advarsel, og kastet tæller. Hver følgende stanceovertrædelse i samme runde koster et straffekast.",
+    "forklaring": "Ved frigivelsen skal mindst ét støttepunkt være i kontakt med liet, og intet støttepunkt må være tættere på kurven end markerens bagkant. Bryder du det, er det en stanceovertrædelse, og kastet tæller stadig med. Overtrædelsen koster ét straffekast.",
     "regel": "802.07",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80207",
     "verificeret": false
@@ -119,10 +119,10 @@
       "Du skal spille discen som den ligger, uanset vandet",
       "Du må flytte liet én meter til siden uden straf",
       "Du må flytte liet frit, men det koster ét straffekast",
-      "Du må flytte liet op til fem meter tilbage langs spillelinjen uden straf"
+      "Du må flytte liet til nærmeste punkt på spillelinjen uden for vandet, uden straf"
     ],
     "korrekt": 3,
-    "forklaring": "Vand der ikke er en fast del af banen, tæller som casual område. Du må rykke liet op til fem meter tilbage langs spillelinjen, aldrig tættere på kurven, og det koster ingen straf. Du kan også bare vælge at spille discen hvor den ligger.",
+    "forklaring": "Vand der er in bounds og ikke er erklæret i spil, tæller som casual område. Du markerer på spillelinjen længere væk fra kurven, ved det nærmeste sted hvor både markering og lie er uden for vandet, og det koster ingen straf. Du kan også vælge at spille discen hvor den ligger.",
     "regel": "806.03",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80603",
     "verificeret": false
@@ -165,12 +165,12 @@
     "spoergsmaal": "Du putter fra fire meter. Discen bliver fanget i kæderne, og bagefter falder du fremad og støtter dig med hånden foran markeren. Hvad er afgørelsen?",
     "svar": [
       "Putten tæller ikke, og du putter om fra samme lie",
-      "Putten tæller, og der sker ingenting når discen først er i kurven",
-      "Putten tæller, og det koster altid ét straffekast",
-      "Putten tæller, og første stanceovertrædelse i runden koster en advarsel"
+      "Putten tæller, og der sker ingenting, når discen først er i kurven",
+      "Putten tæller, og det koster ét straffekast",
+      "Putten tæller, og du får en advarsel første gang i runden"
     ],
-    "korrekt": 3,
-    "forklaring": "Inden for ti meter fra kurven skal du vise fuld kontrol over balancen, før du bevæger dig frem forbi markeren. Gør du ikke det, er det en stanceovertrædelse. Kastet tæller stadig, og første stanceovertrædelse i runden koster en advarsel, mens de næste koster et straffekast hver.",
+    "korrekt": 2,
+    "forklaring": "Inden for ti meter fra kurven skal du vise fuld kontrol over balancen, før du bevæger dig frem forbi markeren. Gør du ikke det, er det en stanceovertrædelse. Kastet tæller stadig med, og overtrædelsen koster ét straffekast.",
     "regel": "806.01",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80601",
     "verificeret": false

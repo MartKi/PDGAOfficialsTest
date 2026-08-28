@@ -10,12 +10,12 @@ batch. Session A laver 114 spørgsmål, session B laver de sidste 86.
 | kastning og stance | 30 | 30 | færdig | batches/kastning-og-stance-01.json |
 | lie og marker | 30 | 30 | færdig | batches/lie-og-marker-01.json |
 | OB og hazard | 30 | 30 | færdig | batches/ob-og-hazard-01.json |
-| obstakler og lempelse | 24 | 0 | mangler | batches/obstakler-og-lempelse-01.json |
+| obstakler og lempelse | 24 | 24 | færdig | batches/obstakler-og-lempelse-01.json |
 | straf og misplay | 24 | 0 | session B |  |
 | putting og Circle 1 | 20 | 0 | session B |  |
 | etikette 810 | 20 | 0 | session B |  |
 | Competition Manual | 22 | 0 | session B |  |
-| **I alt** | **200** | **90** | | |
+| **I alt** | **200** | **114** | | |
 
 De 15 seed-spørgsmål i `src/data/questions.json` tælles ikke med her. De
 bliver erstattet af den flettede bank i session B.
@@ -172,6 +172,64 @@ typer:
 Type 5 bruges sparsomt, højst to gange pr. kategori, og de fire situationer
 skrives korte så spørgsmålet kan læses på en telefon.
 
-## Opsummering
+### Værktøjer
 
-Skrives når session A er færdig.
+To små scripts i `scripts/` holder batchene ensartede. Kør dem fra
+projektroden efter hver batch:
+
+```bash
+python3 scripts/balancer.py src/data/batches/<fil>.json
+python3 scripts/tjek-batch.py
+```
+
+`balancer.py` roterer svarmulighederne i én fil, så det korrekte svar
+fordeles jævnt over de fire pladser. Indholdet ændres ikke, kun rækkefølgen.
+
+`tjek-batch.py` gennemgår alle filer i `src/data/batches/` og fejler på
+manglende eller omdøbte felter, id der går igen, kategori uden for listen,
+andet end fire svarmuligheder, to ens svarmuligheder, korrekt uden for 0 til
+3, forkert form på regelnummer, kilde der ikke passer til regelnummeret,
+forbudte svarmuligheder, forklaringer uden for to til fire sætninger,
+tankestreger i brødtekst, og spørgsmål på samme regel der ligner hinanden for
+meget. Det sidste er den samme slags kontrol, som flettescriptet i session B
+skal lave.
+
+## Opsummering efter session A
+
+Session A er færdig. 114 spørgsmål ligger i `src/data/batches/` fordelt på
+fire filer, og alle fire kategorier har nået deres målantal. Hvert
+regelnummer i de fire kategorilister har mindst ét spørgsmål, så bredden er
+på plads, før der laves flere variationer.
+
+### Det mangler session B
+
+| Kategori | Målantal | Foreslået regelgrundlag |
+| --- | --- | --- |
+| straf og misplay | 24 | 811 Misplay, 809.01 Abandoned Throw, 809.03 Practice Throw, 813.01 Illegal Disc, 808 Scoring |
+| putting og Circle 1 | 20 | 806.01 Putting Area, 807 Completing the Hole, 802.07 Stance inden for ti meter |
+| etikette 810 | 20 | 812 Courtesy, 810 Interference, 801.02 Enforcement |
+| Competition Manual | 22 | Competition Manual, ikke Official Rules. Blandt andet turneringslederens ansvar, banens opsætning, tidsplan, scorekort og misconduct |
+
+Bemærk at kategorien hedder "etikette 810", men at høflighedsreglerne står i
+812. 810 er Interference. Kategorinavnet er beholdt som det er i planen, og
+spørgsmålene skal pege på det rigtige nummer i `regel`-feltet.
+
+Session B skal desuden bygge `scripts/merge-questions.js`, der fletter alle
+batchfiler til `src/data/questions.json` med fortløbende id'er.
+
+### Rettelser i eksisterende indhold
+
+Opslagene i denne session viste, at noget af det indhold der blev lavet i
+session 1, var forkert. Følgende er rettet med det samme:
+
+- `src/data/questions.json`: q-0001 og q-0011 sagde at første
+  stanceovertrædelse i runden giver en advarsel. Reglens ordlyd peger på ét
+  straffekast, og begge spørgsmål er rettet.
+- `src/data/questions.json`: q-0008 sagde at casual lempelse giver op til fem
+  meter tilbage på spillelinjen. Det er den gamle regel fra før 2018, og
+  spørgsmålet er rettet til nærmeste punkt der giver fri.
+- `src/data/regler.json`: resuméerne for 802.03, 802.07, 803.01, 806.03 og
+  806.04 er rettet efter det samme.
+
+Alt indhold står stadig som ikke verificeret, indtil regelnumrene er slået
+efter på pdga.com fra en maskine med adgang.
