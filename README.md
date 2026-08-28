@@ -148,6 +148,23 @@ vercel
 Framework: Vite. Build: `npm run build`. Output: `dist`. `vercel.json` i roden
 sørger for at alle ruter serveres af `index.html`.
 
+### GitHub Pages
+
+Repoet har et workflow i `.github/workflows/pages.yml`, der bygger og
+deployer ved hvert push til default-branchen. Første gang skal Pages slås til:
+
+1. Gå til **Settings**, **Pages** i repoet på GitHub.
+2. Under **Build and deployment**, sæt **Source** til **GitHub Actions**.
+3. Kør workflowet, enten ved at pushe eller fra **Actions**, **Deploy til
+   GitHub Pages**, **Run workflow**.
+
+Appen ligger derefter på `https://<bruger>.github.io/<repo>/`.
+
+Pages serverer projektet fra en understi og ikke fra roden, så workflowet
+bygger med `BASE_PATH=/<repo>/`. Den variabel styrer både Vites base, ikonerne
+i `index.html` og manifestets `start_url` og `scope`. Bygger du uden den, som
+lokalt og på Vercel og Netlify, bygges der til roden som før.
+
 ### Netlify
 
 ```bash
