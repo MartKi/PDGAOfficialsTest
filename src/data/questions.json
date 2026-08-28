@@ -2,15 +2,15 @@
   {
     "id": "q-0001",
     "kategori": "kastning og stance",
-    "spoergsmaal": "Din disc ligger midt på fairwayen, og du har markeret den med en mini. Da du slipper discen, står den ene fod bag markeren, mens den anden fod rører jorden foran markeren. Hvad er afgørelsen?",
+    "spoergsmaal": "Du har markeret dit lie med en mini på fairwayen. Da du slipper discen, står din bagerste fod på liet, men din forreste fod rører jorden en halv meter tættere på kurven end markerens bagkant. Hvad er afgørelsen?",
     "svar": [
       "Kastet tæller, og du får ét straffekast",
-      "Kastet tæller ikke, og du kaster om fra samme lie",
-      "Kastet tæller, og du får en advarsel første gang i runden",
-      "Kastet tæller, og du får to straffekast"
+      "Kastet annulleres, og du kaster om fra samme lie",
+      "Kastet tæller, og der sker ikke andet, når bagfoden var på liet",
+      "Kastet tæller, men kun hvis en official så det"
     ],
     "korrekt": 0,
-    "forklaring": "Ved frigivelsen skal mindst ét støttepunkt være i kontakt med liet, og intet støttepunkt må være tættere på kurven end markerens bagkant. Bryder du det, er det en stanceovertrædelse, og kastet tæller stadig med. Overtrædelsen koster ét straffekast.",
+    "forklaring": "Ved frigivelsen må intet støttepunkt være tættere på kurven end markerens bagkant. Bryder du det, er det en stanceovertrædelse, og kastet tæller stadig med. Overtrædelsen koster ét straffekast oven i kastet.",
     "regel": "802.07",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80207",
     "verificeret": false
@@ -18,223 +18,3183 @@
   {
     "id": "q-0002",
     "kategori": "kastning og stance",
-    "spoergsmaal": "Du driver fra teestedet, og i udfaldet træder du frem over teepaddens forkant. Foden rammer først jorden uden for teestedet efter at discen har forladt hånden. Hvad er afgørelsen?",
+    "spoergsmaal": "Dit lie ligger tæt på en OB-markeret grussti. For at få en fri linje sætter du bagfoden på stien, mens forfoden står på liet inde på banen. Discen slippes i den stilling. Hvad er afgørelsen?",
     "svar": [
-      "Ét straffekast, fordi du forlader teestedet",
-      "Ingen overtrædelse, for stancen bedømmes i det øjeblik discen slippes",
-      "En advarsel, fordi et støttepunkt lander uden for teestedet",
-      "Kastet annulleres, og du kaster om uden straf"
+      "Ulovligt, alle støttepunkter skal være in bounds ved frigivelsen",
+      "Lovligt, for stien er kun OB for discen, ikke for spilleren",
+      "Lovligt, hvis mindst ét støttepunkt er in bounds",
+      "Ulovligt, men det koster kun en advarsel første gang"
+    ],
+    "korrekt": 0,
+    "forklaring": "Når liet er markeret, skal alle dine støttepunkter være in bounds i det øjeblik discen slippes. Et støttepunkt på et OB-område er derfor en stanceovertrædelse. Det koster ét straffekast, og kastet tæller med.",
+    "regel": "802.07",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80207",
+    "verificeret": false
+  },
+  {
+    "id": "q-0003",
+    "kategori": "kastning og stance",
+    "spoergsmaal": "Du står 25 meter fra kurven og tager et hop ind i putten. Da discen forlader hånden, er begge fødder i luften, og du lander bagefter foran markeren. Hvad er afgørelsen?",
+    "svar": [
+      "Ulovligt, du skal have et støttepunkt i kontakt med liet når discen slippes",
+      "Lovligt, fordi du er uden for ti meter fra kurven",
+      "Lovligt, hvis du lander med balancen i behold",
+      "Ulovligt, og kastet skal derfor kastes om"
+    ],
+    "korrekt": 0,
+    "forklaring": "Kravet er, at mindst ét støttepunkt rører liet i selve frigivelsesøjeblikket. Er begge fødder i luften når discen slippes, er stancen ulovlig, uanset hvor langt du er fra kurven. Et hopkast er kun lovligt, hvis foden stadig er på liet når discen forlader hånden.",
+    "regel": "802.07",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80207",
+    "verificeret": false
+  },
+  {
+    "id": "q-0004",
+    "kategori": "kastning og stance",
+    "spoergsmaal": "Du spiller uden mini og bruger den kastede disc som markering. Ved frigivelsen har du højre fod bag discen og venstre fod ude til siden, i samme afstand fra kurven som discens bagkant. Hvad er afgørelsen?",
+    "svar": [
+      "Lovligt, intet støttepunkt er tættere på kurven end discens bagkant",
+      "Ulovligt, begge fødder skal være bag discen",
+      "Ulovligt, du skal altid bruge en mini når du kaster fra fairwayen",
+      "Lovligt, men kun hvis medspillerne godkender stancen"
+    ],
+    "korrekt": 0,
+    "forklaring": "Den kastede disc kan selv markere liet, og så gælder reglerne i forhold til dens bagkant. Et støttepunkt ude til siden er lovligt, så længe det ikke er tættere på kurven end bagkanten. Kun ét støttepunkt skal røre selve liet.",
+    "regel": "802.07",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80207",
+    "verificeret": false
+  },
+  {
+    "id": "q-0005",
+    "kategori": "kastning og stance",
+    "spoergsmaal": "Du står i en skråning og støtter dig med hånden på en træstamme for at holde balancen. Stammen står en meter tættere på kurven end din marker. Discen slippes mens hånden stadig rører stammen. Hvad er afgørelsen?",
+    "svar": [
+      "Ulovligt, hånden på stammen er et støttepunkt tættere på kurven",
+      "Lovligt, hænder tæller ikke som støttepunkter",
+      "Lovligt, træet er en naturlig del af banen",
+      "Ulovligt, men det giver kun en advarsel"
+    ],
+    "korrekt": 0,
+    "forklaring": "Et støttepunkt er enhver del af kroppen, der ved frigivelsen har kontakt med underlaget eller med noget andet, der giver støtte. Hånden på stammen tæller derfor med, og den er tættere på kurven end markeren. Det er en stanceovertrædelse til ét straffekast.",
+    "regel": "802.07",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80207",
+    "verificeret": false
+  },
+  {
+    "id": "q-0006",
+    "kategori": "kastning og stance",
+    "spoergsmaal": "Du tager en straddle-stance med bred benstilling omkring en lille busk. Ét ben står på liet, det andet står ude til siden bag markerens linje, og du rammer ikke busken under kastet. Hvad er afgørelsen?",
+    "svar": [
+      "Lovligt, kravene til stance er opfyldt",
+      "Ulovligt, begge fødder skal stå inden for liets tyve centimeter",
+      "Ulovligt, du må ikke stå omkring en forhindring",
+      "Lovligt, men kun hvis busken ikke er en del af banens design"
+    ],
+    "korrekt": 0,
+    "forklaring": "Liet er det rektangel du skal have mindst ét støttepunkt i, ikke et felt alle dine fødder skal være i. Så længe det andet ben ikke er tættere på kurven end markerens bagkant, er stancen lovlig. En straddle-stance er en helt almindelig måde at komme uden om en forhindring på.",
+    "regel": "802.07",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80207",
+    "verificeret": false
+  },
+  {
+    "id": "q-0007",
+    "kategori": "kastning og stance",
+    "spoergsmaal": "En medspiller mener at du havde foden foran markeren, da du puttede. Du er uenig, og den tredje spiller i gruppen så det ikke. Hvad sker der?",
+    "svar": [
+      "Kaldet skal bekræftes af en anden spiller eller en official, ellers står dit kast",
+      "Straffekastet gives, når blot én spiller kalder det",
+      "Gruppen stemmer, og flertallet afgør sagen",
+      "Kastet skal gentages, indtil gruppen er enige"
+    ],
+    "korrekt": 0,
+    "forklaring": "Et kald der fører til straffekast, skal bekræftes af en anden spiller i gruppen eller af en official. Kan ingen bekræfte det, står dit kast uden straf. Der stemmes ikke om regelafgørelser, og et kast kastes ikke om, fordi gruppen er uenig.",
+    "regel": "802.07",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80207",
+    "verificeret": false
+  },
+  {
+    "id": "q-0008",
+    "kategori": "kastning og stance",
+    "spoergsmaal": "Fire situationer på fairwayen. I hvilken af dem er der IKKE en stanceovertrædelse?",
+    "svar": [
+      "Du knæler med knæet på liet og har ingen del af kroppen foran markeren",
+      "Du sætter en hånd i jorden foran markeren for at holde balancen ved frigivelsen",
+      "Du løber igennem og slipper discen mens begge fødder er i luften",
+      "Du står med bagfoden på liet og forfoden en anelse foran markeren"
+    ],
+    "korrekt": 0,
+    "forklaring": "At knæle er lovligt, for knæet er et støttepunkt i kontakt med liet, og der er ikke noget støttepunkt tættere på kurven. De tre andre bryder enten kravet om kontakt med liet eller kravet om intet støttepunkt foran markeren. Alle tre koster ét straffekast.",
+    "regel": "802.07",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80207",
+    "verificeret": false
+  },
+  {
+    "id": "q-0009",
+    "kategori": "kastning og stance",
+    "spoergsmaal": "Du driver fra et betonteested. I frigivelsesøjeblikket står din bagerste fod stadig på græsset lige bag teestedet, mens forfoden er inde på betonen. Hvad er afgørelsen?",
+    "svar": [
+      "Lovligt, det er nok at ét støttepunkt er på teestedet",
+      "Ulovligt, alle støttepunkter skal være inde i teestedet ved frigivelsen",
+      "Lovligt, hvis bagfoden er inden for en meter fra teestedet",
+      "Ulovligt, og kastet skal kastes om fra teestedet"
     ],
     "korrekt": 1,
-    "forklaring": "Stancen bedømmes på det tidspunkt hvor discen frigives, ikke bagefter. Efter frigivelsen må du gerne følge igennem og træde frem, også uden for teestedet. Det er kun støttepunkternes placering i frigivelsesøjeblikket der afgør om stancen er lovlig.",
+    "forklaring": "På teestedet skal mindst ét støttepunkt være inde i teestedet, og alle støttepunkter skal være inden for det ved frigivelsen. En fod på græsset bag betonen er derfor en overtrædelse. Kastet tæller, og der lægges ét straffekast til.",
     "regel": "802.04",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80204",
     "verificeret": false
   },
   {
-    "id": "q-0003",
-    "kategori": "lie og marker",
-    "spoergsmaal": "Din disc lander på fairwayen, og du vil markere den med en mini for at kunne samle discen op. Hvor skal minien placeres?",
+    "id": "q-0010",
+    "kategori": "kastning og stance",
+    "spoergsmaal": "Du tager et langt tilløb, der starter flere meter bag teestedet, og alle dine støttepunkter er inde på teepadden i det øjeblik discen slippes. Hvad er afgørelsen?",
     "svar": [
-      "Lige bag ved den kastede discs bagkant",
-      "Så den rører den kastede discs forkant på linjen mod kurven",
-      "Hvor som helst inden for tredive centimeter fra discen",
-      "Oven på den kastede disc, inden du samler den op"
+      "Ulovligt, tilløbet skal starte inde på teestedet",
+      "Lovligt, det er kun frigivelsesøjeblikket der tæller",
+      "Ulovligt, medmindre turneringslederen har tilladt langt tilløb",
+      "Lovligt, hvis tilløbet er kortere end tre meter"
     ],
     "korrekt": 1,
-    "forklaring": "Minien lægges på spillefladen så den rører den kastede discs forkant på spillelinjen mod kurven. Først derefter må den kastede disc samles op. Du kan også vælge helt at lade være med at markere og i stedet kaste med den kastede disc liggende som markering.",
+    "forklaring": "Stancen bedømmes udelukkende i det øjeblik discen frigives. Hvor du kommer fra før kastet, betyder ingenting, så et langt tilløb udefra er lovligt. Det samme gælder efter kastet, hvor du gerne må træde frem ud af teestedet.",
+    "regel": "802.04",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80204",
+    "verificeret": false
+  },
+  {
+    "id": "q-0011",
+    "kategori": "kastning og stance",
+    "spoergsmaal": "Din drive er hooket, og du falder fremad, så du lander med begge fødder foran teestedets forkant. Discen var ude af hånden, før foden ramte jorden. Hvad er afgørelsen?",
+    "svar": [
+      "Ét straffekast, fordi du forlader teestedet",
+      "Ingen straf, kastet er lovligt",
+      "En advarsel, fordi udfaldet er ukontrolleret",
+      "Kastet annulleres, og du tee'er ud igen"
+    ],
+    "korrekt": 1,
+    "forklaring": "Kravene til stancen gælder kun i frigivelsesøjeblikket. Var discen sluppet, før foden ramte jorden uden for teestedet, er kastet lovligt. Reglen om at vise fuld balancekontrol gælder kun inden for ti meter fra kurven, ikke på teestedet.",
+    "regel": "802.04",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80204",
+    "verificeret": false
+  },
+  {
+    "id": "q-0012",
+    "kategori": "kastning og stance",
+    "spoergsmaal": "En medspiller kalder en stanceovertrædelse på dit udkast, og en anden spiller bekræfter den. Hvad sker der med selve kastet?",
+    "svar": [
+      "Kastet slettes, og du kaster om fra teestedet",
+      "Kastet tæller, og du lægger ét straffekast til",
+      "Kastet tæller, og du får en advarsel første gang i runden",
+      "Kastet tæller, og straffen gives først, hvis det gentager sig"
+    ],
+    "korrekt": 1,
+    "forklaring": "En stanceovertrædelse annullerer aldrig kastet. Discen ligger hvor den ligger, og du spiller videre derfra med ét straffekast lagt til. Der findes ikke en omkastning som straf i reglerne.",
+    "regel": "802.04",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80204",
+    "verificeret": false
+  },
+  {
+    "id": "q-0013",
+    "kategori": "kastning og stance",
+    "spoergsmaal": "Du er den første til at kaste ud på et hul, og du opdager efter kastet at du stod uden for teestedet, da du slap discen. Ingen andre så det. Hvad gør du?",
+    "svar": [
+      "Du siger ingenting, en overtrædelse skal ses af andre for at gælde",
+      "Du skriver selv ét straffekast på og fortæller gruppen om det",
+      "Du kaster om og fortæller gruppen hvorfor",
+      "Du beder gruppen stemme om det skal koste straf"
+    ],
+    "korrekt": 1,
+    "forklaring": "Du er selv med til at håndhæve reglerne i din gruppe, og det gælder også dine egne overtrædelser. Du fortæller gruppen om det og noterer ét straffekast. Der kastes ikke om, og der stemmes ikke om afgørelsen.",
+    "regel": "802.04",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80204",
+    "verificeret": false
+  },
+  {
+    "id": "q-0014",
+    "kategori": "kastning og stance",
+    "spoergsmaal": "Fire udkast fra teestedet. I hvilken af dem er stancen IKKE ulovlig?",
+    "svar": [
+      "Du står med en fod uden for teestedets sidekant ved frigivelsen",
+      "Du sætter af med begge fødder inde på teestedet og lander uden for efter frigivelsen",
+      "Du slipper discen mens du er i luften over teestedet uden kontakt til det",
+      "Du har en hånd i jorden bag teestedet ved frigivelsen"
+    ],
+    "korrekt": 1,
+    "forklaring": "Så længe alle støttepunkter er inde i teestedet i frigivelsesøjeblikket, må du gerne lande uden for bagefter. De tre andre har enten et støttepunkt uden for teestedet eller slet ingen kontakt med det, da discen slippes.",
+    "regel": "802.04",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80204",
+    "verificeret": false
+  },
+  {
+    "id": "q-0015",
+    "kategori": "kastning og stance",
+    "spoergsmaal": "Du er nået frem til dit lie 60 meter fra kurven, det er din tur, og gruppen står klar. Hvor lang tid har du til at kaste?",
+    "svar": [
+      "30 sekunder",
+      "45 sekunder",
+      "60 sekunder",
+      "Der er ingen fast grænse uden for ti meter"
+    ],
+    "korrekt": 1,
+    "forklaring": "Fra et lie der ikke er teested eller drop zone, og som ligger uden for tyve meter fra kurven, har du 45 sekunder. Tættere på kurven, fra teestedet og fra en drop zone er grænsen 30 sekunder. Tiden løber først, når det er din tur, og du har haft rimelig tid til at komme frem til liet.",
+    "regel": "802.03",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80203",
+    "verificeret": false
+  },
+  {
+    "id": "q-0016",
+    "kategori": "kastning og stance",
+    "spoergsmaal": "Du står i en drop zone og er i tvivl om discvalget. Hvor lang tid har du til at kaste, når det er din tur?",
+    "svar": [
+      "45 sekunder, som fra alle lies uden for putteområdet",
+      "30 sekunder",
+      "Så længe du vil, hvis gruppen ikke klager",
+      "60 sekunder, fordi en drop zone kræver ekstra overvejelse"
+    ],
+    "korrekt": 1,
+    "forklaring": "En drop zone tæller på linje med teestedet og med lies inden for tyve meter fra kurven, og der er grænsen 30 sekunder. De 45 sekunder gælder kun de øvrige lies længere ude på hullet. Tvivl om discvalg forlænger ikke tiden.",
+    "regel": "802.03",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80203",
+    "verificeret": false
+  },
+  {
+    "id": "q-0017",
+    "kategori": "kastning og stance",
+    "spoergsmaal": "Det er anden gang i runden, at du bruger for lang tid på at kaste, og du fik en advarsel første gang. Hvad koster det nu?",
+    "svar": [
+      "Ingenting, advarslen dækker hele runden",
+      "En advarsel til, og straf først tredje gang",
+      "Ét straffekast",
+      "To straffekast, fordi det er anden gang"
+    ],
+    "korrekt": 2,
+    "forklaring": "Første gang du bruger for lang tid i en runde, giver det en advarsel. Hver gang derefter i samme runde koster ét straffekast. Advarsler følger ikke med over i næste runde eller i et omspil.",
+    "regel": "802.03",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80203",
+    "verificeret": false
+  },
+  {
+    "id": "q-0018",
+    "kategori": "kastning og stance",
+    "spoergsmaal": "Din gruppe venter på at bolden foran kommer væk fra fairwayen, før I trygt kan kaste. Der går to minutter. Hvad gælder for tiden?",
+    "svar": [
+      "Uret løber, og den der venter, får en advarsel",
+      "Uret løber, men gruppen kan give dispensation",
+      "Uret starter først når det er din tur og der er frit at kaste",
+      "Uret stopper kun hvis en official er til stede"
+    ],
+    "korrekt": 2,
+    "forklaring": "Tiden begynder at løbe, når det er din tur, du er nået frem til liet og har haft rimelig tid til at gøre klar. Skal I vente af sikkerhedsmæssige grunde, tæller ventetiden ikke med. Reglen rammer den der spilder tiden, ikke den der venter på at det er sikkert at kaste.",
+    "regel": "802.03",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80203",
+    "verificeret": false
+  },
+  {
+    "id": "q-0019",
+    "kategori": "kastning og stance",
+    "spoergsmaal": "En medspiller bruger tydeligvis meget lang tid ved hvert kast. Hvad gør du efter reglerne?",
+    "svar": [
+      "Du kan kun klage til turneringslederen efter runden",
+      "Du beder spilleren om at trække sig fra hullet",
+      "Du tager tid og gør spilleren opmærksom på det, og gruppen kan kalde for lang tid",
+      "Du noterer selv et straffekast på spillerens kort uden at sige det"
+    ],
+    "korrekt": 2,
+    "forklaring": "Enhver spiller i gruppen kan tage tid og kalde for lang tid, og spilleren skal have besked. Første gang er en advarsel, derefter koster det ét straffekast pr. gang. Du skriver aldrig straf på en andens kort uden at sige det til spilleren.",
+    "regel": "802.03",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80203",
+    "verificeret": false
+  },
+  {
+    "id": "q-0020",
+    "kategori": "kastning og stance",
+    "spoergsmaal": "Alle i gruppen har kastet ud. Din disc ligger 90 meter fra kurven, en medspillers ligger 70 meter fra kurven, og den tredje ligger 40 meter fra kurven. Hvem kaster nu?",
+    "svar": [
+      "Den der ligger tættest på kurven, så gruppen kan komme videre",
+      "Den der havde den bedste score på forrige hul",
+      "Dig, du ligger længst fra kurven",
+      "Det er frit, når alle er væk fra teestedet"
+    ],
+    "korrekt": 2,
+    "forklaring": "Når alle har et lie uden for teestedet, kaster den der ligger længst fra kurven. Rækkefølgen efter score gælder kun på teestedet. Afstanden måles til kurven, ikke til hvor gruppen står.",
+    "regel": "802.02",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80202",
+    "verificeret": false
+  },
+  {
+    "id": "q-0021",
+    "kategori": "kastning og stance",
+    "spoergsmaal": "I skal til at kaste ud på hul 8. På hul 7 fik du 4, en medspiller fik 3 og den sidste fik 5. Hvem kaster først?",
+    "svar": [
+      "Den der fik 5",
+      "Dig med 4, fordi du står nærmest teestedet",
+      "Den der fik 3",
+      "Den der kastede først på hul 7"
+    ],
+    "korrekt": 2,
+    "forklaring": "På teestedet bestemmes rækkefølgen af scoren på det forrige hul, og den bedste score kaster først. Ved samme score beholdes den indbyrdes rækkefølge fra det forrige teested. På første hul følges rækkefølgen på scorekortet.",
+    "regel": "802.02",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80202",
+    "verificeret": false
+  },
+  {
+    "id": "q-0022",
+    "kategori": "kastning og stance",
+    "spoergsmaal": "Du kaster ud, selv om det ikke var din tur, og en medspiller havde stillet sig til rette. Hvad er afgørelsen?",
+    "svar": [
+      "Kastet annulleres og skal kastes om i rigtig rækkefølge",
+      "Ét straffekast for at spille uden for tur",
+      "Kastet tæller, og det kan være en høflighedsovertrædelse",
+      "Kastet tæller kun, hvis medspilleren accepterer det"
+    ],
+    "korrekt": 2,
+    "forklaring": "Der findes ingen straf for at spille uden for tur i sig selv, og kastet tæller. Men at kaste når det påvirker en anden spiller, kan kaldes som en høflighedsovertrædelse. Første gang giver det en advarsel, derefter ét straffekast pr. gang.",
+    "regel": "802.02",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80202",
+    "verificeret": false
+  },
+  {
+    "id": "q-0023",
+    "kategori": "kastning og stance",
+    "spoergsmaal": "Din gruppe er bagud på tid, og I bliver enige om at kaste når hver især er klar, i stedet for at følge rækkefølgen. Ingen bliver forstyrret af det. Hvad gælder?",
+    "svar": [
+      "Det er ulovligt, rækkefølgen er ufravigelig",
+      "Det er lovligt, men kun hvis en official har givet lov",
+      "Det er lovligt, når alle er enige og ingen påvirkes",
+      "Det er ulovligt, medmindre I er bagud med mere end et hul"
+    ],
+    "korrekt": 2,
+    "forklaring": "Rækkefølgen kan fraviges, når gruppen er enige om det, og ingen bliver påvirket af det. Er bare én uenig, gælder den almindelige rækkefølge igen. Kaster du uden for tur uden accept, kan det kaldes som en høflighedsovertrædelse.",
+    "regel": "802.02",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80202",
+    "verificeret": false
+  },
+  {
+    "id": "q-0024",
+    "kategori": "kastning og stance",
+    "spoergsmaal": "To spillere har lies der ser lige lange ud, og I kan ikke blive enige om hvem der er længst fra kurven. Hvad er den rigtige fremgangsmåde?",
+    "svar": [
+      "Turneringslederen skal tilkaldes til hvert tvivlstilfælde",
+      "Den med den bedste score på forrige hul kaster først",
+      "I måler op med et målebånd, ellers tæller kastene ikke",
+      "Gruppen afgør det på stedet, og er I fortsat i tvivl, kaster den der er klar først"
+    ],
+    "korrekt": 3,
+    "forklaring": "Rækkefølgen er ikke noget der udløser straf, så gruppen kan afgøre det på stedet uden opmåling. Kan I ikke blive enige, kaster den der er klar, og spillet går videre. En official tilkaldes kun, hvis en afgørelse har betydning for scoren.",
+    "regel": "802.02",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80202",
+    "verificeret": false
+  },
+  {
+    "id": "q-0025",
+    "kategori": "kastning og stance",
+    "spoergsmaal": "Discen glider ud af hånden midt i din kastebevægelse og lander fem meter fremme på fairwayen. Hvad er afgørelsen?",
+    "svar": [
+      "Det tæller ikke, fordi du ikke ville kaste den endnu",
+      "Det tæller som et øvekast og koster ét straffekast",
+      "Du må samle discen op og kaste igen uden straf",
+      "Det tæller som et kast, og du spiller videre derfra"
+    ],
+    "korrekt": 3,
+    "forklaring": "Et kast er en fremdrift og frigivelse af discen med det formål at ændre dens position. Slipper discen under selve kastebevægelsen, er den kastet, uanset hvor kort den flyver. Du spiller videre fra det nye lie uden ekstra straf.",
+    "regel": "802.01",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80201",
+    "verificeret": false
+  },
+  {
+    "id": "q-0026",
+    "kategori": "kastning og stance",
+    "spoergsmaal": "Du taber en disc ud af tasken, mens du går ned ad fairwayen, og den triller et par meter. Hvad er afgørelsen?",
+    "svar": [
+      "Det er et kast, og du skal spille videre fra der hvor den standser",
+      "Det er et øvekast og koster ét straffekast",
+      "Det koster en advarsel første gang i runden",
+      "Det er hverken et kast eller et øvekast, du samler den bare op"
+    ],
+    "korrekt": 3,
+    "forklaring": "Et kast kræver at discen sættes i bevægelse og slippes for at ændre dens position i spillet. En disc der falder ud af tasken, er ikke kastet, og den er heller ikke et forsøg på at øve. Du samler den op og spiller videre som om intet var hændt.",
+    "regel": "802.01",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80201",
+    "verificeret": false
+  },
+  {
+    "id": "q-0027",
+    "kategori": "kastning og stance",
+    "spoergsmaal": "Din medspiller spørger, hvad der egentlig gør noget til et kast efter reglerne. Hvad er det korrekte svar?",
+    "svar": [
+      "At discen forlader hånden og lander mindst fem meter væk",
+      "At discen slippes efter at gruppen har set stancen",
+      "At discen slippes fra et lovligt lie i den rigtige rækkefølge",
+      "At discen sættes i bevægelse og slippes for at ændre dens position"
+    ],
+    "korrekt": 3,
+    "forklaring": "Definitionen handler kun om selve handlingen, altså at discen får fart og slippes for at ændre dens position. Afstand, stance og rækkefølge har intet med definitionen at gøre. De ting kan udløse straf hver for sig, men kastet er stadig et kast.",
+    "regel": "802.01",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80201",
+    "verificeret": false
+  },
+  {
+    "id": "q-0028",
+    "kategori": "kastning og stance",
+    "spoergsmaal": "Du fik en advarsel for for lang tid i første runde. I anden runde bruger du igen for lang tid. Hvad koster det?",
+    "svar": [
+      "Ét straffekast, advarslen fra første runde tæller med",
+      "To straffekast, fordi det er anden gang i turneringen",
+      "Ingenting, advarsler bortfalder helt efter en runde",
+      "En ny advarsel, advarsler følger ikke med til næste runde"
+    ],
+    "korrekt": 3,
+    "forklaring": "Advarsler gælder kun inden for den runde de gives i. De følger ikke med til næste runde og heller ikke til et omspil. Du får derfor en ny advarsel, og først den næste gang i den runde koster ét straffekast.",
+    "regel": "801.02",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80102",
+    "verificeret": false
+  },
+  {
+    "id": "q-0029",
+    "kategori": "kastning og stance",
+    "spoergsmaal": "En medspiller kalder en overtrædelse på dig, der kun giver en advarsel. Ingen andre i gruppen så noget. Hvad gælder?",
+    "svar": [
+      "Advarslen bortfalder, alle kald skal bekræftes af en anden",
+      "Advarslen står kun, hvis en official bekræfter den",
+      "Gruppen stemmer om advarslen skal gives",
+      "Advarslen står, et kald der kun giver advarsel behøver ikke bekræftes"
+    ],
+    "korrekt": 3,
+    "forklaring": "Et kald der ender i en advarsel, kræver ikke bekræftelse fra andre for at gælde. Det er kun kald der giver straffekast, der skal bekræftes af en anden spiller eller en official. Der stemmes aldrig om regelafgørelser.",
+    "regel": "801.02",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80102",
+    "verificeret": false
+  },
+  {
+    "id": "q-0030",
+    "kategori": "kastning og stance",
+    "spoergsmaal": "Din gruppe har truffet en afgørelse om dit kast, som du mener er forkert. Der er en official på banen. Hvad kan du gøre?",
+    "svar": [
+      "Ingenting, gruppens afgørelse er endelig",
+      "Du kan nægte at spille videre, indtil gruppen skifter mening",
+      "Du kan spille to bolde og lade turneringslederen vælge bagefter",
+      "Du kan anke afgørelsen til en official, hvis afgørelse så gælder"
+    ],
+    "korrekt": 3,
+    "forklaring": "Er du uenig i gruppens afgørelse, kan du anke den til en official. Officialens afgørelse gælder frem for gruppens, og den kan i sidste ende ankes til turneringslederen. At spille videre under protest uden at få en official ind løser ikke noget.",
+    "regel": "801.03",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80103",
+    "verificeret": false
+  },
+  {
+    "id": "q-0031",
+    "kategori": "lie og marker",
+    "spoergsmaal": "Din disc ligger midt på fairwayen med forkanten pegende skråt væk fra kurven. Du vil markere med en mini. Hvordan gør du det rigtigt?",
+    "svar": [
+      "Minien lægges så den rører discens forkant på linjen mod kurven",
+      "Minien lægges bag discens bagkant, så du får hele discens længde med",
+      "Minien lægges midt under discen, når du løfter den",
+      "Minien lægges hvor discens forkant ville være, hvis den pegede mod kurven"
+    ],
+    "korrekt": 0,
+    "forklaring": "Minien skal ligge på spillefladen og røre den kastede discs forkant på linjen mod kurven. Discens retning betyder ingenting, det er forkanten set fra kurven der tæller. Først når minien ligger rigtigt, må du samle den kastede disc op.",
     "regel": "802.06",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80206",
     "verificeret": false
   },
   {
-    "id": "q-0004",
+    "id": "q-0032",
     "kategori": "lie og marker",
-    "spoergsmaal": "Du har markeret dit lie med en mini og vil stå så langt tilbage som muligt. Hvor stort er det område du må have støttepunkt i?",
+    "spoergsmaal": "Du samler din disc op og går tre skridt tilbage, før du lægger minien ned på det sted du mener discen lå. Ingen andre så præcis hvor den lå. Hvad er afgørelsen?",
     "svar": [
-      "En cirkel med radius på tredive centimeter omkring markeren",
-      "Tredive centimeter i bredden og tyve centimeter i dybden bag markeren",
-      "Tyve centimeter i bredden og tredive centimeter i dybden bag markeren",
-      "Der er ingen grænse, blot støttepunktet er bag markeren"
+      "En markeringsovertrædelse, advarsel første gang i runden",
+      "Ingen straf, når gruppen kan blive enige om stedet",
+      "Ét straffekast med det samme, uanset om det er første gang",
+      "Kastet fra det lie tæller ikke og skal gentages"
     ],
-    "korrekt": 2,
-    "forklaring": "Liet er et rektangel på tyve centimeter i bredden og tredive centimeter i dybden, centreret på spillelinjen bag markerens bagkant. Mindst ét støttepunkt skal røre det rektangel når du slipper discen. Andre støttepunkter må gerne være uden for, bare de ikke er tættere på kurven end markeren.",
+    "korrekt": 0,
+    "forklaring": "Minien skal lægges, mens den kastede disc stadig ligger, så positionen ikke bliver et skøn. Samler du discen op først, er det en markeringsovertrædelse. Første markeringsovertrædelse i runden koster en advarsel, og hver følgende koster ét straffekast.",
+    "regel": "802.06",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80206",
+    "verificeret": false
+  },
+  {
+    "id": "q-0033",
+    "kategori": "lie og marker",
+    "spoergsmaal": "Du har glemt din mini. Du lægger i stedet en af de discs du spiller med, foran den kastede disc og bruger den som markering. Hvad er afgørelsen?",
+    "svar": [
+      "Ulovligt, en markering skal være en mini der ikke bruges i spil",
+      "Lovligt, enhver disc kan bruges som markering",
+      "Lovligt, hvis du ikke kaster med den disc på det hul",
+      "Ulovligt, du skal i stedet kaste med den kastede disc liggende"
+    ],
+    "korrekt": 0,
+    "forklaring": "En markerdisc er en lille disc, der ikke bruges i spil, og som lever op til PDGA's tekniske krav til minier. En spilledisc kan derfor ikke bruges som markering. Har du ingen mini, kan du lade den kastede disc blive liggende og kaste med den som markering.",
+    "regel": "802.06",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80206",
+    "verificeret": false
+  },
+  {
+    "id": "q-0034",
+    "kategori": "lie og marker",
+    "spoergsmaal": "Efter at have lagt minien opdager du, at en gren gør stancen ubehagelig. Du flytter minien ti centimeter til siden og kaster derfra. Hvad er afgørelsen?",
+    "svar": [
+      "En markeringsovertrædelse, minien må ikke flyttes efter den er lagt",
+      "Lovligt, ti centimeter ligger inden for liets bredde",
+      "Lovligt, hvis du ikke kommer tættere på kurven",
+      "Ét straffekast for at forbedre din kastelinje"
+    ],
+    "korrekt": 0,
+    "forklaring": "Når minien først er lagt korrekt, ligger liet fast. Flytter du markeringen for at få en bedre stance, er det en markeringsovertrædelse, ikke en tilladt justering. Har du brug for at komme væk fra forhindringen, skal du bruge en af lempelsesreglerne i stedet.",
+    "regel": "802.06",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80206",
+    "verificeret": false
+  },
+  {
+    "id": "q-0035",
+    "kategori": "lie og marker",
+    "spoergsmaal": "En medspiller går forbi og sparker uforvarende til din mini, så den ligger en meter forkert. I er enige om hvor den lå. Hvad gør du?",
+    "svar": [
+      "Lægger minien tilbage på det oprindelige sted uden straf",
+      "Spiller fra det sted hvor minien nu ligger",
+      "Lægger minien tilbage og tager ét straffekast",
+      "Kalder en official, ellers tæller dit næste kast ikke"
+    ],
+    "korrekt": 0,
+    "forklaring": "En markering der bliver flyttet ved et uheld, lægges bare tilbage hvor den lå. Det koster ingen straf, hverken for dig eller for den der kom til at flytte den. Kan gruppen ikke blive enige om stedet, afgør gruppen det bedst muligt på stedet.",
+    "regel": "802.06",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80206",
+    "verificeret": false
+  },
+  {
+    "id": "q-0036",
+    "kategori": "lie og marker",
+    "spoergsmaal": "Din disc ligger godt på fairwayen, og du har ikke lyst til at markere med mini. Må du kaste med den kastede disc liggende som markering?",
+    "svar": [
+      "Ja, den kastede discs position markerer selv lien",
+      "Nej, en mini er altid påkrævet uden for teestedet",
+      "Ja, men kun hvis discen ligger med forkanten mod kurven",
+      "Nej, medmindre gruppen godkender det inden kastet"
+    ],
+    "korrekt": 0,
+    "forklaring": "Den kastede discs placering på spillefladen markerer i sig selv lien. Minien er et tilbud, ikke et krav, når discen ligger in bounds på spillefladen. Kaster du med discen liggende, gælder stancereglerne i forhold til dens bagkant.",
+    "regel": "802.06",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80206",
+    "verificeret": false
+  },
+  {
+    "id": "q-0037",
+    "kategori": "lie og marker",
+    "spoergsmaal": "Det er anden gang i samme runde, at du bliver kaldt for en markeringsovertrædelse. Hvad koster det?",
+    "svar": [
+      "Ét straffekast",
+      "En advarsel til",
+      "To straffekast",
+      "Ingenting, markeringsfejl straffes ikke"
+    ],
+    "korrekt": 0,
+    "forklaring": "Første markeringsovertrædelse i en runde koster en advarsel. Hver følgende markeringsovertrædelse i samme runde koster ét straffekast. Advarslen følger ikke med til næste runde.",
+    "regel": "802.06",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80206",
+    "verificeret": false
+  },
+  {
+    "id": "q-0038",
+    "kategori": "lie og marker",
+    "spoergsmaal": "Din disc er landet uden for banen i en OB-markeret grøft. Hvordan markeres lien nu?",
+    "svar": [
+      "Du lægger en mini efter den regel der gælder for OB",
+      "Discen bliver liggende i grøften og markerer selv lien",
+      "Du kaster fra det sted du kastede fra sidst, uden markering",
+      "Du lægger en mini der hvor discen ligger i grøften"
+    ],
+    "korrekt": 0,
+    "forklaring": "Ligger discen ikke på spillefladen in bounds, kan den ikke selv markere lien. Så skal der lægges en mini efter den regel der gælder for situationen, her OB-reglen. Det er også sådan du markerer, når lien flyttes af en anden regel.",
+    "regel": "802.06",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80206",
+    "verificeret": false
+  },
+  {
+    "id": "q-0039",
+    "kategori": "lie og marker",
+    "spoergsmaal": "Fire markeringer på fairwayen. Hvilken af dem er IKKE en overtrædelse?",
+    "svar": [
+      "Du lægger minien en håndsbredde foran discens forkant",
+      "Du lægger minien så den rører discens forkant mod kurven",
+      "Du samler discen op og lægger derefter minien",
+      "Du flytter minien lidt tilbage for at få bedre plads"
+    ],
+    "korrekt": 1,
+    "forklaring": "Den eneste rigtige markering er en mini der rører den kastede discs forkant på linjen mod kurven, lagt mens discen stadig ligger. De tre andre flytter enten lien eller gør positionen til et skøn. Alle tre er markeringsovertrædelser.",
+    "regel": "802.06",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80206",
+    "verificeret": false
+  },
+  {
+    "id": "q-0040",
+    "kategori": "lie og marker",
+    "spoergsmaal": "Du har lagt din mini og vil bruge hele lien til at få længde i kastet. Hvor langt tilbage rækker lien?",
+    "svar": [
+      "Tyve centimeter bag markerens bagkant",
+      "Tredive centimeter bag markerens bagkant",
+      "En meter bag markerens bagkant",
+      "Så langt tilbage du vil, blot du er bag markeren"
+    ],
+    "korrekt": 1,
+    "forklaring": "Lien er et rektangel på tyve centimeter i bredden og tredive centimeter i dybden bag markerens bagkant. Det er de tredive centimeter der er dybden, altså afstanden væk fra kurven. Mindst ét støttepunkt skal røre det rektangel ved frigivelsen.",
     "regel": "802.05",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80205",
     "verificeret": false
   },
   {
-    "id": "q-0005",
-    "kategori": "OB og hazard",
-    "spoergsmaal": "Dit drive ender ude i en sø der er markeret OB. Hvad koster det, og hvor spiller du fra?",
+    "id": "q-0041",
+    "kategori": "lie og marker",
+    "spoergsmaal": "Du står klar til dit første kast på hullet. Hvad er lien her?",
     "svar": [
-      "Ét straffekast, og du kaster om fra teestedet",
-      "Ét straffekast, og du spiller fra et lie inden for én meter vinkelret ind fra hvor discen sidst var in bounds",
-      "To straffekast, og du spiller fra hvor discen krydsede OB-linjen",
-      "Ingen straf, hvis discen ikke er synlig i vandet"
+      "Et rektangel bag forkanten af teestedet",
+      "Selve teestedet",
+      "Et rektangel bag den mini du lægger på teestedet",
+      "Hele teestedet plus en meter bagud"
     ],
     "korrekt": 1,
-    "forklaring": "En disc er OB når den er kommet til hvile helt og tydeligt uden for banen. Det koster ét straffekast, og det nye lie ligger hvor discen sidst var in bounds, hvor du må gå op til én meter vinkelret ind på banen. Du kan i stedet vælge det forrige lie eller en drop zone, hvis der er en.",
+    "forklaring": "På hullets første kast er teestedet i sig selv lien. Der skal ikke lægges nogen markering, og du skal ikke finde et rektangel. Kravet er blot, at alle støttepunkter er inden for teestedet, når discen slippes.",
+    "regel": "802.05",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80205",
+    "verificeret": false
+  },
+  {
+    "id": "q-0042",
+    "kategori": "lie og marker",
+    "spoergsmaal": "Du er sendt til en drop zone efter en misset mando. Hvordan skal du forholde dig til lien der?",
+    "svar": [
+      "Du lægger en mini i drop zonen og bruger rektanglet bag den",
+      "Drop zonen er et lie, du kaster fra selve zonen",
+      "Du må kaste fra et vilkårligt sted inden for en meter fra drop zonen",
+      "Du skal markere ved kanten af drop zonen nærmest kurven"
+    ],
+    "korrekt": 1,
+    "forklaring": "En drop zone er et lie på linje med teestedet. Du kaster fra selve zonen og skal ikke lægge en markering først. Tidsgrænsen fra en drop zone er den samme som fra teestedet.",
+    "regel": "802.05",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80205",
+    "verificeret": false
+  },
+  {
+    "id": "q-0043",
+    "kategori": "lie og marker",
+    "spoergsmaal": "Lien er centreret på spillelinjen bag markeren. Hvad er spillelinjen?",
+    "svar": [
+      "Den linje du selv vælger at kaste ud ad",
+      "Den rette linje fra kurven gennem midten af markeren og bagud",
+      "Linjen fra teestedet gennem markeren",
+      "Den korteste vej uden om forhindringer frem til kurven"
+    ],
+    "korrekt": 1,
+    "forklaring": "Spillelinjen er den rette linje mellem kurven og midten af din markering, forlænget bagud. Den har intet at gøre med den bane discen skal flyve. Det er også den linje du rykker tilbage ad, når du tager lempelse.",
+    "regel": "802.05",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80205",
+    "verificeret": false
+  },
+  {
+    "id": "q-0044",
+    "kategori": "lie og marker",
+    "spoergsmaal": "Du står med højre fod i lien og venstre fod halvanden meter ude til siden, i samme afstand fra kurven som markeren. Hvad er afgørelsen?",
+    "svar": [
+      "Ulovligt, begge fødder skal være inden for lien",
+      "Lovligt, kun ét støttepunkt skal røre lien",
+      "Ulovligt, foden ude til siden er for langt fra markeren",
+      "Lovligt, hvis du kaster inden for tredive sekunder"
+    ],
+    "korrekt": 1,
+    "forklaring": "Kun ét støttepunkt skal røre selve lien, når discen slippes. De øvrige støttepunkter må være hvor som helst, så længe intet af dem er tættere på kurven end markerens bagkant. Derfor er både straddle og bred benstilling helt lovligt.",
+    "regel": "802.05",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80205",
+    "verificeret": false
+  },
+  {
+    "id": "q-0045",
+    "kategori": "lie og marker",
+    "spoergsmaal": "To discs fra jeres gruppe ligger næsten oven i hinanden på fairwayen. Hvad gælder for lien?",
+    "svar": [
+      "Den der ligger bagest, får lien, og den anden markerer bag ved",
+      "Hver spiller har sin egen lie efter sin egen disc",
+      "Gruppen aftaler ét fælles lie, så I ikke træder i hinandens",
+      "Den der kaster først, får det bedste lie"
+    ],
+    "korrekt": 1,
+    "forklaring": "Hver disc giver spilleren sin egen lie, uanset hvor tæt de ligger. Ligger den ene i vejen for den andens stance, kan den midlertidigt flyttes efter aftale og lægges tilbage bagefter. Der findes ikke noget fælles lie.",
+    "regel": "802.05",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80205",
+    "verificeret": false
+  },
+  {
+    "id": "q-0046",
+    "kategori": "lie og marker",
+    "spoergsmaal": "Du har taget lempelse for et casual område og lagt din mini på det nye sted. Hvordan ser lien ud nu?",
+    "svar": [
+      "Der er ingen lie, du kaster frit fra området",
+      "Lien er det sædvanlige rektangel bag den nye markering",
+      "Lien er hele det område du er flyttet igennem",
+      "Lien er en cirkel med radius på tredive centimeter om minien"
+    ],
+    "korrekt": 1,
+    "forklaring": "Når lien flyttes af en regel, gælder helt de samme mål som ellers. Det er et rektangel på tyve gange tredive centimeter bag den nye markerings bagkant. Stancereglerne er også de samme, altså intet støttepunkt tættere på kurven end markeren.",
+    "regel": "802.05",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80205",
+    "verificeret": false
+  },
+  {
+    "id": "q-0047",
+    "kategori": "lie og marker",
+    "spoergsmaal": "Din disc er kommet til hvile på en stor flad sten en halv meter over jorden, og gruppen er enige om at stenen er til at stå på. Hvad gælder for lien?",
+    "svar": [
+      "Lien er altid på jorden, uanset hvad discen ligger på",
+      "Du skal have lempelse, fordi stenen ikke er en del af banen",
+      "Stenen kan være spilleflade, og så markeres lien på stenen",
+      "Du skal kaste fra jorden med en fod på stenen"
+    ],
+    "korrekt": 2,
+    "forklaring": "En overflade der er nogenlunde flad og til at spille fra, kan være spilleflade, og en stor sten kan derfor tælle med. Er gruppen enige om det, markeres og spilles der fra stenen. Er den ikke til at stå på, gælder positionen på spillefladen lige under discen i stedet.",
+    "regel": "802.05",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80205",
+    "verificeret": false
+  },
+  {
+    "id": "q-0048",
+    "kategori": "lie og marker",
+    "spoergsmaal": "Din disc hænger fast i en busk fyrre centimeter over jorden. To meter reglen er ikke slået til. Hvad er discens position?",
+    "svar": [
+      "Ved buskens fod, hvor stammen møder jorden",
+      "Der hvor discen ramte busken første gang",
+      "På spillefladen lige under discen",
+      "Der hvor discen kan hentes ned uden at flytte grene"
+    ],
+    "korrekt": 2,
+    "forklaring": "En disc der er kommet til hvile over spillefladen, har sin position på spillefladen lige under discen. Der markeres altså lodret ned, ikke ved buskens fod. Uden to meter reglen koster det ingen straf, uanset hvor højt discen sidder.",
+    "regel": "805.01",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80501",
+    "verificeret": false
+  },
+  {
+    "id": "q-0049",
+    "kategori": "lie og marker",
+    "spoergsmaal": "Din disc lander i en å, hvor strømmen langsomt fører den nedstrøms. Hvornår har discen fundet sin position?",
+    "svar": [
+      "Der hvor du får den fisket op",
+      "Der hvor den standser mod bredden længere nede",
+      "Der hvor den kun bevæger sig som følge af vandet",
+      "Der hvor den ramte vandet første gang"
+    ],
+    "korrekt": 2,
+    "forklaring": "En disc i vand eller i løv regnes for at ligge stille, når den kun bevæger sig på grund af vandet, løvet eller vinden. Positionen er altså der hvor den holdt op med at bevæge sig af sig selv. Bagefter må du gerne hente discen op, uden at det ændrer positionen.",
+    "regel": "805.01",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80501",
+    "verificeret": false
+  },
+  {
+    "id": "q-0050",
+    "kategori": "lie og marker",
+    "spoergsmaal": "Din drive lander på en stejl skråning, glider femten meter ned ad bakken og bliver liggende dernede. Hvad er positionen?",
+    "svar": [
+      "Der hvor discen ramte skråningen",
+      "Midtvejs, hvor gruppen skønner den mistede farten",
+      "Der hvor discen blev liggende efter at have glidt",
+      "Det sted du kan blive enig med gruppen om"
+    ],
+    "korrekt": 2,
+    "forklaring": "Positionen er der hvor discen første gang kommer til hvile, altså først når den holder helt op med at bevæge sig. Glider eller triller den videre, følger positionen med hele vejen ned. Det er derfor et rul kan koste dyrt, uden at der er tale om en fejl.",
+    "regel": "805.01",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80501",
+    "verificeret": false
+  },
+  {
+    "id": "q-0051",
+    "kategori": "lie og marker",
+    "spoergsmaal": "Din disc lander in bounds, ligger helt stille i et par sekunder, og blæser derefter ud over OB-linjen. Hvad gælder?",
+    "svar": [
+      "Discen er OB, den ligger uden for banen nu",
+      "Kastet er ugyldigt, og du kaster om",
+      "Discen har sin position hvor den først kom til hvile, altså in bounds",
+      "Gruppen afgør om vinden var stærk nok til at det tæller"
+    ],
+    "korrekt": 2,
+    "forklaring": "En disc har sin position der hvor den første gang kommer til hvile. Blæser den videre bagefter, lægges den tilbage til det sted, og den er ikke OB. Havde den derimod aldrig ligget stille in bounds, ville landingen ude have talt.",
+    "regel": "805.01",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80501",
+    "verificeret": false
+  },
+  {
+    "id": "q-0052",
+    "kategori": "lie og marker",
+    "spoergsmaal": "Din disc rammer taget på et lille skur og bliver liggende deroppe. Skuret er ikke erklæret OB. Hvad gør du?",
+    "svar": [
+      "Kaster om fra det forrige lie mod ét straffekast",
+      "Behandler discen som tabt efter tre minutter",
+      "Markerer på spillefladen lige under discen og spiller videre",
+      "Markerer ved skurets nærmeste hjørne"
+    ],
+    "korrekt": 2,
+    "forklaring": "En disc der er kommet til hvile over spillefladen, har sin position lige under sig. Det gælder også oven på et skur eller en mur, når området ikke er erklæret OB. Kan du ikke hente discen ned, må du bruge en anden disc og spille videre fra det markerede lie.",
+    "regel": "805.01",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80501",
+    "verificeret": false
+  },
+  {
+    "id": "q-0053",
+    "kategori": "lie og marker",
+    "spoergsmaal": "Din disc rammer et træ og falder ned i højt græs, hvor den ligger uden at kunne ses. Efter to minutters søgning finder I den. Hvad gælder?",
+    "svar": [
+      "Discen var tabt, fordi den ikke kunne ses fra fairwayen",
+      "Du får ét straffekast, fordi gruppen skulle lede efter den",
+      "Positionen er der hvor discen blev fundet, uden straf",
+      "Positionen er der hvor den ramte træet"
+    ],
+    "korrekt": 2,
+    "forklaring": "En disc har sin position der hvor den kommer til hvile, uanset om den er let at få øje på. Findes den inden for de tre minutter, spiller du fra det sted uden straf. Det er kun når tiden løber ud, at discen erklæres tabt.",
+    "regel": "805.01",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80501",
+    "verificeret": false
+  },
+  {
+    "id": "q-0054",
+    "kategori": "lie og marker",
+    "spoergsmaal": "Din disc ligger tæt op ad en tyk stamme, så du næsten ikke kan svinge armen. Du vil hellere gå tilbage og få plads. Hvad koster valgfri lempelse på spillelinjen?",
+    "svar": [
+      "Ingenting, det er en almindelig ret",
+      "To straffekast",
+      "Ét straffekast, men kun hvis du går mere end fem meter tilbage",
+      "Ét straffekast"
+    ],
+    "korrekt": 3,
+    "forklaring": "Valgfri lempelse på spillelinjen kan tages når som helst, hvis du melder det til gruppen. Du rykker lien længere væk fra kurven på spillelinjen og lægger ét straffekast til. Prisen er den samme, uanset hvor langt tilbage du går.",
+    "regel": "803.03",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80303",
+    "verificeret": false
+  },
+  {
+    "id": "q-0055",
+    "kategori": "lie og marker",
+    "spoergsmaal": "Du tager valgfri lempelse på spillelinjen. Hvor må det nye lie ligge?",
+    "svar": [
+      "Hvor som helst inden for fem meter fra det gamle lie",
+      "Til siden, hvis der er frit udsyn til kurven derfra",
+      "På den side af forhindringen hvor du har den bedste linje",
+      "På spillelinjen, længere væk fra kurven end det gamle lie"
+    ],
+    "korrekt": 3,
+    "forklaring": "Det nye lie skal ligge på spillelinjen og længere væk fra kurven end det oprindelige lie. Du må ikke gå ud til siden for at få en bedre vinkel. Til gengæld er der ingen øvre grænse for hvor langt tilbage du går.",
+    "regel": "803.03",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80303",
+    "verificeret": false
+  },
+  {
+    "id": "q-0056",
+    "kategori": "lie og marker",
+    "spoergsmaal": "Din disc ligger bag en tæt busk 30 meter fra kurven. Du overvejer valgfri lempelse. Hvad taler for at lade være?",
+    "svar": [
+      "Lempelsen kræver at gruppen godkender den",
+      "Lempelsen kan kun tages én gang pr. runde",
+      "Lempelsen tvinger dig til at kaste fra drop zonen",
+      "Straffekastet gør det ofte dyrere end at spille et lille kast ud til siden"
+    ],
+    "korrekt": 3,
+    "forklaring": "Valgfri lempelse koster altid ét straffekast, og det er den samme pris som at bruge et kast på at komme fri. Er der overhovedet en udvej til siden, er den næsten altid billigere. Lempelsen kræver ingen godkendelse, du skal blot melde den til gruppen.",
+    "regel": "803.03",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80303",
+    "verificeret": false
+  },
+  {
+    "id": "q-0057",
+    "kategori": "lie og marker",
+    "spoergsmaal": "Dit kast endte i en umulig position bag et hegn, og du vil hellere kaste igen fra det sted du kastede fra. Hvad koster det, og hvor spiller du fra?",
+    "svar": [
+      "Ét straffekast, og du spiller fra det sted discen ligger",
+      "To straffekast, og du spiller fra det forrige lie",
+      "Ingen straf, men kastet tæller stadig med",
+      "Ét straffekast, og du spiller fra det lie du kastede fra"
+    ],
+    "korrekt": 3,
+    "forklaring": "Du kan opgive dit seneste kast ved at melde det til gruppen. Kastet tæller stadig med, og der lægges ét straffekast til, hvorefter du spiller igen fra det lie du kastede fra. Det er altså to kast på scoren, før du er tilbage hvor du startede.",
+    "regel": "809.01",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80901",
+    "verificeret": false
+  },
+  {
+    "id": "q-0058",
+    "kategori": "lie og marker",
+    "spoergsmaal": "Du har kastet to gange siden det kast du gerne vil opgive. Kan du stadig opgive det?",
+    "svar": [
+      "Ja, så længe hullet ikke er færdigt",
+      "Ja, hvis gruppen godkender det",
+      "Nej, opgivelse kan kun ske fra teestedet",
+      "Nej, du kan kun opgive dit seneste kast"
+    ],
+    "korrekt": 3,
+    "forklaring": "Reglen dækker kun det seneste kast, og opgivelsen skal meldes til gruppen inden du kaster videre. Har du allerede kastet igen, er muligheden væk. Så må du spille videre fra det lie du står med.",
+    "regel": "809.01",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80901",
+    "verificeret": false
+  },
+  {
+    "id": "q-0059",
+    "kategori": "lie og marker",
+    "spoergsmaal": "Du er i tvivl om din disc er OB eller ligger lige inden for linjen, og det tager tid at komme derned. Du kaster et provisorisk kast fra samme lie. Discen viser sig at ligge in bounds. Hvad tæller?",
+    "svar": [
+      "Begge kast tæller, men uden straf",
+      "Kun det provisoriske kast, når det først er kastet",
+      "Det provisoriske kast tæller som ét straffekast",
+      "Kun den oprindelige række, det provisoriske kast tæller ikke"
+    ],
+    "korrekt": 3,
+    "forklaring": "Et provisorisk kast er en alternativ række kast, og kun den ene af de to rækker tæller til sidst. Ligger den oprindelige disc in bounds, spiller du videre derfra, og det provisoriske kast bortfalder helt. Det koster ikke straf at kaste provisorisk.",
+    "regel": "809.02",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80902",
+    "verificeret": false
+  },
+  {
+    "id": "q-0060",
+    "kategori": "lie og marker",
+    "spoergsmaal": "Hvornår giver det mening at kaste et provisorisk kast efter reglerne?",
+    "svar": [
+      "Når du gerne vil prøve en anden disc af på hullet",
+      "Når du er utilfreds med dit kast og vil have et nyt forsøg",
+      "Når gruppen er bagud på tid og gerne vil videre",
+      "Når der er tvivl om discen er OB, tabt eller har misset en mando"
+    ],
+    "korrekt": 3,
+    "forklaring": "Det provisoriske kast findes for at spare tid, når der er reel tvivl om en afgørelse, typisk OB, en tabt disc eller en misset mando. Er tvivlen afklaret bagefter, bruges kun den række der viser sig at gælde. Det er ikke en mulighed for at få et ekstra forsøg.",
+    "regel": "809.02",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80902",
+    "verificeret": false
+  },
+  {
+    "id": "q-0061",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Din drive krydser OB-linjen ved en sø og synker et godt stykke ude i vandet. Hvor ligger dit nye lie?",
+    "svar": [
+      "Op til én meter ind på banen fra det sted discen sidst var in bounds",
+      "Ved søbredden nærmest det sted discen sank",
+      "På det sted du kastede fra, altså teestedet",
+      "Op til én meter fra søens kant, hvor du selv vælger"
+    ],
+    "korrekt": 0,
+    "forklaring": "Lien lægges op til én meter ind på banen fra det punkt hvor discen sidst var in bounds, altså der hvor den krydsede linjen. Hvor discen endte ude i vandet, betyder ingenting. Turneringslederen kan give lov til også at bruge punktet nærmest discen, men det er ikke standard.",
     "regel": "806.02",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80602",
     "verificeret": false
   },
   {
-    "id": "q-0006",
+    "id": "q-0062",
     "kategori": "OB og hazard",
-    "spoergsmaal": "Din disc kommer til hvile inde i et område som turneringslederen har erklæret hazard. Hvad gælder?",
+    "spoergsmaal": "Din disc er OB. Hvad koster det på scoren?",
     "svar": [
-      "Ét straffekast, og du spiller discen hvor den ligger",
-      "Ét straffekast, og du skal tilbage til det forrige lie",
-      "Ingen straf, og du spiller discen hvor den ligger",
-      "To straffekast, præcis som ved OB"
+      "Ét straffekast",
+      "Ingenting, hvis du spiller fra det forrige lie",
+      "To straffekast",
+      "Ét straffekast, plus ét mere hvis du bruger drop zonen"
     ],
     "korrekt": 0,
-    "forklaring": "En hazard koster ét straffekast, men til forskel fra OB flytter du ikke liet. Du spiller videre fra det sted hvor discen ligger inde i hazarden. Har turneringslederen sat en drop zone til hazarden, kan du bruge den i stedet.",
+    "forklaring": "En disc der er OB, koster ét straffekast, uanset hvilken af lempelsesmulighederne du vælger. Det gælder også hvis du vælger at gå tilbage til det forrige lie. Turneringslederen kan i særlige tilfælde tilbyde en drop zone til en anden pris, men det skal meldes ud før runden.",
+    "regel": "806.02",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80602",
+    "verificeret": false
+  },
+  {
+    "id": "q-0063",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Gruppen kan ikke blive enige om, hvorvidt din disc lå helt uden for OB-linjen. Ingen så det tydeligt. Hvad er afgørelsen?",
+    "svar": [
+      "Discen regnes for in bounds",
+      "Discen regnes for OB, indtil du kan bevise andet",
+      "Der kastes om fra det forrige lie",
+      "Turneringslederen skal altid tilkaldes"
+    ],
+    "korrekt": 0,
+    "forklaring": "Er der tvivl om en disc er OB, regnes den for in bounds. Det er den der kalder OB, der skal kunne underbygge det, og et kald der giver straffekast skal bekræftes. Kan gruppen ikke bekræfte det, spiller du videre uden straf.",
+    "regel": "806.02",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80602",
+    "verificeret": false
+  },
+  {
+    "id": "q-0064",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Din disc ligger delvist på den malede OB-linje, så en del af discen er inde på banen. Hvad gælder?",
+    "svar": [
+      "Discen er in bounds, den er ikke helt uden for banen",
+      "Discen er OB, linjen er selv OB",
+      "Gruppen måler efter discens midtpunkt",
+      "Discen er OB, hvis mere end halvdelen er uden for"
+    ],
+    "korrekt": 0,
+    "forklaring": "En disc er kun OB, når den er kommet til hvile helt og tydeligt uden for banen. Rører en del af discen banen inden for linjen, er den in bounds. Selve linjen tæller som OB, men det ændrer ikke på at discen skal være helt uden for.",
+    "regel": "806.02",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80602",
+    "verificeret": false
+  },
+  {
+    "id": "q-0065",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Din approach lander pænt in bounds, men triller derefter ud over kanten og bliver liggende på en OB-markeret sti. Hvad gælder?",
+    "svar": [
+      "Discen er OB, positionen er der hvor den kom til hvile",
+      "Discen er in bounds, den landede inden for linjen",
+      "Du kaster om, fordi trillet var uden for din kontrol",
+      "Gruppen afgør om trillet var naturligt"
+    ],
+    "korrekt": 0,
+    "forklaring": "Det er ikke landingsstedet der tæller, men det sted discen første gang kommer til hvile. Ender den ude på stien, er den OB, og det koster ét straffekast. Havde den derimod ligget stille inde på banen først, ville den senere bevægelse ikke gøre den OB.",
+    "regel": "806.02",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80602",
+    "verificeret": false
+  },
+  {
+    "id": "q-0066",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Du har lagt din mini op til én meter ind på banen efter et OB-kast, men der står en tæt busk lige foran. Hvad kan du gøre uden yderligere straf?",
+    "svar": [
+      "Rykke lien længere væk fra kurven på spillelinjen",
+      "Rykke lien til siden, indtil du har fri linje",
+      "Ingenting, lien ligger fast når meteren er brugt",
+      "Bruge drop zonen på hullet i stedet"
+    ],
+    "korrekt": 0,
+    "forklaring": "Når lien er etableret efter OB-reglen, må du derefter rykke den længere væk fra kurven på spillelinjen uden ekstra straf. Du må derimod ikke gå ud til siden for at få en bedre vinkel. Muligheden gælder kun bagud langs spillelinjen.",
+    "regel": "806.02",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80602",
+    "verificeret": false
+  },
+  {
+    "id": "q-0067",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Dit udkast på et kort hul går OB bag kurven. Du vil hellere kaste ud igen end at spille fra kanten. Er det tilladt?",
+    "svar": [
+      "Ja, det forrige lie er en af mulighederne, her teestedet",
+      "Nej, du skal altid spille fra det sted discen sidst var in bounds",
+      "Ja, men det koster to straffekast at gå tilbage til teestedet",
+      "Nej, teestedet kan ikke bruges som lie mere end én gang"
+    ],
+    "korrekt": 0,
+    "forklaring": "En af mulighederne efter OB er at spille fra det forrige lie, og på hullets første kast er det teestedet. Prisen er den samme, altså ét straffekast. Du kaster derfor dit tredje kast fra teestedet.",
+    "regel": "806.02",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80602",
+    "verificeret": false
+  },
+  {
+    "id": "q-0068",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Turneringslederen har oplyst en drop zone til søen på hul 4. Din disc er OB i søen. Hvad gælder for drop zonen?",
+    "svar": [
+      "Den kan bruges i stedet for de andre muligheder, på de vilkår turneringslederen har meldt ud",
+      "Den skal altid bruges, når den findes på hullet",
+      "Den koster altid to straffekast at bruge",
+      "Den kan kun bruges, hvis du ikke kan finde det sted discen krydsede linjen"
+    ],
+    "korrekt": 0,
+    "forklaring": "En drop zone er en ekstra mulighed, ikke et krav, medmindre turneringslederen har sagt det modsatte. Vilkårene, herunder om prisen er den sædvanlige, skal være meldt ud til spillerne før runden. Du kan altså stadig vælge meteren fra linjen eller det forrige lie.",
+    "regel": "806.02",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80602",
+    "verificeret": false
+  },
+  {
+    "id": "q-0069",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Din disc sidder fast i et træ, hvis stamme står inde på banen, men grenen hænger ud over et OB-markeret vandløb. Discen er lodret over vandet. Hvad gælder?",
+    "svar": [
+      "Discen er in bounds, fordi træet står in bounds",
+      "Discen er OB, OB-området gælder også lodret opad",
+      "Discen er in bounds, indtil den falder ned i vandet",
+      "Gruppen afgør det efter hvor stammen står"
+    ],
+    "korrekt": 1,
+    "forklaring": "OB-området strækker sig lodret op og ned, ikke kun langs jorden. Sidder discen over et OB-område, er den OB, uanset hvor træet står. Positionen på spillefladen under discen ville ellers have været afgørende.",
+    "regel": "806.02",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80602",
+    "verificeret": false
+  },
+  {
+    "id": "q-0070",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Der er in bounds vand på hul 6, som turneringslederen ikke har erklæret i spil. Din disc lander i det. Hvad gælder?",
+    "svar": [
+      "Ét straffekast, vand er altid OB",
+      "Ingen straf, vandet er casual område og du kan tage lempelse",
+      "Ét straffekast, vand behandles som hazard",
+      "Ingen straf, men du skal spille discen hvor den ligger"
+    ],
+    "korrekt": 1,
+    "forklaring": "Vand der er in bounds og ikke udtrykkeligt er erklæret i spil, er som udgangspunkt et casual område. Der er ingen straf, og du kan tage lempelse til nærmeste punkt på spillelinjen uden for vandet. Du må også vælge at spille discen som den ligger.",
+    "regel": "806.02",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80602",
+    "verificeret": false
+  },
+  {
+    "id": "q-0071",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "En medspiller påstår at din disc er OB, men to andre i gruppen så tydeligt at den lå inde på banen, før den blev flyttet af en tilskuer. Hvad sker der?",
+    "svar": [
+      "Discen er OB, den ligger uden for banen nu",
+      "Discen lægges tilbage til det sted den lå in bounds, uden straf",
+      "Der gives ét straffekast, fordi discen er blevet flyttet",
+      "Gruppen stemmer om hvor discen skal lægges"
+    ],
+    "korrekt": 1,
+    "forklaring": "En kastet disc der har ligget stille in bounds og bagefter er blevet flyttet, lægges tilbage hvor den lå. Det gælder også når en tilskuer flytter den, og det koster ingen straf. Der stemmes ikke om afgørelser, de bekræftes eller falder.",
+    "regel": "806.02",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80602",
+    "verificeret": false
+  },
+  {
+    "id": "q-0072",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Hvor måles den ene meter fra, når du tager lempelse efter OB?",
+    "svar": [
+      "Fra det sted discen ligger, ind mod banen",
+      "Fra det punkt hvor discen sidst var in bounds, ind på banen",
+      "Fra midten af OB-området",
+      "Fra den nærmeste hjørne af OB-området"
+    ],
+    "korrekt": 1,
+    "forklaring": "Meteren måles fra det punkt hvor discen sidst var in bounds, altså krydsningspunktet, og ind på banen. Du må gå op til en meter, men aldrig tættere på kurven. Måler du fra selve discen, får du typisk et helt forkert lie.",
+    "regel": "806.02",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80602",
+    "verificeret": false
+  },
+  {
+    "id": "q-0073",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Fire situationer ved OB-linjen. I hvilken af dem er discen IKKE out of bounds?",
+    "svar": [
+      "Discen ligger helt uden for linjen på asfalten",
+      "Discen ligger med kanten hen over den malede linje",
+      "Discen ligger i en OB-markeret grøft under linjen",
+      "Discen ligger uden for linjen i højt græs"
+    ],
+    "korrekt": 1,
+    "forklaring": "En disc skal være helt og tydeligt uden for banen for at være OB. Rører den linjen og dermed stadig er delvist inde, er den in bounds. De tre andre ligger klart uden for banen og koster ét straffekast.",
+    "regel": "806.02",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80602",
+    "verificeret": false
+  },
+  {
+    "id": "q-0074",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Din disc lander i et område, som turneringslederen har erklæret hazard. Hvad koster det, og hvor spiller du fra?",
+    "svar": [
+      "Ét straffekast, og du spiller fra kanten af området",
+      "Ét straffekast, og du spiller fra det sted discen ligger",
+      "To straffekast, og du spiller fra det forrige lie",
+      "Ingen straf, men du skal ud af området"
+    ],
+    "korrekt": 1,
+    "forklaring": "En hazard koster ét straffekast, og selve lien flyttes ikke. Du spiller altså videre fra det sted discen ligger inde i området. Har turneringslederen sat en drop zone til hazarden, kan den bruges i stedet.",
     "regel": "806.05",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80605",
     "verificeret": false
   },
   {
-    "id": "q-0007",
-    "kategori": "obstakler og lempelse",
-    "spoergsmaal": "En gren fra et træ hænger lige foran din disc og spærrer for kastelinjen. Må du bøje den til side, hvis du slipper den igen inden du kaster?",
+    "id": "q-0075",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Hvad er den vigtigste forskel mellem en hazard og et OB-område?",
     "svar": [
-      "Ja, når bare du slipper grenen inden kastet",
-      "Nej, du må ikke flytte, bøje eller holde en forhindring væk for at forbedre linjen",
-      "Ja, hvis grenen ikke er en del af banens design",
-      "Ja, men det koster ét straffekast"
+      "Hazard koster to straffekast, OB koster ét",
+      "Hazard flytter ikke lien, OB gør",
+      "Hazard gælder kun vand, OB gælder alt andet",
+      "Hazard kan kun kaldes af en official"
     ],
     "korrekt": 1,
-    "forklaring": "Du må ikke flytte, bøje, brække eller holde en forhindring til side for at forbedre din kastelinje eller din stance. Du må derimod gerne flytte dig selv, og du må gerne fjerne ting der ikke hører til banen, for eksempel en anden spillers udstyr. Bevæger en gren sig af sig selv i vinden, er det ikke din sag.",
+    "forklaring": "Begge dele koster ét straffekast, så prisen er den samme. Forskellen er hvor du spiller fra bagefter, for ved OB flyttes lien ind på banen, mens hazarden lader discen ligge. En hazard skal være erklæret af turneringslederen for at gælde.",
+    "regel": "806.05",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80605",
+    "verificeret": false
+  },
+  {
+    "id": "q-0076",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Din disc ligger inde i en hazard, og du kan dårligt stå der. Hvad kan du gøre ud over at spille den som den ligger?",
+    "svar": [
+      "Tage lempelse ud af hazarden uden ekstra straf",
+      "Tage valgfri lempelse på spillelinjen mod endnu et straffekast",
+      "Kaste om fra det forrige lie uden ekstra straf",
+      "Bede gruppen om at flytte hazardens grænse"
+    ],
+    "korrekt": 1,
+    "forklaring": "Hazarden i sig selv giver ikke ret til at flytte lien. Vil du væk, kan du bruge valgfri lempelse på spillelinjen, men den koster ét straffekast oven i hazardens. Så ender du på to straffekast for det ene lie.",
+    "regel": "806.05",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80605",
+    "verificeret": false
+  },
+  {
+    "id": "q-0077",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Hvem afgør om et område på banen er en hazard?",
+    "svar": [
+      "Gruppen, når de kan blive enige på hullet",
+      "PDGA, gennem en fast liste over hazardtyper",
+      "Turneringslederen, der melder det ud før runden",
+      "Banens ejer, gennem skiltning på hullet"
+    ],
+    "korrekt": 2,
+    "forklaring": "En hazard findes kun, hvis turneringslederen har erklæret området som hazard, og det skal være meldt ud til spillerne. Der er ingen områder der automatisk er hazard efter reglerne. Er der intet meldt ud, gælder de almindelige regler for området.",
+    "regel": "806.05",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80605",
+    "verificeret": false
+  },
+  {
+    "id": "q-0078",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Din disc ligger i en hazard, og du står med begge fødder inde i hazarden, når du kaster. Hvad gælder for stancen?",
+    "svar": [
+      "Du får endnu et straffekast for at stå i hazarden",
+      "Du skal stå uden for hazarden, ellers tæller kastet ikke",
+      "Der er ingen særlige krav, hazarden påvirker ikke stancen",
+      "Du skal have mindst én fod uden for hazarden"
+    ],
+    "korrekt": 2,
+    "forklaring": "En hazard er ikke OB, og der er derfor ingen krav om hvor dine støttepunkter er i forhold til området. De almindelige stanceregler gælder, altså kontakt med lien og intet støttepunkt tættere på kurven. Straffen er den ene der følger af at discen landede i hazarden.",
+    "regel": "806.05",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80605",
+    "verificeret": false
+  },
+  {
+    "id": "q-0079",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Din disc triller igennem en hazard og ender in bounds uden for den. Hvad koster det?",
+    "svar": [
+      "Ét straffekast, discen var inde i området",
+      "Ét straffekast, hvis mere end halvdelen af flugten var i hazarden",
+      "Ingenting, det er hvor discen kommer til hvile der tæller",
+      "Gruppen afgør det efter hvor længe discen var i området"
+    ],
+    "korrekt": 2,
+    "forklaring": "Det er alene hvor discen kommer til hvile, der afgør om hazarden koster noget. En disc der blot passerer igennem området, udløser ingen straf. Det svarer til OB, hvor en disc også godt må flyve hen over området.",
+    "regel": "806.05",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80605",
+    "verificeret": false
+  },
+  {
+    "id": "q-0080",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Turneringslederen har markeret et nyplantet bed som område med påkrævet lempelse. Din disc lander midt i det. Hvad gælder?",
+    "svar": [
+      "Du spiller discen som den ligger, men uden straf",
+      "Du må ikke spille derfra, og det koster ét straffekast",
+      "Du må ikke spille derfra, og du tager lempelse uden straf",
+      "Du skal tilbage til det forrige lie mod ét straffekast"
+    ],
+    "korrekt": 2,
+    "forklaring": "Et område med påkrævet lempelse er et sted, hvor discen ikke må spilles fra. Området behandles som OB, når lien skal findes, men der er ingen straf. Du lægger altså din mini op til en meter ind fra kanten, hvor discen sidst var uden for området, og spiller videre.",
+    "regel": "806.04",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80604",
+    "verificeret": false
+  },
+  {
+    "id": "q-0081",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Hvordan adskiller påkrævet lempelse sig fra almindelig OB, når du skal finde dit nye lie?",
+    "svar": [
+      "Der er ingen straf, men du kan frit vælge det forrige lie",
+      "Der er ét straffekast, men lien findes på samme måde",
+      "Der er ingen straf, og du kan ikke bruge det forrige lie",
+      "Der er ingen straf, og du må rykke to meter ind i stedet for én"
+    ],
+    "korrekt": 2,
+    "forklaring": "Lien findes på samme måde som ved OB, altså op til en meter ind fra kanten. De to forskelle er, at der ikke gives straffekast, og at muligheden for at spille fra det forrige lie ikke gælder. Vil du alligevel tilbage, må du opgive kastet mod ét straffekast.",
+    "regel": "806.04",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80604",
+    "verificeret": false
+  },
+  {
+    "id": "q-0082",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Din disc ligger i et område med påkrævet lempelse, og du vil hellere kaste om fra det sted du kastede fra. Er det muligt?",
+    "svar": [
+      "Ja, det forrige lie er altid en mulighed",
+      "Ja, men kun hvis området ligger tættere på kurven end det forrige lie",
+      "Ja, ved at opgive kastet, hvilket koster ét straffekast",
+      "Nej, det kan ikke lade sig gøre på nogen måde"
+    ],
+    "korrekt": 2,
+    "forklaring": "Reglen om påkrævet lempelse lukker netop muligheden for at gå tilbage til det forrige lie uden videre. Vil du alligevel spille derfra, kan du opgive dit kast efter reglen om opgivne kast. Det koster ét straffekast, og kastet tæller stadig med.",
+    "regel": "806.04",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80604",
+    "verificeret": false
+  },
+  {
+    "id": "q-0083",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "En medspiller mener at et område med påkrævet lempelse også koster et straffekast, ligesom OB. Hvad er rigtigt?",
+    "svar": [
+      "Medspilleren har ret, alle markerede områder koster straf",
+      "Der gives straf, men kun hvis discen ikke kan hentes",
+      "Der gives ingen straf for påkrævet lempelse",
+      "Der gives straf, medmindre turneringslederen har sagt andet"
+    ],
+    "korrekt": 2,
+    "forklaring": "Påkrævet lempelse er netop lempelse, ikke en straf. Området er lavet for at holde spillerne væk fra noget, typisk sart natur eller noget farligt, ikke for at gøre hullet sværere. Straffen ved OB gælder ikke her.",
+    "regel": "806.04",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80604",
+    "verificeret": false
+  },
+  {
+    "id": "q-0084",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Din drive går på den forkerte side af en mando. Der er en drop zone på hullet. Hvad gælder?",
+    "svar": [
+      "Ét straffekast, og du spiller fra det forrige lie",
+      "To straffekast, og du spiller fra drop zonen",
+      "Ingen straf, hvis discen alligevel ender bag mandoen",
+      "Ét straffekast, og du spiller fra drop zonen"
+    ],
+    "korrekt": 3,
+    "forklaring": "En misset mando koster ét straffekast. Er der en drop zone til mandoen, er den dit næste lie. Er der ingen drop zone, spiller du i stedet fra det lie du kastede fra.",
+    "regel": "804.01",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80401",
+    "verificeret": false
+  },
+  {
+    "id": "q-0085",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Hvornår har en disc misset en mando?",
+    "svar": [
+      "Når discen lander på den forkerte side af mandoen",
+      "Når discen passerer mandoen i mere end to meters højde",
+      "Når gruppen skønner at linjen ikke blev fulgt",
+      "Når en del af discen kommer ind i det forbudte område"
+    ],
+    "korrekt": 3,
+    "forklaring": "Mandoen er missét i det øjeblik, hvor en del af discen kommer ind i det forbudte rum ved mandoen. Det er altså flugten der afgør det, ikke hvor discen ender. Reglen blev netop forenklet, så landingsstedet ikke længere er en del af vurderingen.",
+    "regel": "804.01",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80401",
+    "verificeret": false
+  },
+  {
+    "id": "q-0086",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Din disc flyver korrekt forbi mandoen på den rigtige side, men triller derefter tilbage og ender bag mandotræet på den forkerte side. Hvad gælder?",
+    "svar": [
+      "Mandoen er misset, discen ligger på den forkerte side",
+      "Mandoen er misset, medmindre gruppen så flugten tydeligt",
+      "Der gives ét straffekast, men du spiller videre hvor discen ligger",
+      "Mandoen er passeret korrekt, det er flugten der tæller"
+    ],
+    "korrekt": 3,
+    "forklaring": "Det afgørende er om discen under sin flugt kom ind i det forbudte rum. Passerede den korrekt, er mandoen klaret, uanset hvor den triller hen bagefter. Du spiller videre fra discens position uden straf.",
+    "regel": "804.01",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80401",
+    "verificeret": false
+  },
+  {
+    "id": "q-0087",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Der er ingen drop zone på hullet med mandoen, og du misser den med dit andet kast. Hvor spiller du fra, og hvad er dit næste kast?",
+    "svar": [
+      "Fra teestedet, og det er dit tredje kast",
+      "Fra det sted discen ligger, og det er dit tredje kast",
+      "Fra det lie du kastede dit andet kast fra, og det er dit tredje kast",
+      "Fra det lie du kastede dit andet kast fra, og det er dit fjerde kast"
+    ],
+    "korrekt": 3,
+    "forklaring": "Uden drop zone er dit næste lie det lie, du kastede det missede kast fra. Du har kastet to kast og lægger ét straffekast til, så det næste bliver dit fjerde. Det er derfor en misset mando ofte er dyrere end den ser ud.",
+    "regel": "804.01",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80401",
+    "verificeret": false
+  },
+  {
+    "id": "q-0088",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Du er i tvivl om din drive er OB, og der er langt ned til stedet. Hvad skal du gøre, før du kaster et provisorisk kast?",
+    "svar": [
+      "Bede en official om lov, ellers tæller kastet",
+      "Vente til gruppen har ledt efter den første disc",
+      "Skrive det på scorekortet med det samme",
+      "Melde det til gruppen, så alle ved at kastet er provisorisk"
+    ],
+    "korrekt": 3,
+    "forklaring": "Et provisorisk kast skal meldes til gruppen, inden du kaster, så alle ved hvad det er. Ellers står du med to kast der begge tæller. Der skal ikke nogen official ind over, og det koster ikke straf i sig selv.",
+    "regel": "809.02",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80902",
+    "verificeret": false
+  },
+  {
+    "id": "q-0089",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Du kastede provisorisk fra teestedet, fordi du var i tvivl om OB. Nede ved linjen viser det sig, at den første disc faktisk er OB. Hvad gælder nu?",
+    "svar": [
+      "Begge rækker tæller, og du vælger den bedste",
+      "Kun det provisoriske kast tæller, og OB-straffen bortfalder",
+      "Du skal kaste igen fra teestedet, fordi rækkerne ikke kan blandes",
+      "Den provisoriske række bruges, og OB-straffen lægges til"
+    ],
+    "korrekt": 3,
+    "forklaring": "Når den oprindelige disc viser sig at være OB, er det den provisoriske række der spilles videre på. Straffekastet for OB lægges til på samme måde som ellers. Du kan ikke bruge kast fra begge rækker, kun den ene.",
+    "regel": "809.02",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80902",
+    "verificeret": false
+  },
+  {
+    "id": "q-0090",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Du er i tvivl om du missede en mando, og gruppen står langt væk. Kan du kaste provisorisk?",
+    "svar": [
+      "Nej, provisoriske kast gælder kun ved OB",
+      "Nej, ved mando skal gruppen altid gå ned og se efter",
+      "Ja, men kun hvis der er en drop zone på hullet",
+      "Ja, tvivl om en mando er en af de situationer reglen dækker"
+    ],
+    "korrekt": 3,
+    "forklaring": "Provisoriske kast findes for at spare tid, når der er reel tvivl om en afgørelse. Det gælder både OB, en mulig tabt disc og en mulig misset mando. Bagefter bruges kun den række, der viser sig at være den rigtige.",
+    "regel": "809.02",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80902",
+    "verificeret": false
+  },
+  {
+    "id": "q-0091",
+    "kategori": "obstakler og lempelse",
+    "spoergsmaal": "En levende gren hænger ned foran dit lie. Du bøjer den til side med venstre hånd og slipper den først, efter at discen har forladt højre hånd. Hvad er afgørelsen?",
+    "svar": [
+      "Ulovligt, du må ikke holde en forhindring væk mens du kaster",
+      "Lovligt, grenen var tilbage på plads bagefter",
+      "Lovligt, fordi grenen ikke er en fast del af banen",
+      "Ulovligt, medmindre grenen er under to meter over jorden"
+    ],
+    "korrekt": 0,
+    "forklaring": "Du må ikke flytte, bøje eller holde en forhindring til side for at få bedre plads eller en bedre linje. Det gælder også selv om du slipper den igen, og selv om den falder tilbage på plads. Grene på træer er en del af banen på lige fod med stammer og sten.",
     "regel": "803.01",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80301",
     "verificeret": false
   },
   {
-    "id": "q-0008",
+    "id": "q-0092",
     "kategori": "obstakler og lempelse",
-    "spoergsmaal": "Efter kraftig regn ligger din disc i en stor vandpyt på fairwayen. Området er ikke markeret som OB eller hazard. Hvad kan du gøre?",
+    "spoergsmaal": "Du kan indtage to lovlige stancer ved dit lie. Den ene presser en busk kraftigt til side, den anden rører den næsten ikke. Hvad siger reglerne?",
     "svar": [
-      "Du skal spille discen som den ligger, uanset vandet",
-      "Du må flytte liet én meter til siden uden straf",
-      "Du må flytte liet frit, men det koster ét straffekast",
-      "Du må flytte liet til nærmeste punkt på spillelinjen uden for vandet, uden straf"
+      "Du skal vælge den stance, der flytter forhindringen mindst",
+      "Du vælger frit, når begge stancer er lovlige",
+      "Du skal vælge den stance, der giver den bedste kastelinje",
+      "Du skal tage lempelse, når en stance flytter noget"
     ],
-    "korrekt": 3,
-    "forklaring": "Vand der er in bounds og ikke er erklæret i spil, tæller som casual område. Du markerer på spillelinjen længere væk fra kurven, ved det nærmeste sted hvor både markering og lie er uden for vandet, og det koster ingen straf. Du kan også vælge at spille discen hvor den ligger.",
+    "korrekt": 0,
+    "forklaring": "Når en forhindring er en fast eller integreret del af banen, skal du vælge den stance, der bevæger den mindst muligt. Det er ikke frit valg, selv om begge stancer i sig selv opfylder stancereglerne. Reglen findes for at banen ikke bliver slidt ned af spillerne.",
+    "regel": "803.01",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80301",
+    "verificeret": false
+  },
+  {
+    "id": "q-0093",
+    "kategori": "obstakler og lempelse",
+    "spoergsmaal": "Under selve kastebevægelsen rammer din arm en gren, så den svirper til side. Du havde taget den stance, der flyttede mindst. Hvad er afgørelsen?",
+    "svar": [
+      "Ingen straf, tilfældig berøring under kastet er lovlig",
+      "Ét straffekast for at flytte en forhindring",
+      "Kastet tæller ikke, fordi grenen blev flyttet",
+      "En advarsel første gang i runden"
+    ],
+    "korrekt": 0,
+    "forklaring": "Det er lovligt, at kastebevægelsen kommer til at flytte en forhindring undervejs. Reglen rammer det bevidste, altså at rydde plads før kastet eller holde noget væk. Har du valgt den stance der flytter mindst, er du på den rigtige side af reglen.",
+    "regel": "803.01",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80301",
+    "verificeret": false
+  },
+  {
+    "id": "q-0094",
+    "kategori": "obstakler og lempelse",
+    "spoergsmaal": "En løs, afbrækket gren ligger på jorden en meter bag dit lie, altså længere væk fra kurven end lien. Må du flytte den?",
+    "svar": [
+      "Ja, en løs forhindring bag lien må flyttes",
+      "Nej, intet på banen må flyttes",
+      "Ja, men kun hvis den ikke er en del af banens design",
+      "Nej, men du må træde den ned"
+    ],
+    "korrekt": 0,
+    "forklaring": "Løse forhindringer på spillefladen må flyttes, når de ligger længere væk fra kurven end lien forkant. Det er netop dem der ligger i vejen for tilløb og stance, uden at være en del af banen. Ligger den derimod foran lien, skal den blive liggende.",
+    "regel": "803.01",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80301",
+    "verificeret": false
+  },
+  {
+    "id": "q-0095",
+    "kategori": "obstakler og lempelse",
+    "spoergsmaal": "Den samme løse gren ligger denne gang to meter foran dit lie, altså tættere på kurven, og den generer din udkastlinje. Må du flytte den?",
+    "svar": [
+      "Nej, du må kun flytte løse forhindringer der ligger bag lien",
+      "Ja, løse ting må altid fjernes fra spillefladen",
+      "Ja, hvis du kan gøre det uden at ændre dit lie",
+      "Nej, men gruppen kan give lov, hvis alle er enige"
+    ],
+    "korrekt": 0,
+    "forklaring": "Reglen giver kun lov til at flytte løse forhindringer, der ligger længere væk fra kurven end lien forkant. Alt foran lien skal blive liggende, også selv om det er en løs gren. Ellers ville man kunne rydde hele kastelinjen fri.",
+    "regel": "803.01",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80301",
+    "verificeret": false
+  },
+  {
+    "id": "q-0096",
+    "kategori": "obstakler og lempelse",
+    "spoergsmaal": "Du har taget din stance, og først derefter opdager du, at en lille sten generer foden. Du skubber den væk med skoen og kaster. Hvad er afgørelsen?",
+    "svar": [
+      "Ulovligt, du må ikke gøre plads til kastet, når stancen er taget",
+      "Lovligt, stenen var ikke en del af banens design",
+      "Lovligt, når du ikke ændrede lien",
+      "Ulovligt, men kun hvis stenen lå foran markeren"
+    ],
+    "korrekt": 0,
+    "forklaring": "Når stancen først er taget, må du ikke flytte noget for at få plads til kastebevægelsen. Det gælder også små ting som en sten under foden. Havde stenen ligget løst bag lien, kunne du have flyttet den, inden du tog stance.",
+    "regel": "803.01",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80301",
+    "verificeret": false
+  },
+  {
+    "id": "q-0097",
+    "kategori": "obstakler og lempelse",
+    "spoergsmaal": "Fire situationer ved dit lie. I hvilken af dem er handlingen IKKE tilladt?",
+    "svar": [
+      "Du fjerner en løs gren, der ligger bag dit lie",
+      "Du binder en gren op med et hårelastik under kastet",
+      "Din kastearm strejfer en gren under kastet",
+      "Du vælger den stance, der bevæger busken mindst"
+    ],
+    "korrekt": 1,
+    "forklaring": "At binde eller holde en gren væk er en bevidst flytning af en forhindring og er ikke tilladt. De tre andre er alle lovlige, fordi de enten er tilfældige eller sker bag lien. Bredt sagt må du flytte dig selv, ikke banen.",
+    "regel": "803.01",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80301",
+    "verificeret": false
+  },
+  {
+    "id": "q-0098",
+    "kategori": "obstakler og lempelse",
+    "spoergsmaal": "Efter regn ligger din disc i en stor pyt midt på fairwayen. Turneringslederen har ikke sagt noget om vand på hullet. Hvad gælder?",
+    "svar": [
+      "Pytten er OB, og det koster ét straffekast",
+      "Pytten er casual område, og du kan tage lempelse uden straf",
+      "Pytten er hazard, og det koster ét straffekast",
+      "Pytten er uden betydning, og discen skal spilles som den ligger"
+    ],
+    "korrekt": 1,
+    "forklaring": "Vand der er in bounds og ikke udtrykkeligt er erklæret i spil, er casual område. Det giver ret til at flytte lien uden straf. Du kan naturligvis også vælge at spille discen som den ligger, hvis det er nemmest.",
     "regel": "806.03",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80603",
     "verificeret": false
   },
   {
-    "id": "q-0009",
-    "kategori": "straf og misplay",
-    "spoergsmaal": "På vej mod kurven opdager du at dit sidste kast blev kastet fra et forkert lie. Du har ikke kastet flere kast siden. Hvad gør du?",
+    "id": "q-0099",
+    "kategori": "obstakler og lempelse",
+    "spoergsmaal": "Du tager lempelse fra et casual område. Hvor havner det nye lie?",
     "svar": [
-      "Du spiller videre fra det forkerte lie uden straf",
-      "Du går tilbage, spiller fra det rigtige lie og lægger ét straffekast til",
-      "Du går tilbage, spiller fra det rigtige lie og lægger to straffekast til",
-      "Hullet annulleres og skal spilles om"
+      "Så langt tilbage på spillelinjen du har lyst til",
+      "Ved nærmeste punkt på spillelinjen, hvor markering og lie er uden for området",
+      "Op til fem meter tilbage på spillelinjen",
+      "Ved det nærmeste tørre sted, uanset retning"
     ],
     "korrekt": 1,
-    "forklaring": "Et misplay er blandt andet et kast fra et forkert lie. Er der ikke kastet flere kast siden, retter du fejlen ved at spille fra det rigtige lie og lægge ét straffekast til. Har du allerede kastet et kast mere, spiller du videre fra dit nuværende lie og lægger to straffekast til.",
+    "forklaring": "Du markerer på spillelinjen længere væk fra kurven, og du må højst gå til det nærmeste sted, hvor både markeringen og lien er uden for området. Du kan altså ikke tage mere end du har brug for. Reglen om fem meter er en gammel regel, der ikke gælder længere.",
+    "regel": "806.03",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80603",
+    "verificeret": false
+  },
+  {
+    "id": "q-0100",
+    "kategori": "obstakler og lempelse",
+    "spoergsmaal": "Hvad koster det at tage lempelse fra et casual område?",
+    "svar": [
+      "Ét straffekast",
+      "Ingenting",
+      "Ét straffekast, hvis du går mere end en meter",
+      "To straffekast, som ved OB"
+    ],
+    "korrekt": 1,
+    "forklaring": "Lempelse fra et casual område er gratis. Det er netop forskellen på et casual område og en hazard, hvor der gives ét straffekast. Vil du længere tilbage end lempelsen rækker, skal du bruge valgfri lempelse, og den koster ét straffekast.",
+    "regel": "806.03",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80603",
+    "verificeret": false
+  },
+  {
+    "id": "q-0101",
+    "kategori": "obstakler og lempelse",
+    "spoergsmaal": "Din disc ligger i et casual område, men du har faktisk et fint kast derfra. Skal du tage lempelsen?",
+    "svar": [
+      "Ja, lempelse fra casual område er påkrævet",
+      "Nej, lempelsen er valgfri, og du kan spille discen hvor den ligger",
+      "Ja, hvis mere end halvdelen af discen er i området",
+      "Nej, men du skal melde det til gruppen først"
+    ],
+    "korrekt": 1,
+    "forklaring": "Et casual område giver ret til lempelse, det er ikke et krav om at flytte sig. Ligger discen godt, spiller du bare videre derfra. Det er kun områder med påkrævet lempelse, du skal væk fra.",
+    "regel": "806.03",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80603",
+    "verificeret": false
+  },
+  {
+    "id": "q-0102",
+    "kategori": "obstakler og lempelse",
+    "spoergsmaal": "Din gruppe synes at et mudret hjørne af fairwayen bør give lempelse, og I bliver enige om at behandle det som casual område. Hvad gælder?",
+    "svar": [
+      "Gruppen kan erklære det, hvis alle er enige",
+      "Gruppen kan ikke selv erklære et område casual",
+      "Gruppen kan erklære det for resten af runden",
+      "Gruppen kan erklære det, hvis der ikke er en official i nærheden"
+    ],
+    "korrekt": 1,
+    "forklaring": "Et casual område er enten vand in bounds der ikke er i spil, eller noget turneringslederen har udpeget. En gruppe kan ikke selv beslutte at et område giver lempelse. Er I i tvivl, kan I spille videre og få afklaret det med en official bagefter.",
+    "regel": "806.03",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80603",
+    "verificeret": false
+  },
+  {
+    "id": "q-0103",
+    "kategori": "obstakler og lempelse",
+    "spoergsmaal": "Du står i et casual område og skal kaste, men selve discen ligger uden for området. Hvad gælder for lempelsen?",
+    "svar": [
+      "Du kan tage lempelse, hvis begge fødder er i vandet",
+      "Du kan ikke tage lempelse, hvis din markering er uden for området",
+      "Du kan tage lempelse, fordi din stance er i området",
+      "Du kan tage lempelse, hvis gruppen synes stancen er urimelig"
+    ],
+    "korrekt": 2,
+    "forklaring": "Lempelsen tager hensyn til både markeringen og selve lien, altså det sted du står. Er lien i området, kan du flytte til nærmeste punkt på spillelinjen, hvor både markering og lie er fri. Derfor kan en våd stance godt udløse lempelse, selv om discen ligger tørt.",
+    "regel": "806.03",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80603",
+    "verificeret": false
+  },
+  {
+    "id": "q-0104",
+    "kategori": "obstakler og lempelse",
+    "spoergsmaal": "Der sidder et hvepsebo lige ved dit lie, og hvepsene er tydeligt aktive. Hvad gælder?",
+    "svar": [
+      "Du skal spille videre, insekter er en del af banen",
+      "Du kan tage lempelse mod ét straffekast",
+      "Du kan tage lempelse uden straf til nærmeste sted der giver fri",
+      "Du skal vente, indtil hvepsene har lagt sig"
+    ],
+    "korrekt": 2,
+    "forklaring": "Reglen giver lempelse fra farlige insekter og dyr, og det koster ingen straf. Du markerer et nyt lie på spillelinjen længere væk fra kurven, ved det nærmeste sted der giver fri fra faren. Turneringslederen kan på forhånd have givet ret til at gå længere væk.",
+    "regel": "803.02",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80302",
+    "verificeret": false
+  },
+  {
+    "id": "q-0105",
+    "kategori": "obstakler og lempelse",
+    "spoergsmaal": "Hvad giver reglen om lempelse fra forhindringer ret til lempelse fra?",
+    "svar": [
+      "Alt hvad spilleren oplever som farligt eller ubehageligt",
+      "Alle menneskeskabte genstande på banen",
+      "Farlige insekter og dyr samt det turneringslederen har udpeget",
+      "Alle forhindringer, der ikke stod der ved sidste turnering"
+    ],
+    "korrekt": 2,
+    "forklaring": "Lempelsen dækker farlige insekter og dyr plus det turneringslederen udtrykkeligt har udpeget, for eksempel byggematerialer eller strømførende hegn. Den dækker ikke alt hvad der er ubehageligt at stå i. Almindelige naturlige forhindringer skal spilles som de er.",
+    "regel": "803.02",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80302",
+    "verificeret": false
+  },
+  {
+    "id": "q-0106",
+    "kategori": "obstakler og lempelse",
+    "spoergsmaal": "Din disc ligger i en tornebusk, og det gør ondt at hente den. Kan du tage lempelse efter reglen om forhindringer?",
+    "svar": [
+      "Ja, torne tæller som farlige planter",
+      "Ja, hvis du kan vise gruppen mindst ét rift",
+      "Nej, tornebuske giver ikke i sig selv ret til lempelse",
+      "Nej, men du kan flytte busken i stedet"
+    ],
+    "korrekt": 2,
+    "forklaring": "Reglen nævner farlige insekter og dyr, ikke planter der bare er ubehagelige. En tornebusk giver derfor ikke automatisk lempelse, medmindre turneringslederen har udpeget området. Vil du væk alligevel, koster valgfri lempelse på spillelinjen ét straffekast.",
+    "regel": "803.02",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80302",
+    "verificeret": false
+  },
+  {
+    "id": "q-0107",
+    "kategori": "obstakler og lempelse",
+    "spoergsmaal": "Turneringslederen har meldt ud, at der gives lempelse fra et hegn under opsætning, og at man må gå så langt væk som nødvendigt for at kunne kaste. Hvad gælder så?",
+    "svar": [
+      "Standardlempelsen på nærmeste punkt gælder alligevel",
+      "Lempelsen gælder kun, hvis en official er til stede på hullet",
+      "Den udmeldte lempelse gælder, turneringslederen kan give mere end standarden",
+      "Lempelsen koster ét straffekast, når den er større end standarden"
+    ],
+    "korrekt": 2,
+    "forklaring": "Standarden er det nærmeste punkt på spillelinjen der giver fri, men turneringslederen kan melde ud, at der gives mere lempelse. Så er det den udmelding der gælder for stævnet. Den ekstra lempelse koster stadig ingen straf.",
+    "regel": "803.02",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80302",
+    "verificeret": false
+  },
+  {
+    "id": "q-0108",
+    "kategori": "obstakler og lempelse",
+    "spoergsmaal": "Du vil bruge valgfri lempelse på spillelinjen. Hvad skal du gøre, før du flytter markeringen?",
+    "svar": [
+      "Bede en official om lov",
+      "Kaste et provisorisk kast først",
+      "Melde til gruppen at du tager lempelsen",
+      "Vente til alle andre i gruppen har kastet"
+    ],
+    "korrekt": 2,
+    "forklaring": "Du skal melde til gruppen, at du tager valgfri lempelse, inden du flytter markeringen. Så ved alle hvorfor lien flytter sig, og at der lægges ét straffekast til. Der skal ikke godkendelse fra en official til.",
+    "regel": "803.03",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80303",
+    "verificeret": false
+  },
+  {
+    "id": "q-0109",
+    "kategori": "obstakler og lempelse",
+    "spoergsmaal": "Din disc ligger fint på fairwayen, men du vil hellere have en anden afstand til kurven. Kan du bruge valgfri lempelse?",
+    "svar": [
+      "Nej, den kan kun bruges når en forhindring generer",
+      "Nej, den kan kun bruges efter OB eller i en hazard",
+      "Ja, men kun én gang pr. hul",
+      "Ja, den kan tages når som helst mod ét straffekast"
+    ],
+    "korrekt": 3,
+    "forklaring": "Valgfri lempelse på spillelinjen kan tages når som helst, uanset hvorfor du vil flytte dig. Prisen er altid ét straffekast, og det nye lie skal være længere væk fra kurven på spillelinjen. Derfor bruges den næsten kun, når man er helt spærret inde.",
+    "regel": "803.03",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80303",
+    "verificeret": false
+  },
+  {
+    "id": "q-0110",
+    "kategori": "obstakler og lempelse",
+    "spoergsmaal": "Din disc ligger i et casual område bag en busk. Både gratis lempelse fra det casual område og valgfri lempelse på spillelinjen er mulige. Hvad er klogest efter reglerne?",
+    "svar": [
+      "Tag altid den valgfri lempelse, den giver mest plads",
+      "De to lempelser kan ikke bruges på samme lie",
+      "Tag begge dele, så du kun betaler ét straffekast i alt",
+      "Tag først den gratis lempelse og se, om den er nok"
+    ],
+    "korrekt": 3,
+    "forklaring": "Lempelsen fra det casual område er gratis, så den koster ingenting at prøve først. Er du stadig spærret bagefter, kan du stadig vælge den valgfri lempelse mod ét straffekast. At tage den dyre først giver sjældent mening.",
+    "regel": "803.03",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80303",
+    "verificeret": false
+  },
+  {
+    "id": "q-0111",
+    "kategori": "obstakler og lempelse",
+    "spoergsmaal": "Efter valgfri lempelse vil du gerne stå to meter ude til siden, hvor der er hul igennem til kurven. Er det tilladt?",
+    "svar": [
+      "Ja, når blot du ikke kommer tættere på kurven",
+      "Ja, hvis gruppen kan se at der ikke er anden udvej",
+      "Nej, medmindre du tager to straffekast i stedet",
+      "Nej, det nye lie skal ligge på spillelinjen"
+    ],
+    "korrekt": 3,
+    "forklaring": "Lempelsen hedder netop lempelse på spillelinjen, og det nye lie skal ligge på den linje, længere væk fra kurven. Du kan altså ikke købe dig til en bedre vinkel ved at gå ud til siden. Vil du til siden, skal du kaste dig ud af situationen.",
+    "regel": "803.03",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80303",
+    "verificeret": false
+  },
+  {
+    "id": "q-0112",
+    "kategori": "obstakler og lempelse",
+    "spoergsmaal": "Din disc sidder fast i et træ fire meter over jorden. Turneringslederen har ikke sagt noget om to meter reglen. Hvad gælder?",
+    "svar": [
+      "Ét straffekast, discen er over to meter",
+      "Ét straffekast, og du spiller fra det forrige lie",
+      "Ingen straf, men du skal spille fra det forrige lie",
+      "Ingen straf, du markerer lige under discen"
+    ],
+    "korrekt": 3,
+    "forklaring": "To meter reglen gælder kun, hvis turneringslederen har slået den til. Er den ikke slået til, koster en disc i et træ ingenting, uanset højden. Du markerer på spillefladen lige under discen og spiller videre derfra.",
+    "regel": "805.02",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80502",
+    "verificeret": false
+  },
+  {
+    "id": "q-0113",
+    "kategori": "obstakler og lempelse",
+    "spoergsmaal": "Turneringslederen har slået to meter reglen til for hele banen. Din disc sidder tre meter oppe i et træ. Hvordan måles højden, og hvad koster det?",
+    "svar": [
+      "Fra discens øverste kant til jorden, og det koster ét straffekast",
+      "Fra midten af discen til jorden, og det koster to straffekast",
+      "Fra discens laveste punkt til jorden, og det koster ingenting",
+      "Fra discens laveste punkt til spillefladen under den, og det koster ét straffekast"
+    ],
+    "korrekt": 3,
+    "forklaring": "Højden måles fra discens laveste punkt ned til spillefladen lige under den. Er der mindst to meter, og reglen er slået til, koster det ét straffekast. Lien markeres stadig lige under discen.",
+    "regel": "805.02",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80502",
+    "verificeret": false
+  },
+  {
+    "id": "q-0114",
+    "kategori": "obstakler og lempelse",
+    "spoergsmaal": "Kan to meter reglen gælde for et enkelt træ på banen, uden at gælde alle andre steder?",
+    "svar": [
+      "Nej, den gælder enten hele banen eller intet",
+      "Nej, den kan kun slås til for et helt hul",
+      "Ja, men kun hvis objektet er menneskeskabt",
+      "Ja, den kan slås til for hele banen, for enkelte huller eller for bestemte objekter"
+    ],
+    "korrekt": 3,
+    "forklaring": "Turneringslederen kan slå reglen til for hele banen, for bestemte huller eller for enkelte objekter. Det bruges typisk på et stort signaturtræ eller på en bygning ved siden af et hul. Det skal være meldt ud til spillerne, før runden går i gang.",
+    "regel": "805.02",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80502",
+    "verificeret": false
+  },
+  {
+    "id": "q-0115",
+    "kategori": "straf og misplay",
+    "spoergsmaal": "Du kaster din approach og opdager derefter, at du stod ved din medspillers marker og ikke din egen. Du har ikke kastet siden. Hvad gør du?",
+    "svar": [
+      "Kaster igen fra dit rigtige lie, og det forkerte kast tæller ikke, men koster ét straffekast",
+      "Spiller videre fra der hvor discen landede, uden straf",
+      "Kaster igen fra dit rigtige lie og lægger to straffekast til",
+      "Fortsætter fra det forkerte lie mod ét straffekast"
+    ],
+    "korrekt": 0,
+    "forklaring": "Et kast fra et forkert lie er et misplay. Er der ikke kastet flere kast siden, ser man bort fra det forkerte kast, og du spiller fra det rigtige lie med ét straffekast lagt til. Det er altså ikke to kast på scoren, men ét straffekast plus det kast du nu skal lave.",
     "regel": "811",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/811",
     "verificeret": false
   },
   {
-    "id": "q-0010",
+    "id": "q-0116",
     "kategori": "straf og misplay",
-    "spoergsmaal": "Mellem to huller kaster du en kort putt til dig selv for at varme op igen. Hvad koster det?",
+    "spoergsmaal": "Du opdager først på næste hul, at du på det forrige hul kastede et kast fra et forkert lie, og du nåede at kaste to gange mere bagefter. Hvad gælder?",
     "svar": [
-      "Ingenting, hvis kastet er under fem meter",
-      "En advarsel første gang i runden",
-      "Ét straffekast",
-      "To straffekast"
+      "Du fortsætter fra dit nuværende lie og lægger to straffekast til",
+      "Hullet skal spilles om fra teestedet",
+      "Du får ét straffekast, fordi fejlen blev opdaget",
+      "Der sker ingenting, når fejlen først opdages senere"
     ],
-    "korrekt": 2,
-    "forklaring": "Et øvekast er et kast der ikke er et reelt forsøg på at ændre dit lie. Det koster ét straffekast, og selve kastet tæller ikke med. Undtagelsen er et kast på under fem meter i luften der kun lægger en ubrugt disc til side eller giver en disc tilbage til en spiller.",
+    "korrekt": 0,
+    "forklaring": "Er der kastet flere kast efter det misplayede kast, kan fejlen ikke rulles tilbage. Du spiller videre fra dit nuværende lie og lægger to straffekast til for misplayet. Hullet spilles aldrig om som følge af et misplay.",
+    "regel": "811",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/811",
+    "verificeret": false
+  },
+  {
+    "id": "q-0117",
+    "kategori": "straf og misplay",
+    "spoergsmaal": "Din gruppe springer et helt hul over ved en fejl og opdager det først to huller senere. Hvad er afgørelsen?",
+    "svar": [
+      "Der er tale om misplay, fordi hullerne ikke er spillet korrekt og i rækkefølge",
+      "Det er ikke misplay, når hele gruppen tog fejl",
+      "Turneringslederen kan give par på det oversprungne hul uden straf",
+      "Gruppen diskvalificeres automatisk"
+    ],
+    "korrekt": 0,
+    "forklaring": "Misplay dækker både kast fra forkert lie og huller der ikke er spillet korrekt og i den rigtige rækkefølge. At hele gruppen tog fejl, ændrer ikke på det. Turneringslederen afgør hvordan hullet skal håndteres, og der gives straffekast for misplayet.",
+    "regel": "811",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/811",
+    "verificeret": false
+  },
+  {
+    "id": "q-0118",
+    "kategori": "straf og misplay",
+    "spoergsmaal": "Du kaster fra et lie, du selv har lagt en meter for langt fremme efter en OB-lempelse. Ingen andre opdagede det, men du opdager det selv med det samme. Hvad gør du?",
+    "svar": [
+      "Retter markeringen, kaster igen fra det rigtige lie og lægger ét straffekast til",
+      "Siger ingenting, fejlen er din egen og ingen så den",
+      "Fortsætter fra discens nye position, det er for sent at rette",
+      "Beder gruppen om at stemme om det var for langt fremme"
+    ],
+    "korrekt": 0,
+    "forklaring": "Du er selv med til at håndhæve reglerne, også når det går ud over din egen score. Et kast fra et forkert lie er et misplay, og da du ikke har kastet igen, retter du det ved at spille fra det rigtige lie og lægge ét straffekast til. Der stemmes ikke om afgørelser.",
+    "regel": "811",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/811",
+    "verificeret": false
+  },
+  {
+    "id": "q-0119",
+    "kategori": "straf og misplay",
+    "spoergsmaal": "Din medspiller kaster fra et lie, som du er sikker på er forkert. Hvad er den rigtige fremgangsmåde i gruppen?",
+    "svar": [
+      "Du siger det til spilleren med det samme, så det kan rettes inden næste kast",
+      "Du venter til hullet er færdigt og siger det så",
+      "Du skriver det på scorekortet efter runden",
+      "Du kan ikke kalde misplay på en anden spiller"
+    ],
+    "korrekt": 0,
+    "forklaring": "Kaldet skal falde med det samme, for straffen afhænger af om der er kastet videre. Siger du det først bagefter, koster fejlen to straffekast i stedet for ét. Kaldet skal bekræftes af en anden spiller eller en official for at give straf.",
+    "regel": "811",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/811",
+    "verificeret": false
+  },
+  {
+    "id": "q-0120",
+    "kategori": "straf og misplay",
+    "spoergsmaal": "Efter et misplay hvor du havde kastet videre, spørger din medspiller hvor mange straffekast det giver. Hvad er det rigtige svar?",
+    "svar": [
+      "To straffekast",
+      "Ét straffekast",
+      "Ét straffekast pr. kast der blev spillet forkert",
+      "To straffekast pr. hul hvor der var misplay"
+    ],
+    "korrekt": 0,
+    "forklaring": "Er der kastet et kast mere efter det misplayede kast, koster misplayet to straffekast. Rettes fejlen med det samme, koster det kun ét. Antallet af efterfølgende kast ændrer ikke på de to straffekast, det er stadig to i alt.",
+    "regel": "811",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/811",
+    "verificeret": false
+  },
+  {
+    "id": "q-0121",
+    "kategori": "straf og misplay",
+    "spoergsmaal": "Fire situationer på banen. Hvilken af dem er IKKE et misplay?",
+    "svar": [
+      "Du kaster fra det forkerte teested på et hul",
+      "Du kaster fra din egen marker på det rigtige hul",
+      "Du spiller hullerne i forkert rækkefølge",
+      "Du kaster fra en medspillers lie"
+    ],
+    "korrekt": 1,
+    "forklaring": "Misplay er kast fra et forkert lie eller huller spillet forkert eller i forkert rækkefølge. At kaste fra sin egen markering på det rigtige hul er netop det man skal. De tre andre koster ét eller to straffekast alt efter hvornår fejlen rettes.",
+    "regel": "811",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/811",
+    "verificeret": false
+  },
+  {
+    "id": "q-0122",
+    "kategori": "straf og misplay",
+    "spoergsmaal": "Mens du venter på tur, kaster du en disc tyve meter hen til din taske for at slippe for at bære den. Hvad er afgørelsen?",
+    "svar": [
+      "Ingen straf, discen skulle bare væk",
+      "Ét straffekast, det er et øvekast",
+      "En advarsel, fordi kastet ikke var mod kurven",
+      "To straffekast, fordi kastet var over fem meter"
+    ],
+    "korrekt": 1,
+    "forklaring": "Et kast der ikke er et reelt forsøg på at ændre dit lie, er et øvekast. Undtagelsen gælder kun korte kast under fem meter i luften, der lægger en ubrugt disc til side eller giver en disc tilbage til en spiller. Tyve meter er langt over grænsen, så det koster ét straffekast.",
     "regel": "809.03",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80903",
     "verificeret": false
   },
   {
-    "id": "q-0011",
-    "kategori": "putting og Circle 1",
-    "spoergsmaal": "Du putter fra fire meter. Discen bliver fanget i kæderne, og bagefter falder du fremad og støtter dig med hånden foran markeren. Hvad er afgørelsen?",
+    "id": "q-0123",
+    "kategori": "straf og misplay",
+    "spoergsmaal": "Du kaster en ubrugt disc tre meter hen til din taske, mens gruppen går videre. Hvad gælder?",
     "svar": [
-      "Putten tæller ikke, og du putter om fra samme lie",
-      "Putten tæller, og der sker ingenting, når discen først er i kurven",
-      "Putten tæller, og det koster ét straffekast",
-      "Putten tæller, og du får en advarsel første gang i runden"
+      "Ét straffekast, alle kast uden for tur er øvekast",
+      "Ingen straf, korte kast der lægger en disc til side, er undtaget",
+      "En advarsel første gang i runden",
+      "Ingen straf, hvis ingen i gruppen ser det"
+    ],
+    "korrekt": 1,
+    "forklaring": "Reglen har netop en undtagelse for kast under fem meter i luften, der lægger en ubrugt disc til side eller giver en disc tilbage til en spiller. Tre meter er derfor i orden. Bliver kastet længere, er det et øvekast med ét straffekast.",
+    "regel": "809.03",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80903",
+    "verificeret": false
+  },
+  {
+    "id": "q-0124",
+    "kategori": "straf og misplay",
+    "spoergsmaal": "Du er utilfreds med din putt og putter den samme putt en gang til, efter at have samlet discen op fra kurven. Hvad koster det?",
+    "svar": [
+      "Ingenting, hullet var allerede færdigt",
+      "Ét straffekast for et øvekast",
+      "En advarsel, fordi hullet var færdigt",
+      "To straffekast for at spille videre på et færdigt hul"
+    ],
+    "korrekt": 1,
+    "forklaring": "Et ekstra kast der ikke skal ændre dit lie, er et øvekast, også når hullet er færdigt. Det koster ét straffekast, og selve kastet tælles ikke med i scoren. Vil du øve, skal det ske uden for runden.",
+    "regel": "809.03",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80903",
+    "verificeret": false
+  },
+  {
+    "id": "q-0125",
+    "kategori": "straf og misplay",
+    "spoergsmaal": "Hvad sker der med selve øvekastet, når du får straf for det?",
+    "svar": [
+      "Det tæller med som et almindeligt kast oven i straffen",
+      "Det tælles ikke med, kun straffekastet lægges til",
+      "Det tæller med, hvis discen endte tættere på kurven",
+      "Det tæller med, medmindre du samler discen op igen"
+    ],
+    "korrekt": 1,
+    "forklaring": "Selve øvekastet ses der bort fra, og discen har ingen betydning for dit lie. Det eneste der sker på scoren, er det ene straffekast. Du spiller videre fra det lie, du havde i forvejen.",
+    "regel": "809.03",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80903",
+    "verificeret": false
+  },
+  {
+    "id": "q-0126",
+    "kategori": "straf og misplay",
+    "spoergsmaal": "Din medspiller varmer op med et par kast på vej fra hul 3 til hul 4. Hvad gør du efter reglerne?",
+    "svar": [
+      "Ingenting, opvarmning mellem huller er tilladt",
+      "Kalder det som et øvekast, hvilket giver ét straffekast",
+      "Giver en advarsel og lader det gå første gang",
+      "Melder det til turneringslederen efter runden"
+    ],
+    "korrekt": 1,
+    "forklaring": "Opvarmningskast under runden er øvekast, uanset om de sker mellem to huller. Kaldet skal falde på stedet og bekræftes af en anden spiller eller en official. Straffen er ét straffekast pr. øvekast.",
+    "regel": "809.03",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80903",
+    "verificeret": false
+  },
+  {
+    "id": "q-0127",
+    "kategori": "straf og misplay",
+    "spoergsmaal": "Efter runden opdager turneringslederen, at din score på hul 6 er skrevet som 3, men at du faktisk brugte 4 kast. Kortet er afleveret. Hvad gælder typisk?",
+    "svar": [
+      "Scoren rettes til 4 uden yderligere følger",
+      "Du diskvalificeres for forkert score",
+      "Scoren rettes til 4, og der lægges to straffekast til",
+      "Scoren står som 3, når kortet først er afleveret"
     ],
     "korrekt": 2,
-    "forklaring": "Inden for ti meter fra kurven skal du vise fuld kontrol over balancen, før du bevæger dig frem forbi markeren. Gør du ikke det, er det en stanceovertrædelse. Kastet tæller stadig med, og overtrædelsen koster ét straffekast.",
+    "forklaring": "En afleveret score der er lavere end den faktiske, koster to straffekast oven i rettelsen. Er scoren derimod skrevet højere end den faktiske, står den som skrevet. Derfor er det vigtigt at tjekke kortet, inden det afleveres.",
+    "regel": "808",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/808",
+    "verificeret": false
+  },
+  {
+    "id": "q-0128",
+    "kategori": "straf og misplay",
+    "spoergsmaal": "Hvad indgår i din score på et hul?",
+    "svar": [
+      "Kun de kast du selv har kastet",
+      "Alle kast, mens straffekast noteres for sig",
+      "Alle kast plus alle straffekast",
+      "Alle kast minus kast der blev annulleret af gruppen"
+    ],
+    "korrekt": 2,
+    "forklaring": "Scoren på et hul er summen af dine kast og dine straffekast. Straffekast noteres ikke separat, de indgår direkte i tallet. Derfor kan et hul med to kast og et straffekast give tre på kortet.",
+    "regel": "808",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/808",
+    "verificeret": false
+  },
+  {
+    "id": "q-0129",
+    "kategori": "straf og misplay",
+    "spoergsmaal": "Hvornår skal gruppen notere scoren for hvert hul?",
+    "svar": [
+      "Efter hver niende hul, så spillet ikke sinkes",
+      "Ved rundens afslutning, ud fra hukommelsen",
+      "Efter hvert hul, så alle i gruppen kan se scoren",
+      "Kun hvis en spiller beder om det"
+    ],
+    "korrekt": 2,
+    "forklaring": "Scoren noteres efter hvert hul, og den skal være tydelig for alle i gruppen. Det er hele gruppens ansvar, ikke kun kortholderens. På den måde kan uenighed opdages med det samme og ikke først efter runden.",
+    "regel": "808",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/808",
+    "verificeret": false
+  },
+  {
+    "id": "q-0130",
+    "kategori": "straf og misplay",
+    "spoergsmaal": "Du er uenig med kortholderen om, hvor mange kast du brugte på hullet. Hvordan løses det?",
+    "svar": [
+      "Kortholderens tal gælder altid",
+      "Den laveste score gælder, indtil andet er bevist",
+      "Gruppen afklarer det på stedet, og kan I ikke blive enige, tilkaldes en official",
+      "Scoren markeres som omstridt og afgøres af turneringslederen efter runden"
+    ],
+    "korrekt": 2,
+    "forklaring": "Uenighed om score skal løses med det samme, mens hullet er i frisk erindring. Gruppen taler kastene igennem, og kan I ikke blive enige, tilkaldes en official. Kortholderen har ikke det sidste ord alene.",
+    "regel": "808",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/808",
+    "verificeret": false
+  },
+  {
+    "id": "q-0131",
+    "kategori": "straf og misplay",
+    "spoergsmaal": "Du kaster med en disc, der ikke er godkendt af PDGA. Hvad koster det?",
+    "svar": [
+      "En advarsel første gang i runden",
+      "Ét straffekast",
+      "To straffekast",
+      "Diskvalifikation med det samme"
+    ],
+    "korrekt": 2,
+    "forklaring": "Et kast med en ulovlig disc koster to straffekast. Discs skal være godkendt af PDGA og opfylde de tekniske krav for at måtte bruges i konkurrence. Straffen gælder pr. kast med den ulovlige disc.",
+    "regel": "813.01",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/81301",
+    "verificeret": false
+  },
+  {
+    "id": "q-0132",
+    "kategori": "straf og misplay",
+    "spoergsmaal": "Din yndlingsdriver er blevet så slidt, at kanten er flosset og profilen er ændret. Hvad gælder?",
+    "svar": [
+      "Slid er altid tilladt, discen var godkendt da den blev købt",
+      "Discen er lovlig, hvis stemplet stadig kan læses",
+      "En disc der er så beskadiget at den ikke længere lever op til kravene, er ulovlig",
+      "Discen er lovlig, hvis gruppen accepterer den"
+    ],
+    "korrekt": 2,
+    "forklaring": "Godkendelsen følger discens tilstand, ikke kun modellen. Er discen slidt eller beskadiget så meget, at den ikke længere opfylder de tekniske krav, må den ikke bruges. Almindeligt slid gør den ikke ulovlig, det er de større ændringer der tæller.",
+    "regel": "813.01",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/81301",
+    "verificeret": false
+  },
+  {
+    "id": "q-0133",
+    "kategori": "straf og misplay",
+    "spoergsmaal": "En medspiller er i tvivl om en af dine discs er godkendt. Hvad er den rigtige fremgangsmåde under runden?",
+    "svar": [
+      "Discen må ikke bruges, før PDGA har svaret skriftligt",
+      "Spørgsmålet afgøres af gruppen ved afstemning",
+      "Du skal skifte disc med det samme uden diskussion",
+      "Du spiller videre, og en official kan afgøre spørgsmålet"
+    ],
+    "korrekt": 3,
+    "forklaring": "Tvivl om udstyr afgøres af en official, ikke ved afstemning i gruppen. Du kan spille videre imens, og viser det sig at discen var ulovlig, gives der to straffekast pr. kast med den. Derfor er det klogest selv at tjekke sine discs inden runden.",
+    "regel": "813.01",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/81301",
+    "verificeret": false
+  },
+  {
+    "id": "q-0134",
+    "kategori": "straf og misplay",
+    "spoergsmaal": "Du vil bruge et lille håndklæde til at tørre discen af inden kastet. Hvad gælder?",
+    "svar": [
+      "Det er ulovligt at bruge udstyr til discen under runden",
+      "Det er tilladt, men kun mellem to huller",
+      "Det er tilladt, hvis håndklædet ligger i tasken under kastet",
+      "Det er tilladt, et håndklæde er ikke et ulovligt hjælpemiddel"
+    ],
+    "korrekt": 3,
+    "forklaring": "Reglen om ulovlige hjælpemidler rammer ting der giver en kunstig fordel under kastet, ikke almindeligt udstyr som håndklæder og handsker. At tørre discen af er en helt sædvanlig del af spillet. Det er brugen under selve kastet der kan gøre en genstand ulovlig.",
+    "regel": "813.02",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/81302",
+    "verificeret": false
+  },
+  {
+    "id": "q-0135",
+    "kategori": "straf og misplay",
+    "spoergsmaal": "Du overvejer at bruge et hjælpemiddel, der holder discen fast i hånden, indtil du slipper den. Hvad gælder?",
+    "svar": [
+      "Det er tilladt, hvis det ikke rører spillefladen",
+      "Det er tilladt, hvis turneringslederen godkender det",
+      "Det er tilladt i træningsrunder, men ikke i konkurrence",
+      "Det er et ulovligt hjælpemiddel, og brugen giver straf"
+    ],
+    "korrekt": 3,
+    "forklaring": "Hjælpemidler der påvirker selve kastet eller giver en unaturlig fordel, er ikke tilladt i konkurrence. Turneringslederen kan ikke give lov til noget, reglerne forbyder. Almindeligt udstyr som handsker og håndklæder er derimod i orden.",
+    "regel": "813.02",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/81302",
+    "verificeret": false
+  },
+  {
+    "id": "q-0136",
+    "kategori": "straf og misplay",
+    "spoergsmaal": "Hvad skal du gøre, før du kan opgive dit seneste kast?",
+    "svar": [
+      "Vente til alle andre i gruppen har kastet",
+      "Få en officials tilladelse",
+      "Hente discen hjem, før nogen rører den",
+      "Melde til gruppen at du opgiver kastet"
+    ],
+    "korrekt": 3,
+    "forklaring": "Opgivelsen skal meldes til gruppen, så alle ved hvad der sker med scoren. Der skal ikke tilladelse til fra en official. Du kan kun opgive dit seneste kast, og kun før du har kastet igen.",
+    "regel": "809.01",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80901",
+    "verificeret": false
+  },
+  {
+    "id": "q-0137",
+    "kategori": "straf og misplay",
+    "spoergsmaal": "Du har kastet dit tredje kast ud i en umulig position og vælger at opgive det. Hvilket nummer får dit næste kast?",
+    "svar": [
+      "Fjerde kast",
+      "Tredje kast, fordi det opgivne kast slettes",
+      "Sjette kast",
+      "Femte kast"
+    ],
+    "korrekt": 3,
+    "forklaring": "Det opgivne kast tæller med, og der lægges ét straffekast til, altså fire på scoren. Dit næste kast bliver derfor det femte. Du kaster det fra det lie, du kastede det opgivne kast fra.",
+    "regel": "809.01",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80901",
+    "verificeret": false
+  },
+  {
+    "id": "q-0138",
+    "kategori": "straf og misplay",
+    "spoergsmaal": "Hvornår er det typisk en fordel at opgive et kast frem for at spille videre fra discens position?",
+    "svar": [
+      "Når discen ligger dårligt, men stadig kan spilles med et almindeligt kast",
+      "Når du har kastet OB og allerede har fået straf",
+      "Når du vil have en ny chance med en anden disc fra samme sted",
+      "Når discen ligger et sted, hvor det næste kast koster mere end to kast at komme videre fra"
+    ],
+    "korrekt": 3,
+    "forklaring": "Opgivelsen koster kastet plus ét straffekast, så den skal spare dig for mere end det for at være værd at bruge. Det er typisk når discen ligger et sted, hvor du reelt ikke kan komme videre. Det er ikke en mulighed for bare at få et nyt forsøg.",
+    "regel": "809.01",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80901",
+    "verificeret": false
+  },
+  {
+    "id": "q-0139",
+    "kategori": "putting og Circle 1",
+    "spoergsmaal": "Din disc ligger tæt på kurven, og gruppen diskuterer om kastet er en putt. Hvordan måles de ti meter?",
+    "svar": [
+      "Fra forkanten af liet til kurvens fod",
+      "Fra bagkanten af markeren til kurvens kant",
+      "Fra det sted du står, til midten af kurven",
+      "Fra discens position til kurvens øverste kant"
+    ],
+    "korrekt": 0,
+    "forklaring": "Afstanden måles fra forkanten af liet til kurvens fod. Er der ti meter eller mindre, er kastet en putt, og de særlige regler for putteområdet gælder. Putteområdet er cirklen med ti meters radius ud fra kurvens fod.",
     "regel": "806.01",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80601",
     "verificeret": false
   },
   {
-    "id": "q-0012",
+    "id": "q-0140",
     "kategori": "putting og Circle 1",
-    "spoergsmaal": "Din putt rammer kurven og bliver liggende oven på kurvens øverste kant, uden at være i kæderne eller i kurven. Er hullet færdigt?",
+    "spoergsmaal": "Du putter fra otte meter. Discen går i kurven, men du falder fremad og støtter dig foran markeren, inden du har genvundet balancen. Hvad er afgørelsen?",
     "svar": [
-      "Ja, discen er stoppet af målet",
-      "Nej, discen skal ligge i kurven eller hænge i kæderne under kædeophænget",
-      "Ja, hvis discen bliver liggende i tredive sekunder",
-      "Nej, og det koster ét straffekast at spille videre"
+      "Putten tæller, og du får ét straffekast",
+      "Putten tæller ikke, og du putter om",
+      "Putten tæller, og der sker ikke mere, når discen er i kurven",
+      "Putten tæller, og du får en advarsel første gang i runden"
+    ],
+    "korrekt": 0,
+    "forklaring": "Efter en putt skal du vise fuld kontrol over balancen bag markeren, før du bevæger dig frem mod kurven. Gør du ikke det, er det en stanceovertrædelse, og den koster ét straffekast. Kastet tæller stadig med, så en falding putt der går i kurven, giver et kast plus en straf.",
+    "regel": "806.01",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80601",
+    "verificeret": false
+  },
+  {
+    "id": "q-0141",
+    "kategori": "putting og Circle 1",
+    "spoergsmaal": "Du står tolv meter fra kurven og tager et hop ind i kastet, hvor du lander foran markeren. Ved frigivelsen havde du stadig foden på liet. Hvad gælder?",
+    "svar": [
+      "Lovligt, du er uden for putteområdet",
+      "Ulovligt, du må aldrig lande foran markeren",
+      "Ulovligt, medmindre discen går i kurven",
+      "Lovligt, hvis gruppen kan se at du havde kontrol"
+    ],
+    "korrekt": 0,
+    "forklaring": "Kravet om at vise fuld balance gælder kun inden for ti meter fra kurven. Uden for putteområdet må du gerne falde eller lande fremad, når blot stancen var lovlig i frigivelsesøjeblikket. Derfor er hopkast helt almindelige på lange approaches.",
+    "regel": "806.01",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80601",
+    "verificeret": false
+  },
+  {
+    "id": "q-0142",
+    "kategori": "putting og Circle 1",
+    "spoergsmaal": "Din putt fra syv meter rammer forbi kurven, og du går straks frem efter discen uden at have stået stille bagved først. Hvad er afgørelsen?",
+    "svar": [
+      "Ét straffekast for en stanceovertrædelse",
+      "Ingen straf, reglen gælder kun når putten går i kurven",
+      "Ingen straf, du var på vej efter discen og ikke mod kurven",
+      "En advarsel, fordi putten var forbi"
+    ],
+    "korrekt": 0,
+    "forklaring": "Kravet om at vise balance gælder for alle putts inden for ti meter, uanset om de går i eller ej. Går du frem mod kurven uden først at have kontrol bag markeren, er det en stanceovertrædelse. Det koster ét straffekast.",
+    "regel": "806.01",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80601",
+    "verificeret": false
+  },
+  {
+    "id": "q-0143",
+    "kategori": "putting og Circle 1",
+    "spoergsmaal": "Hvad betyder det at vise fuld kontrol over balancen efter en putt?",
+    "svar": [
+      "At du står stille bag markeren, før du bevæger dig frem mod kurven",
+      "At du står stille i mindst tre sekunder efter kastet",
+      "At du ikke rører jorden med hænderne under kastet",
+      "At du har begge fødder i liet under hele kastet"
+    ],
+    "korrekt": 0,
+    "forklaring": "Du skal have balancen under kontrol bag markeren, før du går frem mod kurven. Der er ingen fast tid, gruppen vurderer om du havde kontrol. Bagefter må du gerne gå frem, det er rækkefølgen der er det vigtige.",
+    "regel": "806.01",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80601",
+    "verificeret": false
+  },
+  {
+    "id": "q-0144",
+    "kategori": "putting og Circle 1",
+    "spoergsmaal": "Du putter fra fire meter og bliver stående helt roligt bag markeren, indtil discen ligger i kurven. Derefter går du frem og henter den. Hvad gælder?",
+    "svar": [
+      "Ulovligt, du må ikke gå frem før alle har puttet",
+      "Lovligt, du viste kontrol før du gik frem",
+      "Ulovligt, du skal blive stående til gruppen giver besked",
+      "Lovligt, men kun hvis du ikke rører markeren"
     ],
     "korrekt": 1,
-    "forklaring": "Hullet er først færdigt når discen er kommet til hvile i kurven eller hænger fanget i kæderne under kædeophænget. En disc der ligger oven på kurven, tæller ikke. Du spiller videre uden straf fra et lie under discen.",
+    "forklaring": "Det er præcis den rigtige rækkefølge, altså balance først og bevægelse bagefter. Der er ingen regel om at vente på de andre i gruppen, ud over den almindelige rækkefølge. Markeren samler du selv op, når du er færdig.",
+    "regel": "806.01",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80601",
+    "verificeret": false
+  },
+  {
+    "id": "q-0145",
+    "kategori": "putting og Circle 1",
+    "spoergsmaal": "Du er sendt til en drop zone, der ligger seks meter fra kurven. Hvad gælder for dit kast derfra?",
+    "svar": [
+      "Drop zonen er undtaget fra reglerne om putteområdet",
+      "De almindelige regler for putteområdet gælder, du skal vise balance",
+      "Du må kun putte fra drop zonen med en putter",
+      "Du skal først flytte lien uden for ti meter"
+    ],
+    "korrekt": 1,
+    "forklaring": "En drop zone inden for ti meter fra kurven ligger i putteområdet, og reglerne gælder som ellers. Du skal altså vise fuld kontrol over balancen, før du går frem mod kurven. Tidsgrænsen fra en drop zone er tredive sekunder.",
+    "regel": "806.01",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80601",
+    "verificeret": false
+  },
+  {
+    "id": "q-0146",
+    "kategori": "putting og Circle 1",
+    "spoergsmaal": "Din putt er fra ni meter, og du står på en stejl skråning, hvor det er svært at holde balancen. Gælder der lempeligere krav?",
+    "svar": [
+      "Ja, gruppen kan se bort fra kravet på svært terræn",
+      "Nej, kravet om balance gælder uanset underlaget",
+      "Ja, hvis du melder det til gruppen inden kastet",
+      "Nej, men du kan flytte lien gratis til fladt underlag"
+    ],
+    "korrekt": 1,
+    "forklaring": "Kravet om at vise balance gælder alle putts inden for ti meter, uanset hvor svært underlaget er. Er det umuligt at stå der, kan du bruge valgfri lempelse på spillelinjen, men den koster ét straffekast. Gruppen kan ikke give dispensation fra en regel.",
+    "regel": "806.01",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80601",
+    "verificeret": false
+  },
+  {
+    "id": "q-0147",
+    "kategori": "putting og Circle 1",
+    "spoergsmaal": "Hvem kan kalde en stanceovertrædelse på en putt inden for ti meter?",
+    "svar": [
+      "Kun en official",
+      "En spiller i gruppen, og kaldet skal bekræftes af en anden spiller eller en official",
+      "Kun kortholderen i gruppen",
+      "Enhver tilskuer der står ved kurven"
+    ],
+    "korrekt": 1,
+    "forklaring": "Enhver spiller i gruppen kan kalde overtrædelsen, men da den giver et straffekast, skal kaldet bekræftes af en anden spiller eller en official. Kan ingen bekræfte det, står kastet uden straf. Tilskuere kan ikke kalde regelovertrædelser.",
+    "regel": "806.01",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80601",
+    "verificeret": false
+  },
+  {
+    "id": "q-0148",
+    "kategori": "putting og Circle 1",
+    "spoergsmaal": "Din disc ligger elleve meter fra kurven, målt fra forkanten af liet til kurvens fod. Hvad gælder for dit kast?",
+    "svar": [
+      "Det er en putt, fordi du bruger din putter",
+      "Det er ikke en putt, og kravet om balance gælder ikke",
+      "Det er en putt, hvis du sigter direkte på kurven",
+      "Det er en putt, fordi afstanden rundes ned til ti meter"
+    ],
+    "korrekt": 1,
+    "forklaring": "Om et kast er en putt, afhænger kun af afstanden, ikke af hvilken disc du bruger eller hvordan du kaster. Elleve meter er uden for putteområdet, så du må gerne falde fremad efter kastet. Det er forkanten af liet der måles fra.",
+    "regel": "806.01",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80601",
+    "verificeret": false
+  },
+  {
+    "id": "q-0149",
+    "kategori": "putting og Circle 1",
+    "spoergsmaal": "Du putter fra fem meter, viser balance bag markeren, og går derefter frem og samler din marker op, mens discen stadig svinger i kæderne. Hvad gælder?",
+    "svar": [
+      "Ulovligt, markeren skal blive liggende til discen ligger stille",
+      "Ulovligt, du må ikke gå frem før hullet er færdigt",
+      "Lovligt, du viste balance før du gik frem",
+      "Lovligt, hvis discen ender i kurven"
+    ],
+    "korrekt": 2,
+    "forklaring": "Reglen handler om rækkefølgen, altså at balancen skal vises, før du bevæger dig frem mod kurven. Når det er sket, må du gerne gå frem og rydde op. Om discen bliver hængende i kæderne, afgøres af reglen om at færdiggøre hullet.",
+    "regel": "806.01",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80601",
+    "verificeret": false
+  },
+  {
+    "id": "q-0150",
+    "kategori": "putting og Circle 1",
+    "spoergsmaal": "Fire putts inden for ti meter. I hvilken af dem er der IKKE en stanceovertrædelse?",
+    "svar": [
+      "Du falder fremad og træder foran markeren umiddelbart efter kastet",
+      "Du løber frem mod kurven, mens discen er i luften",
+      "Du står stille bag markeren og går først frem bagefter",
+      "Du støtter dig med hånden foran markeren, da du lander"
+    ],
+    "korrekt": 2,
+    "forklaring": "Den eneste lovlige af de fire er at vise balancen bag markeren, før man går frem. De tre andre bevæger sig frem mod kurven, før balancen er vist, og det er en stanceovertrædelse. Hver af dem koster ét straffekast.",
+    "regel": "806.01",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80601",
+    "verificeret": false
+  },
+  {
+    "id": "q-0151",
+    "kategori": "putting og Circle 1",
+    "spoergsmaal": "Din putt lander oven på kurvens øverste kant og bliver liggende der. Er hullet færdigt?",
+    "svar": [
+      "Ja, discen er stoppet af kurven",
+      "Ja, hvis den bliver liggende i tredive sekunder",
+      "Nej, discen skal være i kurven eller hænge i kæderne under kædeophænget",
+      "Nej, og du får ét straffekast for at spille videre"
+    ],
+    "korrekt": 2,
+    "forklaring": "Hullet er først færdigt, når discen er kommet til hvile i kurven eller hænger fanget i kæderne under kædeophænget. En disc oven på kurven tæller ikke. Du spiller videre uden straf fra et lie under discen.",
     "regel": "807",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/807",
     "verificeret": false
   },
   {
-    "id": "q-0013",
-    "kategori": "etikette 810",
-    "spoergsmaal": "En medspiller råber lige idet du er ved at kaste, og du hooker discen ud i skoven. Hvad siger reglerne?",
+    "id": "q-0152",
+    "kategori": "putting og Circle 1",
+    "spoergsmaal": "Din disc kiler sig fast i kæderne over kædeophænget, altså over det sted hvor kæderne er fastgjort. Hvad gælder?",
     "svar": [
-      "Dit kast annulleres, og du kaster om fra samme lie",
-      "Din medspiller får ét straffekast med det samme",
-      "Det er en høflighedsovertrædelse, første gang koster en advarsel og næste gang et straffekast",
-      "Der sker ingenting, det handler kun om god tone"
+      "Hullet er færdigt, discen sidder i kæderne",
+      "Hullet er færdigt, hvis discen ikke kan tages ud med hånden",
+      "Hullet er ikke færdigt, discen skal være fanget under kædeophænget",
+      "Gruppen afgør det ved afstemning"
     ],
     "korrekt": 2,
-    "forklaring": "At tale eller larme mens en anden spiller kaster, er en høflighedsovertrædelse. Den første overtrædelse i runden koster en advarsel til den der forstyrrer, og hver følgende koster et straffekast. Dit eget kast tæller som det faldt ud, du kaster ikke om.",
+    "forklaring": "Kravet er, at discen holdes af kurven eller af kæderne under kædeophænget. En disc der sidder over ophænget, er ikke i mål. Du markerer under discen og spiller videre uden straf.",
+    "regel": "807",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/807",
+    "verificeret": false
+  },
+  {
+    "id": "q-0153",
+    "kategori": "putting og Circle 1",
+    "spoergsmaal": "Din putt går igennem kæderne og falder ned på jorden ved siden af kurven. Hvad gælder?",
+    "svar": [
+      "Hullet er færdigt, discen ramte kæderne",
+      "Hullet er færdigt, hvis gruppen så at den var inde",
+      "Hullet er ikke færdigt, du spiller videre fra der hvor discen ligger",
+      "Hullet er ikke færdigt, og du får ét straffekast"
+    ],
+    "korrekt": 2,
+    "forklaring": "Discen skal komme til hvile i kurven eller i kæderne under ophænget. En disc der ryger igennem og lander på jorden, er ikke i mål. Du spiller videre fra discens position uden straf.",
+    "regel": "807",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/807",
+    "verificeret": false
+  },
+  {
+    "id": "q-0154",
+    "kategori": "putting og Circle 1",
+    "spoergsmaal": "Din disc ligger stille i kurvens kurv, uden at røre kæderne. Er hullet færdigt?",
+    "svar": [
+      "Nej, discen skal røre kæderne",
+      "Nej, medmindre discen kom direkte fra kæderne",
+      "Ja, hvis mindst halvdelen af discen er inde i kurven",
+      "Ja, discen holdes af kurven"
+    ],
+    "korrekt": 3,
+    "forklaring": "Hullet er færdigt, når discen holdes af kurven, altså ligger i selve kurven. Det gør ingen forskel, om den ramte kæderne på vejen ind. Det samme gælder en disc der hænger fanget i kæderne under ophænget.",
+    "regel": "807",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/807",
+    "verificeret": false
+  },
+  {
+    "id": "q-0155",
+    "kategori": "putting og Circle 1",
+    "spoergsmaal": "Din disc hænger fast i kæderne under kædeophænget uden at røre kurven. Er hullet færdigt?",
+    "svar": [
+      "Nej, discen skal ned i kurven",
+      "Ja, men kun hvis den bliver hængende til alle har puttet",
+      "Nej, medmindre kurven er af ældre type",
+      "Ja, hullet er færdigt"
+    ],
+    "korrekt": 3,
+    "forklaring": "En disc der hænger fanget i kæderne under kædeophænget, har færdiggjort hullet. Den behøver ikke falde ned i kurven bagefter. Falder den ud, efter at have ligget stille i kæderne, var hullet allerede færdigt.",
+    "regel": "807",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/807",
+    "verificeret": false
+  },
+  {
+    "id": "q-0156",
+    "kategori": "putting og Circle 1",
+    "spoergsmaal": "Din disc ligger i kurven, og en medspillers putt rammer den og slår den ud på jorden. Hvad gælder for din score?",
+    "svar": [
+      "Din putt tæller ikke, du skal putte igen",
+      "Du får ét straffekast, fordi discen blev flyttet",
+      "Gruppen afgør om putten skal tælle",
+      "Hullet var færdigt, da din disc kom til hvile i kurven"
+    ],
+    "korrekt": 3,
+    "forklaring": "Hullet er færdigt i det øjeblik, hvor din disc er kommet til hvile i kurven. Bliver den slået ud bagefter, ændrer det ikke på scoren. Derfor er det god skik at hente sin disc ud, før de andre putter.",
+    "regel": "807",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/807",
+    "verificeret": false
+  },
+  {
+    "id": "q-0157",
+    "kategori": "putting og Circle 1",
+    "spoergsmaal": "Hullet spilles mod et objektmål, for eksempel en stolpe med et markeret felt. Hvornår er hullet færdigt?",
+    "svar": [
+      "Når discen kommer til hvile op ad objektet",
+      "Når discen rammer objektet et vilkårligt sted",
+      "Når discen ligger inden for en meter fra objektet",
+      "Når discen rammer det markerede felt på objektet"
+    ],
+    "korrekt": 3,
+    "forklaring": "Ved et objektmål skal discen ramme det markerede målfelt på objektet. Det er anslaget der tæller, ikke hvor discen ender bagefter. Rammer den ved siden af feltet, spiller du videre fra discens position.",
+    "regel": "807",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/807",
+    "verificeret": false
+  },
+  {
+    "id": "q-0158",
+    "kategori": "putting og Circle 1",
+    "spoergsmaal": "Din disc rammer kurvens fod og triller væk. Hvad gælder?",
+    "svar": [
+      "Hullet er færdigt, discen ramte kurven",
+      "Hullet er færdigt, hvis discen ramte metallet",
+      "Hullet er ikke færdigt, og du får ét straffekast",
+      "Hullet er ikke færdigt, du spiller videre fra discens position"
+    ],
+    "korrekt": 3,
+    "forklaring": "At ramme kurven er ikke nok, discen skal komme til hvile i kurven eller i kæderne under ophænget. En disc der rammer foden og triller væk, er stadig i spil. Du spiller videre derfra uden straf.",
+    "regel": "807",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/807",
+    "verificeret": false
+  },
+  {
+    "id": "q-0159",
+    "kategori": "etikette 810",
+    "spoergsmaal": "En medspiller taler højt i telefon, mens du er midt i din kastebevægelse. Det er første gang i runden. Hvad er afgørelsen?",
+    "svar": [
+      "Spilleren får en advarsel",
+      "Spilleren får ét straffekast",
+      "Du må kaste om uden straf",
+      "Der sker ingenting, det er kun god tone"
+    ],
+    "korrekt": 0,
+    "forklaring": "At tale eller larme mens en anden kaster, er en høflighedsovertrædelse. Den første overtrædelse af en høflighedsregel i runden koster en advarsel. Hver følgende overtrædelse af en høflighedsregel i samme runde koster ét straffekast.",
     "regel": "812",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/812",
     "verificeret": false
   },
   {
-    "id": "q-0014",
+    "id": "q-0160",
     "kategori": "etikette 810",
-    "spoergsmaal": "Din disc er kommet til hvile in bounds på fairwayen, men inden du når frem, blæser vinden den fem meter videre ned ad bakken. Hvad gør du?",
+    "spoergsmaal": "Samme spiller forstyrrer igen senere i runden, denne gang ved at kaste sin taske i jorden, mens en anden putter. Hvad koster det nu?",
     "svar": [
-      "Du spiller discen hvor den ligger nu",
-      "Du lægger discen tilbage hvor den først kom til hvile",
-      "Du lægger discen tilbage og tager ét straffekast",
-      "Gruppen stemmer om hvor discen skal ligge"
+      "Ét straffekast",
+      "En ny advarsel, fordi det er en anden slags overtrædelse",
+      "To straffekast",
+      "Ingenting, hvis putten alligevel gik i"
+    ],
+    "korrekt": 0,
+    "forklaring": "Advarslen gælder høflighedsreglerne som helhed, ikke den enkelte type overtrædelse. Er der allerede givet en advarsel i runden, koster hver følgende høflighedsovertrædelse ét straffekast. Det gælder uanset om den forstyrrede spiller ramte eller ej.",
+    "regel": "812",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/812",
+    "verificeret": false
+  },
+  {
+    "id": "q-0161",
+    "kategori": "etikette 810",
+    "spoergsmaal": "Du er ved at kaste, og du kan se en vandrer krydse fairwayen længere fremme. Du kaster alligevel, og discen lander tæt på personen. Hvad gælder?",
+    "svar": [
+      "Det er en høflighedsovertrædelse at kaste, når kastet kan ramme nogen",
+      "Ingen straf, vandreren burde ikke være der",
+      "Ingen straf, hvis discen ikke ramte nogen",
+      "Det er kun et problem, hvis vandreren klager"
+    ],
+    "korrekt": 0,
+    "forklaring": "Du må ikke kaste, når kastet kan ramme eller skade nogen. Det gælder både medspillere, tilskuere og folk der tilfældigt går forbi. Første gang koster det en advarsel, derefter ét straffekast, og du kan blive diskvalificeret ved gentagelser.",
+    "regel": "812",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/812",
+    "verificeret": false
+  },
+  {
+    "id": "q-0162",
+    "kategori": "etikette 810",
+    "spoergsmaal": "Du råber højt, fordi din disc er på vej mod en gruppe spillere på et andet hul. Hvad gælder?",
+    "svar": [
+      "Ingen straf, du advarer nogen der kan blive ramt",
+      "En advarsel, fordi råb altid forstyrrer",
+      "Ét straffekast, fordi råbet kom mens andre kastede",
+      "Det afhænger af om de andre hørte råbet"
+    ],
+    "korrekt": 0,
+    "forklaring": "Råb er netop undtaget, når de advarer nogen der er i fare for at blive ramt af en disc. Det er den ene situation, hvor det høje råb er det rigtige at gøre. Råber du derimod af frustration over dit eget kast, er det en høflighedsovertrædelse.",
+    "regel": "812",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/812",
+    "verificeret": false
+  },
+  {
+    "id": "q-0163",
+    "kategori": "etikette 810",
+    "spoergsmaal": "En spiller i gruppen går hele tiden foran den der ligger længst fra kurven, mens der spilles. Hvad gælder?",
+    "svar": [
+      "Det er en høflighedsovertrædelse at gå foran den der er away",
+      "Det er tilladt, hvis spilleren holder sig i siden",
+      "Det er kun et problem på huller med blindt indspil",
+      "Det er tilladt, når gruppen er bagud på tid"
+    ],
+    "korrekt": 0,
+    "forklaring": "At bevæge sig frem forbi den spiller der er længst fra kurven, er en høflighedsovertrædelse. Det gør både spillet usikkert og forstyrrer den der skal kaste. Første gang giver en advarsel, derefter koster det ét straffekast pr. gang.",
+    "regel": "812",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/812",
+    "verificeret": false
+  },
+  {
+    "id": "q-0164",
+    "kategori": "etikette 810",
+    "spoergsmaal": "Hvem kan kalde en høflighedsovertrædelse?",
+    "svar": [
+      "Kun turneringslederen",
+      "Enhver berørt spiller eller en official",
+      "Kun den spiller der bliver forstyrret",
+      "Kun en flertalsbeslutning i gruppen"
     ],
     "korrekt": 1,
-    "forklaring": "En kastet disc der har ligget stille in bounds og derefter er blevet flyttet, lægges tilbage til det sted hvor den først kom til hvile. Det gælder uanset om det er vind, en tilskuer eller et dyr der har flyttet den. Det koster ingen straf.",
+    "forklaring": "En høflighedsovertrædelse kan kaldes eller bekræftes af enhver berørt spiller eller af en official. Det kræver ikke en afstemning i gruppen. Gentagne høflighedsovertrædelser kan føre til diskvalifikation ved turneringslederen.",
+    "regel": "812",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/812",
+    "verificeret": false
+  },
+  {
+    "id": "q-0165",
+    "kategori": "etikette 810",
+    "spoergsmaal": "En spiller sparker til sin taske og bander højt efter en misset putt. Ingen andre blev direkte forstyrret. Hvad gælder?",
+    "svar": [
+      "Ingen straf, når ingen blev forstyrret",
+      "Det er en høflighedsovertrædelse, uanset om nogen blev forstyrret",
+      "Det er kun en overtrædelse, hvis tilskuere hører det",
+      "Det er en sag for turneringslederen efter runden"
+    ],
+    "korrekt": 1,
+    "forklaring": "At bande, sparke eller kaste med udstyr er i sig selv en høflighedsovertrædelse. Der skal ikke være en forstyrret spiller, for at det tæller. Første gang koster en advarsel, derefter ét straffekast pr. gang.",
+    "regel": "812",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/812",
+    "verificeret": false
+  },
+  {
+    "id": "q-0166",
+    "kategori": "etikette 810",
+    "spoergsmaal": "Din gruppe leder efter en medspillers disc i højt græs, men en af jer bliver stående og ser på. Hvad gælder?",
+    "svar": [
+      "Ingenting, det er frivilligt at lede med",
+      "Det er en høflighedsovertrædelse ikke at hjælpe med at lede",
+      "Spilleren skal betale medspillerens straffekast",
+      "Kun kortholderen har pligt til at lede med"
+    ],
+    "korrekt": 1,
+    "forklaring": "Alle i gruppen skal hjælpe med at lede efter en disc, og lader man være, er det en høflighedsovertrædelse. Det hænger sammen med at søgetiden kun er tre minutter. Første gang giver en advarsel, derefter ét straffekast.",
+    "regel": "812",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/812",
+    "verificeret": false
+  },
+  {
+    "id": "q-0167",
+    "kategori": "etikette 810",
+    "spoergsmaal": "En medspiller står lige bag kurven i din synslinje, mens du skal putte. Du beder personen om at flytte sig, men får nej. Hvad gælder?",
+    "svar": [
+      "Du må vente, indtil spilleren selv flytter sig",
+      "Afslaget er en høflighedsovertrædelse",
+      "Du skal putte alligevel, ellers bruger du for lang tid",
+      "Du kan kræve at hele gruppen forlader hullet"
+    ],
+    "korrekt": 1,
+    "forklaring": "Du kan kræve, at andre spillere flytter sig eller flytter deres udstyr, hvis de kan komme til at påvirke dit kast. Nægter en spiller det, er afslaget en høflighedsovertrædelse. Tiden løber i øvrigt ikke, mens du venter på at der bliver ryddet.",
+    "regel": "812",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/812",
+    "verificeret": false
+  },
+  {
+    "id": "q-0168",
+    "kategori": "etikette 810",
+    "spoergsmaal": "Hvad sker der, hvis en spiller bliver ved med at begå høflighedsovertrædelser gennem runden?",
+    "svar": [
+      "Straffen stiger til to straffekast pr. gang efter tredje gang",
+      "Spilleren kan diskvalificeres af turneringslederen",
+      "Spilleren flyttes til en anden gruppe",
+      "Spilleren får en advarsel igen ved hvert nyt hul"
+    ],
+    "korrekt": 1,
+    "forklaring": "Efter den første advarsel koster hver høflighedsovertrædelse ét straffekast, og satsen stiger ikke. Gentagne overtrædelser kan derimod føre til diskvalifikation ved turneringslederen. Advarslen nulstilles ikke undervejs i runden.",
+    "regel": "812",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/812",
+    "verificeret": false
+  },
+  {
+    "id": "q-0169",
+    "kategori": "etikette 810",
+    "spoergsmaal": "Du kaster ud af tur, uden at spørge, mens en medspiller er ved at stille sig op. Hvad gælder?",
+    "svar": [
+      "Kastet annulleres, og du kaster om i rigtig rækkefølge",
+      "Ét straffekast for at spille uden for tur",
+      "Kastet tæller, og det kan kaldes som en høflighedsovertrædelse",
+      "Ingenting, rækkefølgen er kun en anbefaling"
+    ],
+    "korrekt": 2,
+    "forklaring": "Selve rækkefølgen udløser ikke straf, og kastet tæller. Men at kaste uden samtykke, når det påvirker en anden spiller, er en høflighedsovertrædelse. Er alle enige, og påvirkes ingen, er det derimod helt i orden at kaste når man er klar.",
+    "regel": "812",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/812",
+    "verificeret": false
+  },
+  {
+    "id": "q-0170",
+    "kategori": "etikette 810",
+    "spoergsmaal": "Fire situationer i gruppen. Hvilken af dem er IKKE en høflighedsovertrædelse?",
+    "svar": [
+      "Du taler med din caddie, mens en medspiller kaster",
+      "Du kaster din putter i jorden efter en misset putt",
+      "Du råber en advarsel til nogen, der er i fare for at blive ramt",
+      "Du går frem foran den spiller, der ligger længst fra kurven"
+    ],
+    "korrekt": 2,
+    "forklaring": "Advarselsråb til nogen der kan blive ramt, er udtrykkeligt undtaget, fordi sikkerheden kommer først. De tre andre er alle høflighedsovertrædelser. Første gang koster en advarsel, derefter ét straffekast pr. gang.",
+    "regel": "812",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/812",
+    "verificeret": false
+  },
+  {
+    "id": "q-0171",
+    "kategori": "etikette 810",
+    "spoergsmaal": "Din taske står midt på fairwayen, hvor en medspillers disc kan ramme den. Hvad siger reglerne?",
+    "svar": [
+      "Tasken må gerne stå der, hvis den er synlig",
+      "Tasken skal stå mindst ti meter fra kurven",
+      "Udstyr må ikke stå, hvor det kan påvirke en disc i spil",
+      "Kun caddiens udstyr er omfattet af reglen"
+    ],
+    "korrekt": 2,
+    "forklaring": "Hverken spillere eller udstyr må stå, hvor de kan komme til at påvirke en disc i spil. En medspiller kan bede dig flytte tasken, og siger du nej, er det en høflighedsovertrædelse. Reglen gælder alt udstyr, også tasker og stole.",
     "regel": "810",
     "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/810",
     "verificeret": false
   },
   {
-    "id": "q-0015",
-    "kategori": "Competition Manual",
-    "spoergsmaal": "Du er uenig med gruppen om hvor OB-linjen går langs en sti på hul 7. Hvem har myndighed til at fastlægge det til stævnet?",
+    "id": "q-0172",
+    "kategori": "etikette 810",
+    "spoergsmaal": "En medspillers disc rammer din taske, som stod ude på fairwayen. Hvad gælder for discen?",
     "svar": [
-      "Kun banens ejer",
-      "Turneringslederen, som fastlægger banens opsætning før runden",
-      "Gruppen kan selv aftale det på hullet",
-      "PDGA skal godkende hver enkelt OB-linje på forhånd"
+      "Discen kastes om fra samme lie",
+      "Discen lægges der hvor gruppen tror den ville være endt",
+      "Discen spilles fra der hvor den kommer til hvile",
+      "Ejeren af tasken får ét straffekast, og discen kastes om"
+    ],
+    "korrekt": 2,
+    "forklaring": "Discen spilles derfra hvor den kommer til hvile efter sammenstødet. Der er ingen omkastning, og gruppen gætter ikke på hvor discen ellers ville være endt. Selve det at lade tasken stå i vejen kan derimod kaldes som en høflighedsovertrædelse.",
+    "regel": "810",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/810",
+    "verificeret": false
+  },
+  {
+    "id": "q-0173",
+    "kategori": "etikette 810",
+    "spoergsmaal": "Din disc er kommet til hvile in bounds på fairwayen. Mens I går derned, flytter en hund den ti meter væk. Hvad gælder?",
+    "svar": [
+      "Discen spilles fra det sted hunden efterlod den",
+      "Du får ét straffekast og spiller fra det oprindelige sted",
+      "Discen lægges tilbage hvor den først kom til hvile",
+      "Gruppen afgør hvor discen skal ligge"
+    ],
+    "korrekt": 2,
+    "forklaring": "En kastet disc der har ligget stille in bounds og bagefter er blevet flyttet, lægges tilbage til det sted hvor den først kom til hvile. Det gælder uanset om det er et dyr, en tilskuer eller vinden der flyttede den. Det koster ingen straf.",
+    "regel": "810",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/810",
+    "verificeret": false
+  },
+  {
+    "id": "q-0174",
+    "kategori": "etikette 810",
+    "spoergsmaal": "Din disc er OB i en grøft, og inden du når frem, sparker en forbipasserende til den, så den ligger et andet sted i grøften. Hvad gælder?",
+    "svar": [
+      "Discen skal lægges nøjagtigt tilbage, ellers gives der straf",
+      "Du får lov at kaste om fra det forrige lie",
+      "Straffen for OB bortfalder, fordi discen blev flyttet",
+      "Discen behøver ikke lægges tilbage, når den ikke lå in bounds"
+    ],
+    "korrekt": 3,
+    "forklaring": "Kravet om at lægge en disc tilbage gælder discs, der er kommet til hvile in bounds på spillefladen. En disc der ligger OB, behøver ikke lægges tilbage, for lien findes alligevel ud fra hvor discen sidst var in bounds. Straffen for OB gælder som normalt.",
+    "regel": "810",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/810",
+    "verificeret": false
+  },
+  {
+    "id": "q-0175",
+    "kategori": "etikette 810",
+    "spoergsmaal": "Du beder en medspiller om at flytte sig, fordi personen står, hvor din disc kan ramme. Hvad kan du kræve?",
+    "svar": [
+      "At spilleren flytter sig, men udstyret må gerne blive",
+      "At gruppen stemmer om det er nødvendigt",
+      "At spilleren venter bag dig, indtil hullet er færdigt",
+      "At spilleren flytter sig, og at udstyret også flyttes"
+    ],
+    "korrekt": 3,
+    "forklaring": "Du kan kræve, at både personer og deres udstyr flytter sig, hvis de kan komme til at påvirke dit kast. Der skal ikke stemmes om det. Nægter spilleren, er afslaget en høflighedsovertrædelse.",
+    "regel": "810",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/810",
+    "verificeret": false
+  },
+  {
+    "id": "q-0176",
+    "kategori": "etikette 810",
+    "spoergsmaal": "En tilskuer standser bevidst din disc i luften, så den falder kort. Hvad er den rigtige fremgangsmåde?",
+    "svar": [
+      "Kastet tæller som det er, og du spiller derfra uden videre",
+      "Kastet annulleres altid, og du kaster om",
+      "Du får ét straffekast for tilskuerens handling",
+      "Gruppen tager stilling til situationen, og en official kan tilkaldes"
+    ],
+    "korrekt": 3,
+    "forklaring": "Det er ikke en situation reglerne dækker med et enkelt svar, og derfor er det gruppen der tager stilling, med mulighed for at tilkalde en official. Udgangspunktet er, at afgørelsen skal være så fair som mulig og så tæt på de nærmeste regler som muligt. Du får under ingen omstændigheder straf for en tilskuers handling.",
+    "regel": "810",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/810",
+    "verificeret": false
+  },
+  {
+    "id": "q-0177",
+    "kategori": "etikette 810",
+    "spoergsmaal": "Hvem håndhæver reglerne under en almindelig runde uden officials på banen?",
+    "svar": [
+      "Kortholderen alene",
+      "Turneringslederen, der gennemgår kortene bagefter",
+      "Ingen, reglerne kan kun håndhæves af officials",
+      "Spillerne i gruppen selv"
+    ],
+    "korrekt": 3,
+    "forklaring": "Spillerne i gruppen håndhæver selv reglerne, og det er en del af ansvaret ved at spille turnering. Kan gruppen ikke blive enige, kan en official tilkaldes. Kortholderen har ikke en særlig rolle i regelspørgsmål.",
+    "regel": "801.02",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80102",
+    "verificeret": false
+  },
+  {
+    "id": "q-0178",
+    "kategori": "etikette 810",
+    "spoergsmaal": "Der opstår en situation på hullet, som ingen i gruppen kan finde en regel for, og der er ingen official i nærheden. Hvad gør I?",
+    "svar": [
+      "Spilleren vælger selv den løsning, der er bedst for scoren",
+      "Hullet annulleres for alle i gruppen",
+      "Gruppen finder den mest fair løsning, tættest på de regler der ligner mest",
+      "I venter på hullet, indtil en official kan komme frem"
+    ],
+    "korrekt": 2,
+    "forklaring": "Reglerne kan ikke dække alt, og derfor er princippet om fairness skrevet ind. Gruppen finder den løsning, der er mest fair og ligger tættest på de regler, der minder mest om situationen. Er I i tvivl bagefter, kan afgørelsen tages op med turneringslederen.",
+    "regel": "801.01",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80101",
+    "verificeret": false
+  },
+  {
+    "id": "q-0179",
+    "kategori": "Competition Manual",
+    "spoergsmaal": "Du når frem til dit starthul efter at runden er gået i gang, men inden din gruppe har forladt teestedet. Hvad koster det typisk?",
+    "svar": [
+      "To straffekast",
+      "Ingenting, når du når teestedet inden gruppen går videre",
+      "Ét straffekast",
+      "Du er ude af turneringen"
+    ],
+    "korrekt": 0,
+    "forklaring": "Competition Manual kræver, at du er tjekket ind og til stede ved starthullet i minutterne op til starten. Møder du for sent, koster det to straffekast. Straffen gælder, selv om du når at kaste ud sammen med gruppen.",
+    "regel": "Competition Manual",
+    "kilde": "https://www.pdga.com/rules/competition-manual-disc-golf-events",
+    "verificeret": false
+  },
+  {
+    "id": "q-0180",
+    "kategori": "Competition Manual",
+    "spoergsmaal": "Du når først frem til dit starthul, efter at din gruppe har kastet ud og er gået videre til næste hul. Hvad gælder for det hul du missede?",
+    "svar": [
+      "Du regnes som fraværende på hullet og får par plus fire",
+      "Hullet spilles om senere sammen med en official",
+      "Du får to straffekast og spiller hullet, når du når frem",
+      "Du får par på hullet uden straf"
+    ],
+    "korrekt": 0,
+    "forklaring": "Kommer du så sent, at gruppen allerede har spillet hullet, regnes du som fraværende på det hul. Scoren bliver par plus fire, og du kan først spille med fra det hul gruppen står på. Hullet spilles ikke om bagefter.",
+    "regel": "Competition Manual",
+    "kilde": "https://www.pdga.com/rules/competition-manual-disc-golf-events",
+    "verificeret": false
+  },
+  {
+    "id": "q-0181",
+    "kategori": "Competition Manual",
+    "spoergsmaal": "Der er lydt to minutters signal før rundens start, og du kaster en enkelt opvarmningsputt ved dit starthul. To medspillere ser det. Hvad gælder?",
+    "svar": [
+      "Du får en advarsel, og næste gang koster ét straffekast",
+      "Ingenting, opvarmning er tilladt indtil startsignalet",
+      "Du får ét straffekast med det samme",
+      "Du får to straffekast, som ved for sent fremmøde"
+    ],
+    "korrekt": 0,
+    "forklaring": "Fra to minutters signalet og frem til starten må der ikke kastes. Ses et kast af to eller flere spillere eller af en official, giver det en advarsel. Kaster du igen i den periode, koster det ét straffekast.",
+    "regel": "Competition Manual",
+    "kilde": "https://www.pdga.com/rules/competition-manual-disc-golf-events",
+    "verificeret": false
+  },
+  {
+    "id": "q-0182",
+    "kategori": "Competition Manual",
+    "spoergsmaal": "Turneringslederen blæser spillet af på grund af tordenvejr, og du hører signalet tydeligt. Du putter alligevel den putt du står med. Hvad gælder?",
+    "svar": [
+      "To straffekast for at spille videre efter en meldt afbrydelse",
+      "Ingen straf, du var allerede i gang med kastet",
+      "En advarsel, fordi putten var påbegyndt",
+      "Ét straffekast, og putten tæller ikke"
+    ],
+    "korrekt": 0,
+    "forklaring": "Når spillet officielt afbrydes, skal du stoppe med det samme. Er der bevis for at du kendte til afbrydelsen og alligevel spillede videre, koster det to straffekast. Reglen findes fordi afbrydelser oftest handler om sikkerhed.",
+    "regel": "Competition Manual",
+    "kilde": "https://www.pdga.com/rules/competition-manual-disc-golf-events",
+    "verificeret": false
+  },
+  {
+    "id": "q-0183",
+    "kategori": "Competition Manual",
+    "spoergsmaal": "Du synes vejret er farligt og stopper med at spille, uden at der er givet signal om afbrydelse. Hvad gælder?",
+    "svar": [
+      "To straffekast, hvis der er bevis for at du stoppede før tid",
+      "Ingen straf, sikkerhed går altid forud for reglerne",
+      "Ét straffekast pr. hul du ikke spiller",
+      "Du diskvalificeres for ikke at fuldføre runden"
+    ],
+    "korrekt": 0,
+    "forklaring": "Det er turneringslederen der afbryder spillet, ikke den enkelte spiller. Stopper du før signalet, og kan det påvises, koster det to straffekast. Er du reelt i fare, skal du søge i sikkerhed og tage det op med turneringslederen bagefter.",
+    "regel": "Competition Manual",
+    "kilde": "https://www.pdga.com/rules/competition-manual-disc-golf-events",
+    "verificeret": false
+  },
+  {
+    "id": "q-0184",
+    "kategori": "Competition Manual",
+    "spoergsmaal": "Hvad gør du, når spillet suspenderes, mens din gruppe står midt på et hul?",
+    "svar": [
+      "Stopper spillet med det samme og markerer, hvor discen ligger",
+      "Spiller hullet færdigt og går derefter ind",
+      "Samler alle discs op og starter hullet forfra bagefter",
+      "Fortsætter til næste teested og venter der"
+    ],
+    "korrekt": 0,
+    "forklaring": "Spillet stoppes med det samme, og positionerne markeres, så runden kan tages op igen præcis hvor den slap. Hullet spilles ikke færdigt og ikke om. Følg turneringslederens anvisninger om, hvor I skal opholde jer imens.",
+    "regel": "Competition Manual",
+    "kilde": "https://www.pdga.com/rules/competition-manual-disc-golf-events",
+    "verificeret": false
+  },
+  {
+    "id": "q-0185",
+    "kategori": "Competition Manual",
+    "spoergsmaal": "Du har en caddie med i en runde. Hvornår er du ansvarlig for caddiens opførsel?",
+    "svar": [
+      "Kun mens caddien er inde på selve banen",
+      "Fra to minutters signalet indtil dit scorekort er afleveret",
+      "Kun i de huller hvor caddien bærer tasken",
+      "Slet ikke, caddien er selv ansvarlig"
     ],
     "korrekt": 1,
-    "forklaring": "Turneringslederen har ansvaret for banens opsætning til stævnet, herunder OB, hazards, drop zoner og obligatoriske ruter. Opsætningen skal meldes ud til spillerne før runden. Gruppen kan ikke selv ændre den undervejs, men kan tilkalde en official hvis der er tvivl.",
+    "forklaring": "Du er ansvarlig for din caddies opførsel fra to minutters signalet og indtil dit scorekort er afleveret. Straf for caddiens adfærd rammer både caddien og dig. Derfor bør du briefe caddien om reglerne inden runden.",
+    "regel": "Competition Manual",
+    "kilde": "https://www.pdga.com/rules/competition-manual-disc-golf-events",
+    "verificeret": false
+  },
+  {
+    "id": "q-0186",
+    "kategori": "Competition Manual",
+    "spoergsmaal": "Din caddie står tæt på en medspiller, der skal kaste, og forstyrrer. Hvad gælder?",
+    "svar": [
+      "Kun caddien bortvises, spilleren rammes ikke",
+      "Straffen for caddiens adfærd gælder både caddie og spiller",
+      "Der sker ingenting, caddier er ikke omfattet af reglerne",
+      "Medspilleren kan kræve at kaste om"
+    ],
+    "korrekt": 1,
+    "forklaring": "Caddien skal holde passende afstand og må ikke forstyrre andres kast. Sker det alligevel, gælder straffen både caddien og den spiller caddien arbejder for. Det er spillerens ansvar at instruere sin caddie.",
+    "regel": "Competition Manual",
+    "kilde": "https://www.pdga.com/rules/competition-manual-disc-golf-events",
+    "verificeret": false
+  },
+  {
+    "id": "q-0187",
+    "kategori": "Competition Manual",
+    "spoergsmaal": "Hvad kræver Competition Manual af spillerens adfærd ved et sanktioneret stævne?",
+    "svar": [
+      "Kun at reglerne for spillet følges",
+      "En professionel standard for sportsånd, høflighed og hæderlighed",
+      "At spilleren undlader at udtale sig om stævnet",
+      "At spilleren følger turneringslederens personlige ønsker"
+    ],
+    "korrekt": 1,
+    "forklaring": "Manualen stiller krav om en professionel standard for sportsånd, høflighed og hæderlighed under hele stævnet. Kravet gælder også når du udtaler dig til medier om stævnet. Brud kan koste alt fra en advarsel til diskvalifikation.",
+    "regel": "Competition Manual",
+    "kilde": "https://www.pdga.com/rules/competition-manual-disc-golf-events",
+    "verificeret": false
+  },
+  {
+    "id": "q-0188",
+    "kategori": "Competition Manual",
+    "spoergsmaal": "Hvilken af disse fører typisk til øjeblikkelig diskvalifikation uden forudgående advarsel?",
+    "svar": [
+      "At bande efter en misset putt",
+      "At snyde med sin score",
+      "At komme for sent til startsignalet",
+      "At bruge for lang tid flere gange"
+    ],
+    "korrekt": 1,
+    "forklaring": "Snyd hører til den gruppe af forhold, der fører til diskvalifikation med det samme. Det samme gælder fysiske overgreb og offentlig brug af ulovlige stoffer. De øvrige eksempler koster straffekast eller advarsler efter de almindelige regler.",
+    "regel": "Competition Manual",
+    "kilde": "https://www.pdga.com/rules/competition-manual-disc-golf-events",
+    "verificeret": false
+  },
+  {
+    "id": "q-0189",
+    "kategori": "Competition Manual",
+    "spoergsmaal": "Turneringslederen giver dig en turneringsadvarsel for din opførsel i første runde. Hvad betyder det for anden runde?",
+    "svar": [
+      "Advarslen bortfalder, når runden er slut",
+      "Advarslen gælder videre i alle runder og et eventuelt omspil",
+      "Advarslen bliver til et straffekast i næste runde",
+      "Advarslen gælder kun, hvis samme official er til stede"
+    ],
+    "korrekt": 1,
+    "forklaring": "En turneringsadvarsel adskiller sig fra en almindelig advarsel ved at følge med gennem hele stævnet. Den bortfalder altså ikke mellem runderne, som en advarsel for eksempel for lang tid gør. Næste overtrædelse kan derfor føre direkte til diskvalifikation.",
+    "regel": "Competition Manual",
+    "kilde": "https://www.pdga.com/rules/competition-manual-disc-golf-events",
+    "verificeret": false
+  },
+  {
+    "id": "q-0190",
+    "kategori": "Competition Manual",
+    "spoergsmaal": "Hvor skal papirscorekort afleveres efter runden?",
+    "svar": [
+      "Hos den spiller der førte kortet",
+      "Det sted turneringslederen har udpeget",
+      "I den nærmeste postkasse ved klubhuset",
+      "Kortet beholdes, indtil turneringslederen beder om det"
+    ],
+    "korrekt": 1,
+    "forklaring": "Turneringslederen udpeger et sted, hvor papirkort skal afleveres efter runden. Fristen og stedet meldes ud, og det er spillerens ansvar at nå det. Bruges digital scoring, gælder de regler turneringslederen har meldt ud for indtastning.",
+    "regel": "Competition Manual",
+    "kilde": "https://www.pdga.com/rules/competition-manual-disc-golf-events",
+    "verificeret": false
+  },
+  {
+    "id": "q-0191",
+    "kategori": "Competition Manual",
+    "spoergsmaal": "Du opdager efter at have indsendt dit digitale scorekort, at en score var tastet for lavt. Hvad gælder typisk?",
+    "svar": [
+      "Rettelsen sker uden følger, når du selv siger til",
+      "Rettelsen koster ét straffekast",
+      "Rettelsen koster to straffekast",
+      "Scoren kan ikke rettes efter indsendelse"
+    ],
+    "korrekt": 2,
+    "forklaring": "En indsendt score der er lavere end den faktiske, koster to straffekast, når den rettes. Det følger reglen om scoring i de officielle regler og gælder også digitale kort. Er scoren tastet for højt, står den som indsendt.",
+    "regel": "Competition Manual",
+    "kilde": "https://www.pdga.com/rules/competition-manual-disc-golf-events",
+    "verificeret": false
+  },
+  {
+    "id": "q-0192",
+    "kategori": "Competition Manual",
+    "spoergsmaal": "Hvem har ansvaret for at din score på kortet er rigtig?",
+    "svar": [
+      "Kortholderen alene",
+      "Turneringslederen, der tjekker alle kort",
+      "Dig selv, uanset hvem der fører kortet",
+      "Gruppen i fællesskab, uden personligt ansvar"
+    ],
+    "korrekt": 2,
+    "forklaring": "Du er selv ansvarlig for din score, også når en anden fører kortet. Derfor skal du følge med undervejs og tjekke kortet, inden det afleveres. Er du uenig med kortholderen, skal det afklares inden afleveringen.",
+    "regel": "Competition Manual",
+    "kilde": "https://www.pdga.com/rules/competition-manual-disc-golf-events",
+    "verificeret": false
+  },
+  {
+    "id": "q-0193",
+    "kategori": "Competition Manual",
+    "spoergsmaal": "Hvem fastlægger, hvad der er OB, hazard, drop zone og mando til et stævne?",
+    "svar": [
+      "Banens ejer",
+      "Gruppen på det enkelte hul",
+      "Turneringslederen, der melder det ud før runden",
+      "PDGA centralt, gennem en godkendelse af banen"
+    ],
+    "korrekt": 2,
+    "forklaring": "Turneringslederen fastlægger banens opsætning til stævnet og melder den ud til spillerne før runden. Det gælder OB, hazards, drop zoner, mandoer og eventuelle midlertidige regler. Gruppen kan ikke ændre opsætningen undervejs.",
+    "regel": "Competition Manual",
+    "kilde": "https://www.pdga.com/rules/competition-manual-disc-golf-events",
+    "verificeret": false
+  },
+  {
+    "id": "q-0194",
+    "kategori": "Competition Manual",
+    "spoergsmaal": "Du er uenig i en officials afgørelse på banen. Hvad kan du gøre?",
+    "svar": [
+      "Ingenting, en officials afgørelse er altid endelig",
+      "Bede gruppen om at stemme om afgørelsen",
+      "Anke afgørelsen til turneringslederen",
+      "Spille videre under protest og få sagen afgjort af PDGA"
+    ],
+    "korrekt": 2,
+    "forklaring": "En officials afgørelse går forud for gruppens, men den kan ankes til turneringslederen. Turneringslederen har det sidste ord under stævnet. Sager om alvorlig adfærd kan derefter gå videre i PDGA's disciplinære system.",
+    "regel": "Competition Manual",
+    "kilde": "https://www.pdga.com/rules/competition-manual-disc-golf-events",
+    "verificeret": false
+  },
+  {
+    "id": "q-0195",
+    "kategori": "Competition Manual",
+    "spoergsmaal": "Hvem bestemmer, hvordan spillerne fordeles i grupper, og i hvilken rækkefølge der startes?",
+    "svar": [
+      "Spillerne aftaler det indbyrdes ved check ind",
+      "Den højest ratede spiller i hver gruppe",
+      "Turneringslederen",
+      "Det afgøres ved lodtrækning blandt spillerne"
+    ],
+    "korrekt": 2,
+    "forklaring": "Turneringslederen fastlægger grupper og startrækkefølge efter manualens rammer. Spillerne kan ikke bytte grupper på egen hånd. Har du en særlig grund til at ønske en ændring, skal den godkendes af turneringslederen.",
+    "regel": "Competition Manual",
+    "kilde": "https://www.pdga.com/rules/competition-manual-disc-golf-events",
+    "verificeret": false
+  },
+  {
+    "id": "q-0196",
+    "kategori": "Competition Manual",
+    "spoergsmaal": "Hvordan afgøres det, hvad der sker ved pointlighed om en placering, der giver præmie?",
+    "svar": [
+      "Den højest ratede spiller vinder placeringen",
+      "Der deles altid, og præmierne lægges sammen",
+      "Der spilles altid sudden death om alle placeringer",
+      "Efter det turneringslederen har meldt ud før stævnet"
+    ],
+    "korrekt": 3,
+    "forklaring": "Hvordan lighed brydes, skal være meldt ud før stævnet, og det er turneringslederen der fastlægger det inden for manualens rammer. Nogle steder spilles der omspil om førstepladsen, mens andre placeringer deles. Derfor er det værd at læse spillerinformationen inden runden.",
+    "regel": "Competition Manual",
+    "kilde": "https://www.pdga.com/rules/competition-manual-disc-golf-events",
+    "verificeret": false
+  },
+  {
+    "id": "q-0197",
+    "kategori": "Competition Manual",
+    "spoergsmaal": "Et stævne skærer feltet ned efter anden runde. Hvad kræver manualen af sådan en beskæring?",
+    "svar": [
+      "At den kun rammer amatørdivisionerne",
+      "At alle spillere skriver under på den",
+      "At den godkendes af de berørte spillere",
+      "At den er meldt ud på forhånd"
+    ],
+    "korrekt": 3,
+    "forklaring": "En beskæring af feltet skal være meldt ud på forhånd, så spillerne kender vilkårene inden de tilmelder sig og spiller. Turneringslederen kan ikke indføre den midt i stævnet uden varsel. Detaljerne fastlægges inden for manualens rammer.",
+    "regel": "Competition Manual",
+    "kilde": "https://www.pdga.com/rules/competition-manual-disc-golf-events",
+    "verificeret": false
+  },
+  {
+    "id": "q-0198",
+    "kategori": "Competition Manual",
+    "spoergsmaal": "Du bliver forhindret i at spille og vil trække dig efter tilmeldingen. Hvad afgør, om du får penge tilbage?",
+    "svar": [
+      "Turneringslederens personlige skøn alene",
+      "Din PDGA-rating i forhold til feltet",
+      "Om der står nogen på ventelisten",
+      "De frister og vilkår for tilbagetrækning der gælder for stævnet"
+    ],
+    "korrekt": 3,
+    "forklaring": "Tilbagebetaling følger de frister og vilkår, der gælder for stævnet efter manualen. Melder du fra tidligt, får du typisk mere tilbage end hvis du melder fra kort før start. Kontakt turneringslederen så tidligt som muligt.",
+    "regel": "Competition Manual",
+    "kilde": "https://www.pdga.com/rules/competition-manual-disc-golf-events",
+    "verificeret": false
+  },
+  {
+    "id": "q-0199",
+    "kategori": "Competition Manual",
+    "spoergsmaal": "Turneringslederen vil indføre en midlertidig regel om et område under renovering. Hvornår gælder den?",
+    "svar": [
+      "Når mindst halvdelen af spillerne accepterer den",
+      "Med det samme, også midt i en runde",
+      "Kun hvis PDGA har godkendt den skriftligt",
+      "Når den er meldt ud til spillerne før runden"
+    ],
+    "korrekt": 3,
+    "forklaring": "Midlertidige regler og særlige forhold på banen skal meldes ud til spillerne, før runden går i gang. Ellers kan spillerne ikke forventes at kende dem. Turneringslederen kan ikke indføre nye vilkår midt i en runde uden at melde det ud.",
+    "regel": "Competition Manual",
+    "kilde": "https://www.pdga.com/rules/competition-manual-disc-golf-events",
+    "verificeret": false
+  },
+  {
+    "id": "q-0200",
+    "kategori": "Competition Manual",
+    "spoergsmaal": "Hvad er forskellen på Official Rules of Disc Golf og Competition Manual?",
+    "svar": [
+      "Reglerne gælder amatører, manualen gælder professionelle",
+      "Manualen gælder kun ved store internationale stævner",
+      "Reglerne gælder runden, manualen gælder kun præmieoverrækkelsen",
+      "Reglerne dækker selve spillet, manualen dækker afviklingen af stævnet"
+    ],
+    "korrekt": 3,
+    "forklaring": "De officielle regler dækker selve spillet, altså kast, lies, straffekast og afgørelser på banen. Competition Manual dækker afviklingen af stævnet, blandt andet tilmelding, start, afbrydelser, adfærd, scorekort og præmier. Begge dele gælder ved sanktionerede stævner.",
     "regel": "Competition Manual",
     "kilde": "https://www.pdga.com/rules/competition-manual-disc-golf-events",
     "verificeret": false

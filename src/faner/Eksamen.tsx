@@ -94,7 +94,11 @@ function Resultat({ log, igen, luk }: { log: Svarlog[]; igen: () => void; luk: (
 
 export function Eksamen() {
   const [tilstand, setTilstand] = useState<Tilstand>({ fase: 'start' })
-  const bank = useLiveQuery(() => db.spoergsmaal.toArray(), [], [] as Spoergsmaal[])
+  // Uden startværdi er den undefined indtil Dexie svarer, så visningen ikke
+  // når at påstå at banken er tom.
+  const hentet = useLiveQuery(() => db.spoergsmaal.toArray())
+  const bank: Spoergsmaal[] = hentet ?? []
+  const indlaest = hentet !== undefined
   const historik = useLiveQuery(() => db.eksamener.orderBy('dato').reverse().toArray(), [], [])
 
   function start() {
@@ -133,7 +137,7 @@ export function Eksamen() {
         undervejs, alle svar vises til sidst.
       </p>
 
-      {bank.length < EKSAMEN_ANTAL && (
+      {indlaest && bank.length < EKSAMEN_ANTAL && (
         <p className="mt-3 rounded-xl border border-gul/50 bg-gul/10 p-3 text-sm text-gul">
           Banken indeholder {bank.length} spørgsmål. Eksamen køres med {antal} spørgsmål, indtil der
           er flere i banken.
@@ -141,7 +145,7 @@ export function Eksamen() {
       )}
 
       <div className="mt-4">
-        <Knap variant="primaer" onClick={start} disabled={bank.length === 0} className="text-center">
+        <Knap variant="primaer" onClick={start} disabled={!indlaest || bank.length === 0} className="text-center">
           Start eksamen
         </Knap>
       </div>

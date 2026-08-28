@@ -24,7 +24,9 @@ export function Traening() {
   const [forklarFoerst, setForklarFoerst] = useState(false)
   const [besked, setBesked] = useState('')
 
-  const bank = useLiveQuery(() => db.spoergsmaal.toArray(), [], [] as Spoergsmaal[])
+  const hentet = useLiveQuery(() => db.spoergsmaal.toArray())
+  const bank: Spoergsmaal[] = hentet ?? []
+  const indlaest = hentet !== undefined
   const forfaldne = useLiveQuery(async () => {
     const alle = await db.spoergsmaal.toArray()
     const fremdrift = await hentFremdrift(alle.map((s) => s.id))
@@ -138,7 +140,7 @@ export function Traening() {
         })}
       </div>
       <p className="mt-2 text-sm text-daempet">
-        Ingen valgt betyder alle kategorier. {filtreret().length} spørgsmål i valget.
+        Ingen valgt betyder alle kategorier.{indlaest && ` ${filtreret().length} spørgsmål i valget.`}
       </p>
 
       <button

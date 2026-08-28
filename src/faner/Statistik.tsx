@@ -61,7 +61,8 @@ function Import() {
 
 export function Statistik() {
   const besvarelser = useLiveQuery(() => db.besvarelser.toArray(), [], [] as Besvarelse[])
-  const bank = useLiveQuery(() => db.spoergsmaal.toArray(), [], [] as Spoergsmaal[])
+  const hentet = useLiveQuery(() => db.spoergsmaal.toArray())
+  const bank: Spoergsmaal[] = hentet ?? []
   const eksamener = useLiveQuery(() => db.eksamener.orderBy('dato').toArray(), [], [])
   const fremdrift = useLiveQuery(() => db.fremdrift.toArray(), [], [] as Fremdrift[])
 
@@ -77,10 +78,12 @@ export function Statistik() {
   return (
     <div className="h-full overflow-y-auto p-4 pb-6">
       <h1 className="text-2xl font-bold">Statistik</h1>
-      <p className="mt-1 text-sm text-daempet">
-        {bank.length} spørgsmål i banken, {besvarelser.length} besvarelser i alt.
-        {uverificerede > 0 && ` ${uverificerede} mangler verifikation.`}
-      </p>
+      {hentet !== undefined && (
+        <p className="mt-1 text-sm text-daempet">
+          {bank.length} spørgsmål i banken, {besvarelser.length} besvarelser i alt.
+          {uverificerede > 0 && ` ${uverificerede} mangler verifikation.`}
+        </p>
+      )}
 
       <h2 className="mt-6 mb-2 text-lg font-semibold">Rigtige pr. kategori</h2>
       <div className="flex flex-col gap-2">
