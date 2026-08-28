@@ -1,0 +1,482 @@
+[
+  {
+    "id": "ob-01",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Din drive krydser OB-linjen ved en sø og synker et godt stykke ude i vandet. Hvor ligger dit nye lie?",
+    "svar": [
+      "Op til én meter ind på banen fra det sted discen sidst var in bounds",
+      "Ved søbredden nærmest det sted discen sank",
+      "På det sted du kastede fra, altså teestedet",
+      "Op til én meter fra søens kant, hvor du selv vælger"
+    ],
+    "korrekt": 0,
+    "forklaring": "Lien lægges op til én meter ind på banen fra det punkt hvor discen sidst var in bounds, altså der hvor den krydsede linjen. Hvor discen endte ude i vandet, betyder ingenting. Turneringslederen kan give lov til også at bruge punktet nærmest discen, men det er ikke standard.",
+    "regel": "806.02",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80602",
+    "verificeret": false
+  },
+  {
+    "id": "ob-02",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Din disc er OB. Hvad koster det på scoren?",
+    "svar": [
+      "Ét straffekast",
+      "Ingenting, hvis du spiller fra det forrige lie",
+      "To straffekast",
+      "Ét straffekast, plus ét mere hvis du bruger drop zonen"
+    ],
+    "korrekt": 0,
+    "forklaring": "En disc der er OB, koster ét straffekast, uanset hvilken af lempelsesmulighederne du vælger. Det gælder også hvis du vælger at gå tilbage til det forrige lie. Turneringslederen kan i særlige tilfælde tilbyde en drop zone til en anden pris, men det skal meldes ud før runden.",
+    "regel": "806.02",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80602",
+    "verificeret": false
+  },
+  {
+    "id": "ob-03",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Gruppen kan ikke blive enige om, hvorvidt din disc lå helt uden for OB-linjen. Ingen så det tydeligt. Hvad er afgørelsen?",
+    "svar": [
+      "Discen regnes for in bounds",
+      "Discen regnes for OB, indtil du kan bevise andet",
+      "Der kastes om fra det forrige lie",
+      "Turneringslederen skal altid tilkaldes"
+    ],
+    "korrekt": 0,
+    "forklaring": "Er der tvivl om en disc er OB, regnes den for in bounds. Det er den der kalder OB, der skal kunne underbygge det, og et kald der giver straffekast skal bekræftes. Kan gruppen ikke bekræfte det, spiller du videre uden straf.",
+    "regel": "806.02",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80602",
+    "verificeret": false
+  },
+  {
+    "id": "ob-04",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Din disc ligger delvist på den malede OB-linje, så en del af discen er inde på banen. Hvad gælder?",
+    "svar": [
+      "Discen er in bounds, den er ikke helt uden for banen",
+      "Discen er OB, linjen er selv OB",
+      "Gruppen måler efter discens midtpunkt",
+      "Discen er OB, hvis mere end halvdelen er uden for"
+    ],
+    "korrekt": 0,
+    "forklaring": "En disc er kun OB, når den er kommet til hvile helt og tydeligt uden for banen. Rører en del af discen banen inden for linjen, er den in bounds. Selve linjen tæller som OB, men det ændrer ikke på at discen skal være helt uden for.",
+    "regel": "806.02",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80602",
+    "verificeret": false
+  },
+  {
+    "id": "ob-05",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Din approach lander pænt in bounds, men triller derefter ud over kanten og bliver liggende på en OB-markeret sti. Hvad gælder?",
+    "svar": [
+      "Discen er OB, positionen er der hvor den kom til hvile",
+      "Discen er in bounds, den landede inden for linjen",
+      "Du kaster om, fordi trillet var uden for din kontrol",
+      "Gruppen afgør om trillet var naturligt"
+    ],
+    "korrekt": 0,
+    "forklaring": "Det er ikke landingsstedet der tæller, men det sted discen første gang kommer til hvile. Ender den ude på stien, er den OB, og det koster ét straffekast. Havde den derimod ligget stille inde på banen først, ville den senere bevægelse ikke gøre den OB.",
+    "regel": "806.02",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80602",
+    "verificeret": false
+  },
+  {
+    "id": "ob-06",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Du har lagt din mini op til én meter ind på banen efter et OB-kast, men der står en tæt busk lige foran. Hvad kan du gøre uden yderligere straf?",
+    "svar": [
+      "Rykke lien længere væk fra kurven på spillelinjen",
+      "Rykke lien til siden, indtil du har fri linje",
+      "Ingenting, lien ligger fast når meteren er brugt",
+      "Bruge drop zonen på hullet i stedet"
+    ],
+    "korrekt": 0,
+    "forklaring": "Når lien er etableret efter OB-reglen, må du derefter rykke den længere væk fra kurven på spillelinjen uden ekstra straf. Du må derimod ikke gå ud til siden for at få en bedre vinkel. Muligheden gælder kun bagud langs spillelinjen.",
+    "regel": "806.02",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80602",
+    "verificeret": false
+  },
+  {
+    "id": "ob-07",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Dit udkast på et kort hul går OB bag kurven. Du vil hellere kaste ud igen end at spille fra kanten. Er det tilladt?",
+    "svar": [
+      "Ja, det forrige lie er en af mulighederne, her teestedet",
+      "Nej, du skal altid spille fra det sted discen sidst var in bounds",
+      "Ja, men det koster to straffekast at gå tilbage til teestedet",
+      "Nej, teestedet kan ikke bruges som lie mere end én gang"
+    ],
+    "korrekt": 0,
+    "forklaring": "En af mulighederne efter OB er at spille fra det forrige lie, og på hullets første kast er det teestedet. Prisen er den samme, altså ét straffekast. Du kaster derfor dit tredje kast fra teestedet.",
+    "regel": "806.02",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80602",
+    "verificeret": false
+  },
+  {
+    "id": "ob-08",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Turneringslederen har oplyst en drop zone til søen på hul 4. Din disc er OB i søen. Hvad gælder for drop zonen?",
+    "svar": [
+      "Den kan bruges i stedet for de andre muligheder, på de vilkår turneringslederen har meldt ud",
+      "Den skal altid bruges, når den findes på hullet",
+      "Den koster altid to straffekast at bruge",
+      "Den kan kun bruges, hvis du ikke kan finde det sted discen krydsede linjen"
+    ],
+    "korrekt": 0,
+    "forklaring": "En drop zone er en ekstra mulighed, ikke et krav, medmindre turneringslederen har sagt det modsatte. Vilkårene, herunder om prisen er den sædvanlige, skal være meldt ud til spillerne før runden. Du kan altså stadig vælge meteren fra linjen eller det forrige lie.",
+    "regel": "806.02",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80602",
+    "verificeret": false
+  },
+  {
+    "id": "ob-09",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Din disc sidder fast i et træ, hvis stamme står inde på banen, men grenen hænger ud over et OB-markeret vandløb. Discen er lodret over vandet. Hvad gælder?",
+    "svar": [
+      "Discen er in bounds, fordi træet står in bounds",
+      "Discen er OB, OB-området gælder også lodret opad",
+      "Discen er in bounds, indtil den falder ned i vandet",
+      "Gruppen afgør det efter hvor stammen står"
+    ],
+    "korrekt": 1,
+    "forklaring": "OB-området strækker sig lodret op og ned, ikke kun langs jorden. Sidder discen over et OB-område, er den OB, uanset hvor træet står. Positionen på spillefladen under discen ville ellers have været afgørende.",
+    "regel": "806.02",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80602",
+    "verificeret": false
+  },
+  {
+    "id": "ob-10",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Der er in bounds vand på hul 6, som turneringslederen ikke har erklæret i spil. Din disc lander i det. Hvad gælder?",
+    "svar": [
+      "Ét straffekast, vand er altid OB",
+      "Ingen straf, vandet er casual område og du kan tage lempelse",
+      "Ét straffekast, vand behandles som hazard",
+      "Ingen straf, men du skal spille discen hvor den ligger"
+    ],
+    "korrekt": 1,
+    "forklaring": "Vand der er in bounds og ikke udtrykkeligt er erklæret i spil, er som udgangspunkt et casual område. Der er ingen straf, og du kan tage lempelse til nærmeste punkt på spillelinjen uden for vandet. Du må også vælge at spille discen som den ligger.",
+    "regel": "806.02",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80602",
+    "verificeret": false
+  },
+  {
+    "id": "ob-11",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "En medspiller påstår at din disc er OB, men to andre i gruppen så tydeligt at den lå inde på banen, før den blev flyttet af en tilskuer. Hvad sker der?",
+    "svar": [
+      "Discen er OB, den ligger uden for banen nu",
+      "Discen lægges tilbage til det sted den lå in bounds, uden straf",
+      "Der gives ét straffekast, fordi discen er blevet flyttet",
+      "Gruppen stemmer om hvor discen skal lægges"
+    ],
+    "korrekt": 1,
+    "forklaring": "En kastet disc der har ligget stille in bounds og bagefter er blevet flyttet, lægges tilbage hvor den lå. Det gælder også når en tilskuer flytter den, og det koster ingen straf. Der stemmes ikke om afgørelser, de bekræftes eller falder.",
+    "regel": "806.02",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80602",
+    "verificeret": false
+  },
+  {
+    "id": "ob-12",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Hvor måles den ene meter fra, når du tager lempelse efter OB?",
+    "svar": [
+      "Fra det sted discen ligger, ind mod banen",
+      "Fra det punkt hvor discen sidst var in bounds, ind på banen",
+      "Fra midten af OB-området",
+      "Fra den nærmeste hjørne af OB-området"
+    ],
+    "korrekt": 1,
+    "forklaring": "Meteren måles fra det punkt hvor discen sidst var in bounds, altså krydsningspunktet, og ind på banen. Du må gå op til en meter, men aldrig tættere på kurven. Måler du fra selve discen, får du typisk et helt forkert lie.",
+    "regel": "806.02",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80602",
+    "verificeret": false
+  },
+  {
+    "id": "ob-13",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Fire situationer ved OB-linjen. I hvilken af dem er discen IKKE out of bounds?",
+    "svar": [
+      "Discen ligger helt uden for linjen på asfalten",
+      "Discen ligger med kanten hen over den malede linje",
+      "Discen ligger i en OB-markeret grøft under linjen",
+      "Discen ligger uden for linjen i højt græs"
+    ],
+    "korrekt": 1,
+    "forklaring": "En disc skal være helt og tydeligt uden for banen for at være OB. Rører den linjen og dermed stadig er delvist inde, er den in bounds. De tre andre ligger klart uden for banen og koster ét straffekast.",
+    "regel": "806.02",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80602",
+    "verificeret": false
+  },
+  {
+    "id": "ob-14",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Din disc lander i et område, som turneringslederen har erklæret hazard. Hvad koster det, og hvor spiller du fra?",
+    "svar": [
+      "Ét straffekast, og du spiller fra kanten af området",
+      "Ét straffekast, og du spiller fra det sted discen ligger",
+      "To straffekast, og du spiller fra det forrige lie",
+      "Ingen straf, men du skal ud af området"
+    ],
+    "korrekt": 1,
+    "forklaring": "En hazard koster ét straffekast, og selve lien flyttes ikke. Du spiller altså videre fra det sted discen ligger inde i området. Har turneringslederen sat en drop zone til hazarden, kan den bruges i stedet.",
+    "regel": "806.05",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80605",
+    "verificeret": false
+  },
+  {
+    "id": "ob-15",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Hvad er den vigtigste forskel mellem en hazard og et OB-område?",
+    "svar": [
+      "Hazard koster to straffekast, OB koster ét",
+      "Hazard flytter ikke lien, OB gør",
+      "Hazard gælder kun vand, OB gælder alt andet",
+      "Hazard kan kun kaldes af en official"
+    ],
+    "korrekt": 1,
+    "forklaring": "Begge dele koster ét straffekast, så prisen er den samme. Forskellen er hvor du spiller fra bagefter, for ved OB flyttes lien ind på banen, mens hazarden lader discen ligge. En hazard skal være erklæret af turneringslederen for at gælde.",
+    "regel": "806.05",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80605",
+    "verificeret": false
+  },
+  {
+    "id": "ob-16",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Din disc ligger inde i en hazard, og du kan dårligt stå der. Hvad kan du gøre ud over at spille den som den ligger?",
+    "svar": [
+      "Tage lempelse ud af hazarden uden ekstra straf",
+      "Tage valgfri lempelse på spillelinjen mod endnu et straffekast",
+      "Kaste om fra det forrige lie uden ekstra straf",
+      "Bede gruppen om at flytte hazardens grænse"
+    ],
+    "korrekt": 1,
+    "forklaring": "Hazarden i sig selv giver ikke ret til at flytte lien. Vil du væk, kan du bruge valgfri lempelse på spillelinjen, men den koster ét straffekast oven i hazardens. Så ender du på to straffekast for det ene lie.",
+    "regel": "806.05",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80605",
+    "verificeret": false
+  },
+  {
+    "id": "ob-17",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Hvem afgør om et område på banen er en hazard?",
+    "svar": [
+      "Gruppen, når de kan blive enige på hullet",
+      "PDGA, gennem en fast liste over hazardtyper",
+      "Turneringslederen, der melder det ud før runden",
+      "Banens ejer, gennem skiltning på hullet"
+    ],
+    "korrekt": 2,
+    "forklaring": "En hazard findes kun, hvis turneringslederen har erklæret området som hazard, og det skal være meldt ud til spillerne. Der er ingen områder der automatisk er hazard efter reglerne. Er der intet meldt ud, gælder de almindelige regler for området.",
+    "regel": "806.05",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80605",
+    "verificeret": false
+  },
+  {
+    "id": "ob-18",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Din disc ligger i en hazard, og du står med begge fødder inde i hazarden, når du kaster. Hvad gælder for stancen?",
+    "svar": [
+      "Du får endnu et straffekast for at stå i hazarden",
+      "Du skal stå uden for hazarden, ellers tæller kastet ikke",
+      "Der er ingen særlige krav, hazarden påvirker ikke stancen",
+      "Du skal have mindst én fod uden for hazarden"
+    ],
+    "korrekt": 2,
+    "forklaring": "En hazard er ikke OB, og der er derfor ingen krav om hvor dine støttepunkter er i forhold til området. De almindelige stanceregler gælder, altså kontakt med lien og intet støttepunkt tættere på kurven. Straffen er den ene der følger af at discen landede i hazarden.",
+    "regel": "806.05",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80605",
+    "verificeret": false
+  },
+  {
+    "id": "ob-19",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Din disc triller igennem en hazard og ender in bounds uden for den. Hvad koster det?",
+    "svar": [
+      "Ét straffekast, discen var inde i området",
+      "Ét straffekast, hvis mere end halvdelen af flugten var i hazarden",
+      "Ingenting, det er hvor discen kommer til hvile der tæller",
+      "Gruppen afgør det efter hvor længe discen var i området"
+    ],
+    "korrekt": 2,
+    "forklaring": "Det er alene hvor discen kommer til hvile, der afgør om hazarden koster noget. En disc der blot passerer igennem området, udløser ingen straf. Det svarer til OB, hvor en disc også godt må flyve hen over området.",
+    "regel": "806.05",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80605",
+    "verificeret": false
+  },
+  {
+    "id": "ob-20",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Turneringslederen har markeret et nyplantet bed som område med påkrævet lempelse. Din disc lander midt i det. Hvad gælder?",
+    "svar": [
+      "Du spiller discen som den ligger, men uden straf",
+      "Du må ikke spille derfra, og det koster ét straffekast",
+      "Du må ikke spille derfra, og du tager lempelse uden straf",
+      "Du skal tilbage til det forrige lie mod ét straffekast"
+    ],
+    "korrekt": 2,
+    "forklaring": "Et område med påkrævet lempelse er et sted, hvor discen ikke må spilles fra. Området behandles som OB, når lien skal findes, men der er ingen straf. Du lægger altså din mini op til en meter ind fra kanten, hvor discen sidst var uden for området, og spiller videre.",
+    "regel": "806.04",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80604",
+    "verificeret": false
+  },
+  {
+    "id": "ob-21",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Hvordan adskiller påkrævet lempelse sig fra almindelig OB, når du skal finde dit nye lie?",
+    "svar": [
+      "Der er ingen straf, men du kan frit vælge det forrige lie",
+      "Der er ét straffekast, men lien findes på samme måde",
+      "Der er ingen straf, og du kan ikke bruge det forrige lie",
+      "Der er ingen straf, og du må rykke to meter ind i stedet for én"
+    ],
+    "korrekt": 2,
+    "forklaring": "Lien findes på samme måde som ved OB, altså op til en meter ind fra kanten. De to forskelle er, at der ikke gives straffekast, og at muligheden for at spille fra det forrige lie ikke gælder. Vil du alligevel tilbage, må du opgive kastet mod ét straffekast.",
+    "regel": "806.04",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80604",
+    "verificeret": false
+  },
+  {
+    "id": "ob-22",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Din disc ligger i et område med påkrævet lempelse, og du vil hellere kaste om fra det sted du kastede fra. Er det muligt?",
+    "svar": [
+      "Ja, det forrige lie er altid en mulighed",
+      "Ja, men kun hvis området ligger tættere på kurven end det forrige lie",
+      "Ja, ved at opgive kastet, hvilket koster ét straffekast",
+      "Nej, det kan ikke lade sig gøre på nogen måde"
+    ],
+    "korrekt": 2,
+    "forklaring": "Reglen om påkrævet lempelse lukker netop muligheden for at gå tilbage til det forrige lie uden videre. Vil du alligevel spille derfra, kan du opgive dit kast efter reglen om opgivne kast. Det koster ét straffekast, og kastet tæller stadig med.",
+    "regel": "806.04",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80604",
+    "verificeret": false
+  },
+  {
+    "id": "ob-23",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "En medspiller mener at et område med påkrævet lempelse også koster et straffekast, ligesom OB. Hvad er rigtigt?",
+    "svar": [
+      "Medspilleren har ret, alle markerede områder koster straf",
+      "Der gives straf, men kun hvis discen ikke kan hentes",
+      "Der gives ingen straf for påkrævet lempelse",
+      "Der gives straf, medmindre turneringslederen har sagt andet"
+    ],
+    "korrekt": 2,
+    "forklaring": "Påkrævet lempelse er netop lempelse, ikke en straf. Området er lavet for at holde spillerne væk fra noget, typisk sart natur eller noget farligt, ikke for at gøre hullet sværere. Straffen ved OB gælder ikke her.",
+    "regel": "806.04",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80604",
+    "verificeret": false
+  },
+  {
+    "id": "ob-24",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Din drive går på den forkerte side af en mando. Der er en drop zone på hullet. Hvad gælder?",
+    "svar": [
+      "Ét straffekast, og du spiller fra det forrige lie",
+      "To straffekast, og du spiller fra drop zonen",
+      "Ingen straf, hvis discen alligevel ender bag mandoen",
+      "Ét straffekast, og du spiller fra drop zonen"
+    ],
+    "korrekt": 3,
+    "forklaring": "En misset mando koster ét straffekast. Er der en drop zone til mandoen, er den dit næste lie. Er der ingen drop zone, spiller du i stedet fra det lie du kastede fra.",
+    "regel": "804.01",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80401",
+    "verificeret": false
+  },
+  {
+    "id": "ob-25",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Hvornår har en disc misset en mando?",
+    "svar": [
+      "Når discen lander på den forkerte side af mandoen",
+      "Når discen passerer mandoen i mere end to meters højde",
+      "Når gruppen skønner at linjen ikke blev fulgt",
+      "Når en del af discen kommer ind i det forbudte område"
+    ],
+    "korrekt": 3,
+    "forklaring": "Mandoen er missét i det øjeblik, hvor en del af discen kommer ind i det forbudte rum ved mandoen. Det er altså flugten der afgør det, ikke hvor discen ender. Reglen blev netop forenklet, så landingsstedet ikke længere er en del af vurderingen.",
+    "regel": "804.01",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80401",
+    "verificeret": false
+  },
+  {
+    "id": "ob-26",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Din disc flyver korrekt forbi mandoen på den rigtige side, men triller derefter tilbage og ender bag mandotræet på den forkerte side. Hvad gælder?",
+    "svar": [
+      "Mandoen er misset, discen ligger på den forkerte side",
+      "Mandoen er misset, medmindre gruppen så flugten tydeligt",
+      "Der gives ét straffekast, men du spiller videre hvor discen ligger",
+      "Mandoen er passeret korrekt, det er flugten der tæller"
+    ],
+    "korrekt": 3,
+    "forklaring": "Det afgørende er om discen under sin flugt kom ind i det forbudte rum. Passerede den korrekt, er mandoen klaret, uanset hvor den triller hen bagefter. Du spiller videre fra discens position uden straf.",
+    "regel": "804.01",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80401",
+    "verificeret": false
+  },
+  {
+    "id": "ob-27",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Der er ingen drop zone på hullet med mandoen, og du misser den med dit andet kast. Hvor spiller du fra, og hvad er dit næste kast?",
+    "svar": [
+      "Fra teestedet, og det er dit tredje kast",
+      "Fra det sted discen ligger, og det er dit tredje kast",
+      "Fra det lie du kastede dit andet kast fra, og det er dit tredje kast",
+      "Fra det lie du kastede dit andet kast fra, og det er dit fjerde kast"
+    ],
+    "korrekt": 3,
+    "forklaring": "Uden drop zone er dit næste lie det lie, du kastede det missede kast fra. Du har kastet to kast og lægger ét straffekast til, så det næste bliver dit fjerde. Det er derfor en misset mando ofte er dyrere end den ser ud.",
+    "regel": "804.01",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80401",
+    "verificeret": false
+  },
+  {
+    "id": "ob-28",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Du er i tvivl om din drive er OB, og der er langt ned til stedet. Hvad skal du gøre, før du kaster et provisorisk kast?",
+    "svar": [
+      "Bede en official om lov, ellers tæller kastet",
+      "Vente til gruppen har ledt efter den første disc",
+      "Skrive det på scorekortet med det samme",
+      "Melde det til gruppen, så alle ved at kastet er provisorisk"
+    ],
+    "korrekt": 3,
+    "forklaring": "Et provisorisk kast skal meldes til gruppen, inden du kaster, så alle ved hvad det er. Ellers står du med to kast der begge tæller. Der skal ikke nogen official ind over, og det koster ikke straf i sig selv.",
+    "regel": "809.02",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80902",
+    "verificeret": false
+  },
+  {
+    "id": "ob-29",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Du kastede provisorisk fra teestedet, fordi du var i tvivl om OB. Nede ved linjen viser det sig, at den første disc faktisk er OB. Hvad gælder nu?",
+    "svar": [
+      "Begge rækker tæller, og du vælger den bedste",
+      "Kun det provisoriske kast tæller, og OB-straffen bortfalder",
+      "Du skal kaste igen fra teestedet, fordi rækkerne ikke kan blandes",
+      "Den provisoriske række bruges, og OB-straffen lægges til"
+    ],
+    "korrekt": 3,
+    "forklaring": "Når den oprindelige disc viser sig at være OB, er det den provisoriske række der spilles videre på. Straffekastet for OB lægges til på samme måde som ellers. Du kan ikke bruge kast fra begge rækker, kun den ene.",
+    "regel": "809.02",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80902",
+    "verificeret": false
+  },
+  {
+    "id": "ob-30",
+    "kategori": "OB og hazard",
+    "spoergsmaal": "Du er i tvivl om du missede en mando, og gruppen står langt væk. Kan du kaste provisorisk?",
+    "svar": [
+      "Nej, provisoriske kast gælder kun ved OB",
+      "Nej, ved mando skal gruppen altid gå ned og se efter",
+      "Ja, men kun hvis der er en drop zone på hullet",
+      "Ja, tvivl om en mando er en af de situationer reglen dækker"
+    ],
+    "korrekt": 3,
+    "forklaring": "Provisoriske kast findes for at spare tid, når der er reel tvivl om en afgørelse. Det gælder både OB, en mulig tabt disc og en mulig misset mando. Bagefter bruges kun den række, der viser sig at være den rigtige.",
+    "regel": "809.02",
+    "kilde": "https://www.pdga.com/rules/official-rules-disc-golf/80902",
+    "verificeret": false
+  }
+]
